@@ -61,7 +61,9 @@ To do:
 
 
 Quick start up for coding:
+--------------------------
 This is fully working wordpress install (latest version at this moment)
+
 1. Install apache, mySql, php, and phpMyAdmin
 2. activate apache's modRewrite module
 3. change you home dir configuration (ie: /var/www/html) from override None to override All
@@ -76,7 +78,7 @@ This is fully working wordpress install (latest version at this moment)
 8. go to eze settings, and click on every save changes in the page to force the site and admin Options into the DB.
 
 Testing:
-
+--------
 
 ca-dirtCart.jpg is supplied for testing purposes
 1. create a post with a test title, and add "ca-dirtCart.jpg" (without quotes) to the small img, midRes, and highRes images. Set the lat and long coords to 13.61117537 and 106.49906158

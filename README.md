@@ -81,6 +81,7 @@ Testing:
 --------
 
 ca-dirtCart.jpg is supplied for testing purposes
+
 1. create a post with a test title, and add "ca-dirtCart.jpg" (without quotes) to the small img, midRes, and highRes images. Set the lat and long coords to 13.61117537 and 106.49906158
 8. create a second, a third and a forth post, with the same information.
 9. open you http://localhost to see the them working

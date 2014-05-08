@@ -1,0 +1,14 @@
+<krpano version="1.0.8" ispartialpano="true"  onstart="action(qtvrcursor);">
+
+	<include url="../../highRes/plugins/common.xml" />
+  
+        <preview url="../../highRes/loading.jpg" />
+        
+	<image type="CYLINDER" hfov="1.00" multires="true" tilesize="9000" progressive="true">
+		<level tiledimagewidth="4475" tiledimageheight="2205" download="view">
+			<cylinder url="ca-dirtCart.jpg" />
+		</level>
+	</image>
+	
+	
+</krpano>

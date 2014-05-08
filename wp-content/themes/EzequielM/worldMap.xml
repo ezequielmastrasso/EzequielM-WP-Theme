@@ -1,0 +1,2636 @@
+
+
+
+<!--
+      always replace 
+      " for &quot;
+      < for &lt;
+      > for &gt;
+          more over
+
+          WORKiNG ExAMple
+
+<marker label="Panorama - Vietnam - QuangBÃ¬nh"
+     lat="17.61315614"
+     lng="106.30222321"
+     html="&lt;div style=&quot;text-align: center&quot;&gt; &lt;a href=&quot;http://www.ezequielm.com/iFrameContent/photoGallery/panoramas/vi-quangbinh/&quot; rel=&quot;shadowbox&quot;  &gt; &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/vi-QuangBinhPano_01.jpg&quot; &gt;&lt;br&gt;
+see image&lt;/a&gt; " />
+
+
+Begin content -->
+
+<markers>
+               <marker label="Panorama - United Kingdom - stoneHenge 02"
+                              lat="51.17845185"
+               lng="-1.82518553"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/uk-stonehenge_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/uk-stonehenge_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Northern Ireland - belfastmarket 03"
+                              lat="54.59551544"
+               lng="-5.92159594"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ni-belfastmarket_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ni-belfastmarket_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - United Kingdom - notting Hill Tourist"
+                              lat="51.51319242"
+               lng="-0.20420883"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/uk-nottinghilltourist/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/uk-nottingHillTourist.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - United Kingdom - conventGarden 02"
+                              lat="51.51213915"
+               lng="-0.12296368"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/uk-conventgarden_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/uk-conventGarden_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - United Kingdom - riverSide 02"
+                              lat="51.50882958"
+               lng="-0.12018491"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/uk-riverside_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/uk-riverSide_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Northern Ireland - belfastChristmasMarket 01"
+                              lat="54.59640524"
+               lng="-5.93007708"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ni-belfastchristmasmarket_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ni-belfastChristmasMarket_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - NorthernIreland - belfastChristmasMarket 02"
+                              lat="54.59638659"
+               lng="-5.92972303"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ni-belfastchristmasmarket_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ni-belfastChristmasMarket_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Kingdom - stonehenge 01"
+                              lat="51.1788823"
+               lng="-1.8262155"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uk-stonehenge_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uk-stonehenge_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Kingdom - british Museum"
+                              lat="51.51871621"
+               lng="-0.1258661"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uk-britishmuseum/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uk-britishMuseum.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Kingdom - convent Garden 01"
+                              lat="51.51203232"
+               lng="-0.12271691"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uk-conventgarden_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uk-conventGarden_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - bankHolidayDoves"
+                              lat="53.2747476"
+               lng="-9.04949784"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ir-bankholidaydoves/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-bankHolidayDoves.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Ireland -clarePeregringo"
+                              lat="52.98382467"
+               lng="-9.29758073"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ir-clareperegringo/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ir-clarePeregringo.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Ireland - roadTeaSpot"
+                              lat="53.00796669"
+               lng="-9.31365967"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ir-roadteaspot/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ir-roadTeaSpot.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - clareCoast"
+                              lat="53.11971848"
+               lng="-9.28642276"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/landscapes-ireland-clarecoast/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-clareCoast.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - mohersStorm"
+                              lat="52.94988766"
+               lng="-9.46181774"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-mohersstorm/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-mohersStorm.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Thailand - driver"
+                              lat="13.73988533"
+               lng="100.50790787"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/th-driver/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/th-driver.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Thailand - girlInStreet"
+                              lat="13.70436508"
+               lng="100.52541733"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/th-girlinstreet/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/th-girlInStreet.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Vietnam - catBaBeach"
+                              lat="20.73107066"
+               lng="107.06005096"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/vi-catbabeach/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/vi-catBaBeach.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Vietnam - saigonStreetStand"
+                              lat="10.78508192"
+               lng="106.70333862"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/vi-saigonstreetstand/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/vi-saigonStreetStand.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Cambodia - kampong Thom Abandoned Budhas"
+                              lat="12.72189815"
+               lng="104.88538027"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ca-kampongthomabandonedbudhas/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ca-kampongThomAbandonedBudhas.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - China - chengdu_04"
+                              lat="33.08233673"
+               lng="101.51367188"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ch-chengdu_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ch-chengdu_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Vietnam - saigonFromAbove_01"
+                              lat="10.77036867"
+               lng="106.70317769"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/vi-saigonfromabove_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/vi-saigonFromAbove_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Vietnam - vungTauHarbour"
+                              lat="10.3750901"
+               lng="107.07220674"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/vi-vungtauharbour/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/vi-vungTauHarbour.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Vietnam - marbleMountainTemple"
+                              lat="15.90421593"
+               lng="108.30266476"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/vi-marblemountaintemple/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/vi-marbleMountainTemple.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Vietnam - sapa_16"
+                              lat="22.33739381"
+               lng="103.8463676"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/vi-sapa_16/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/vi-sapa_16.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Vietnam - vungTau 02"
+                              lat="10.34818828"
+               lng="107.09953308"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/vi-vungtau_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/vi-vungTau_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - bangkokTemple_01"
+                              lat="13.75005681"
+               lng="100.49179316"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-bangkoktemple_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-bangkokTemple_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Thailand - streetTourism"
+                              lat="17.01279775"
+               lng="99.82040405"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/th-streettourism/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/th-streetTourism.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - transportPile"
+                              lat="13.75633039"
+               lng="100.5236578"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-transportpile/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-transportPile.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - stonePiles 02"
+                              lat="14.53228464"
+               lng="102.9447484"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-stonepiles_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-stonePiles_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - stonePiles 01"
+                              lat="14.5322431"
+               lng="102.94416904"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-stonepiles_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-stonePiles_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Kingdom - gabriels Wharf"
+                              lat="51.50927666"
+               lng="-0.09887695"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uk-gabrielswharf/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uk-gabrielsWharf.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Italy - cliffRuins"
+                              lat="41.3232011"
+               lng="14.08996582"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/it-cliffruins/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/it-cliffRuins.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Italy - train Window Painting"
+                              lat="42.80346172"
+               lng="12.0300293"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/it-trainwindowpainting/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/it-trainWindowPainting.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Italy - florenceBridge"
+                              lat="43.76468896"
+               lng="11.27214432"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/places-italy-florencebridge/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/it-florenceBridge.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Italy - cycleDemostration 02"
+                              lat="41.90308222"
+               lng="12.4967739"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/it-cycledemostration_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/it-cycleDemostration_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Italy - cycle Demostration 01"
+                              lat="41.90265368"
+               lng="12.49588877"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/it-cycledemostration_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/it-cycleDemostration_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Italy - family Drink"
+                              lat="41.90025406"
+               lng="12.48364449"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/it-familydrink/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/it-familyDrink.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Cambodia - Abandoned Temple - Kampong Thom"
+                              lat="12.72059346"
+               lng="104.88598108"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ca-abandonedtemple/&quot; &gt; 
+               &lt;img src=&quot;&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Cambodia - Phnom Penh Sunset 02"
+                              lat="11.56438843"
+               lng="104.93089199"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ca-phnompenhsunset_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ca-PhnomPenhSunset_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Vietnam - modern Vintage Building"
+                              lat="10.7840174"
+               lng="106.6875565"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/vi-modernvintagbuilding/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/vi-modernVintagBuilding.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Vietnam - Quang Binh Cave 15"
+                              lat="17.54649837"
+               lng="106.16226196"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/vi-quangbinhcave_15/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/vi-QuangBinhCave_15.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Cambodia - politicalParade 01"
+                              lat="11.56616129"
+               lng="104.93098855"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ca-politicalparade_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ca-politicalParade_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Cambodia - dirtCart"
+                              lat="13.61117537"
+               lng="106.49906158"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ca-dirtcart/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ca-dirtCart.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Thailand - bus 02"
+                              lat="13.74355031"
+               lng="100.50575137"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/th-bus02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/th-bus02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Vietnam -  cat Ba"
+                              lat="20.78318584"
+               lng="107.06863403"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/vi-catbapano_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/vi-catBaPano_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Vietnam - Nha Trang city from the Sea"
+                              lat="12.31853594"
+               lng="109.35997009"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/vi-nhatrangcityfromthesea/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/vi-nhatrangCityFromTheSea.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Vietnam - QuangBÃ¬nh"
+                              lat="17.61315614"
+               lng="106.30222321"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/vi-quangbinh/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/vi-QuangBinhPano_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Cambodia - bayon Temple Angkor Wat 03"
+                              lat="13.46404063"
+               lng="103.91056538"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ca-bayontempleangkorwat_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ca-bayonTempleAngkorWat_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Cambodia - temple_02"
+                              lat="13.46884577"
+               lng="103.8773632"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ca-temple_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ca-temple_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Cambodia - temple_03"
+                              lat="13.46559042"
+               lng="103.89427185"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ca-temple_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ca-temple_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Cambodia - stairs_02"
+                              lat="12.59120003"
+               lng="105.24536134"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ca-stairs_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ca-stairs_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Cambodia - arc_01"
+                              lat="12.90616"
+               lng="105.2194808"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ca-arc_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ca-arc_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Slovenia - ljubljana River"
+                              lat="46.04225904"
+               lng="14.50796127"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sl-ljubljanariver/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sl-ljubljanaRiver.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Slovenia - bled_07"
+                              lat="46.35830206"
+               lng="14.08910751"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sl-bled_07/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sl-bled_07.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Slovenia - bled_06"
+                              lat="46.36576525"
+               lng="14.10713196"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sl-bled_06/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sl-bled_06.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Slovenia - bled_05"
+                              lat="46.36304071"
+               lng="14.10172462"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sl-bled_05/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sl-bled_05.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Slovenia - bled_04"
+                              lat="46.3597237"
+               lng="14.09794807"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sl-bled_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sl-bled_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Slovenia - bled_03"
+                              lat="46.35984216"
+               lng="14.09357071"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sl-bled_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sl-bled_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Slovenia - bled_02"
+                              lat="46.36001987"
+               lng="14.09451485"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sl-bled_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sl-bled_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Slovenia - bled_01"
+                              lat="46.36499528"
+               lng="14.10301208"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sl-bled_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sl-bled_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Cambodia - Sambor Prei Kuk, kampong thom"
+                              lat="12.73680051"
+               lng="105.06156921"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ca-samborpreikuk_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ca-SamborPreiKuk_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Cambodia - bayon Temple, Angkor Wat, Siem Reap"
+                              lat="13.46124988"
+               lng="103.86938095"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ca-bayontempleangkorwat/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ca-bayonTempleAngkorWat.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - th-phimai_01"
+                              lat="15.22102382"
+               lng="102.49381542"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-phimai_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-phimai_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - th-muangTam_01"
+                              lat="14.4964213"
+               lng="102.9824798"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-muangtam_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-muangTam_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - th-phanomRung_03"
+                              lat="14.53174459"
+               lng="102.93964148"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-phanomrung_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-phanomRung_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - th-phanomRung_02"
+                              lat="14.53174459"
+               lng="102.93964148"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-phanomrung_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-phanomRung_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - th-phanomRung_01"
+                              lat="14.53174459"
+               lng="102.93964148"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-phanomrung_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-phanomRung_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - th-muangTam_02"
+                              lat="14.4964213"
+               lng="102.9824798"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-muangtam_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-muangTam_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - China - ch-chengdu_01"
+                              lat="30.41078179"
+               lng="100.04150391"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ch-chengdu_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ch-chengdu_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Laos - la-vangVieng_03"
+                              lat="18.92512386"
+               lng="102.39532471"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/la-vangvieng_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/la-vangVieng_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Laos - la-vangVieng_02"
+                              lat="18.92512386"
+               lng="102.39532471"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/la-vangvieng_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/la-vangVieng_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Laos - la-vangVieng_01"
+                              lat="18.90336327"
+               lng="102.36270905"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/la-vangvieng_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/la-vangVieng_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-catBa_01"
+                              lat="20.80490411"
+               lng="107.11532593"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-catba_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-catBa_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_10"
+                              lat="20.82191278"
+               lng="107.09095001"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_10/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_10.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_09"
+                              lat="20.81581555"
+               lng="107.09815979"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_09/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_09.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_08"
+                              lat="20.94989749"
+               lng="107.29248047"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_08/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_08.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_07"
+                              lat="20.88768296"
+               lng="107.29866028"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_07/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_07.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_06"
+                              lat="20.86522809"
+               lng="107.08511353"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_06/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_06.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_05"
+                              lat="20.87966375"
+               lng="107.05421448"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_05/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_05.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_04"
+                              lat="20.88094685"
+               lng="107.08545685"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_03"
+                              lat="20.90307865"
+               lng="107.26638794"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-halonBay_01"
+                              lat="20.8562452"
+               lng="107.04906464"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-halonbay_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-halonBay_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_15"
+                              lat="22.35579126"
+               lng="103.95023346"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-sapa_15/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_15.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_14"
+                              lat="22.32848199"
+               lng="103.98490906"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-sapa_14/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_14.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_13"
+                              lat="22.33483346"
+               lng="103.9931488"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-sapa_13/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_13.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_11"
+                              lat="22.25573706"
+               lng="103.85822296"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-sapa_11/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_11.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_10"
+                              lat="22.16101674"
+               lng="103.98078918"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-sapa_10-jpg/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_10.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_08"
+                              lat="22.31831903"
+               lng="103.94096375"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/va/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_08.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_07"
+                              lat="22.34785307"
+               lng="103.85650635"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-sapa_07/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_07.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_02"
+                              lat="22.37515854"
+               lng="103.87504578"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-sapa_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Vietnam - vi-sapa_01"
+                              lat="22.37261872"
+               lng="103.87195587"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/vi-sapa_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/vi-sapa_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Italy - romeGuards"
+                              lat="41.89751762"
+               lng="12.48832226"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/it-romeguards/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/it-romeGuards.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Italy - coffeeSpot"
+                              lat="45.43377477"
+               lng="12.33816147"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/it-coffeespot-j/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/it-coffeeSpot.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Italy -  venizeTaxi"
+                              lat="45.43897692"
+               lng="12.32111335"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/it-venizetaxi/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/it-venizeTaxi.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Italy - ilCapriccio"
+                              lat="41.9015903"
+               lng="12.49445915"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/it-ilcapriccio/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/it-ilCapriccio.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Italy - gondola"
+                              lat="45.43661681"
+               lng="12.32232571"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/it-gondola/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/it-gondola.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Italy - tourist"
+                              lat="43.72308722"
+               lng="10.39289474"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/it-tourist/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/it-tourist.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Italy - window Gazing"
+                              lat="45.43164785"
+               lng="12.3550272"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/it-windowgazing/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/it-windowGazing.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Italy - walking Street Cycle"
+                              lat="41.90240481"
+               lng="12.48373032"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/it-walkingstreetcycle/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/it-walkingStreetCycle.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Netherlands - car"
+                              lat="52.37229797"
+               lng="4.88797188"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ne-car/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ne-car.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Netherlands - transport"
+                              lat="52.37265823"
+               lng="4.89296079"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ne-transport/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ne-transport.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Glendalough Rainbow"
+                              lat="52.996104"
+               lng="-6.39781952"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-glendaloughrainbow/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-glendaloughRainbow.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Glendalough Tower"
+                              lat="53.01037563"
+               lng="-6.32735896"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-glendaloughtower/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-glendaloughTower.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Aran islands 11"
+                              lat="53.12630278"
+               lng="-9.69848156"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-aranislands_11/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-aranIslands_11.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Aran islands 10"
+                              lat="53.0645979"
+               lng="-9.51872206"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-aranislands_10/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-aranIslands_10.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Aran islands 09"
+                              lat="53.06627411"
+               lng="-9.52026701"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-aranislands_09/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-aranIslands_09.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Aran islands 07"
+                              lat="53.04634097"
+               lng="-9.52626228"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-aranislands_07/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-aranIslands_07.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Aran islands 06"
+                              lat="53.11910592"
+               lng="-9.66635084"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-aranislands_06/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-aranIslands_06.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Aran islands 05"
+                              lat="53.05576316"
+               lng="-9.50369954"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-aranislands_05/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-aranIslands_05.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Aran islands 04"
+                              lat="53.11556307"
+               lng="-9.73174095"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-aranislands_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-aranIslands_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Aran islands 01"
+                              lat="53.09082835"
+               lng="-9.66161728"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-aranislands_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-aranIslands_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Cliffs of Moher 06"
+                              lat="53.04020157"
+               lng="-9.38321686"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-cliffsofmoher_06/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-cliffsOfMoher_06.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Cliffs of Moher 03"
+                              lat="52.98337683"
+               lng="-9.51244354"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-cliffsofmoher_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-cliffsOfMoher_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Cliffs of Moher 02"
+                              lat="52.97262728"
+               lng="-9.45347786"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-cliffsofmoher_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-cliffsOfMoher_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Cliffs of Moher 01"
+                              lat="52.98379022"
+               lng="-9.42905903"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-cliffsofmoher_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-cliffsOfMoher_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - burren Coast 01"
+                              lat="53.03419421"
+               lng="-9.38026428"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-burrencoast_0/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-burrenCoast_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - burren Coast 02"
+                              lat="53.06968952"
+               lng="-9.35417175"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-burrencoast_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-burrenCoast_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Germany - silhouette"
+                              lat="51.22301271"
+               lng="6.77847862"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/gr-silhouette/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/gr-silhouette.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Germany - rheinbahn"
+                              lat="51.21570145"
+               lng="6.77513123"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/gr-rheinbahn/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/gr-rheinbahn.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Kingdom - mexican"
+                              lat="51.50425491"
+               lng="-0.11934757"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uk-mexican/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uk-mexican.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Kingdom - river"
+                              lat="51.5080747"
+               lng="-0.11823177"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uk-river/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uk-river.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Kingdom - tower"
+                              lat="51.50251853"
+               lng="-0.11977673"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uk-tower-jpg/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uk-tower.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - United Kingdom - streetStall"
+                              lat="51.50372064"
+               lng="-0.11939049"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/uk-streetstall/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/uk-streetStall.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - nice from above"
+                              lat="43.69923237"
+               lng="7.29902029"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-nicefromabove/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-niceFromAbove.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - nice building 01"
+                              lat="43.69952712"
+               lng="7.27572799"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-nicebuilding_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-niceBuilding_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - china Town"
+                              lat="1.28134536"
+               lng="103.84569168"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-chinatown/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-chinaTown.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - nice opera theatre"
+                              lat="43.69502034"
+               lng="7.26197362"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-niceoperatheatre/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-niceOperaTheatre.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Switzerland - sion Morning"
+                              lat="46.26712153"
+               lng="7.42967606"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sw-sionmorning/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sw-sionMorning.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - niceBeach 01"
+                              lat="43.69465574"
+               lng="7.27153301"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-nicebeach_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-niceBeach_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - nice Beach 02"
+                              lat="43.69481089"
+               lng="7.27011681"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-nicebeach_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-niceBeach_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - nice BreakFast"
+                              lat="43.69426788"
+               lng="7.26067543"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-nicebreakfast/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-niceBreakFast.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - nice Chillax"
+                              lat="43.69381795"
+               lng="7.25732803"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-nicechillax/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-niceChillax.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - nice Hang Over "
+                              lat="43.69443854"
+               lng="7.26316452"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-nicehangover/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-niceHangOver.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - alps Train "
+                              lat="46.00268545"
+               lng="6.16333008"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-alpstrain/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-alpsTrain.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - patong 02"
+                              lat="7.9018107"
+               lng="98.3099556"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-patong_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-patong_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - marinaBay 09"
+                              lat="1.2835764"
+               lng="103.8625145"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-marinabay_09/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-marinaBay_09.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - IndepenceDay 04"
+                              lat="1.29404509"
+               lng="103.86491776"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-indepenceday_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-indepenceDay_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - sunnyStreet"
+                              lat="45.91294413"
+               lng="6.69067383"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-sunnystreet/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-sunnyStreet.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="panorama - Thailand - PhiPhi"
+                              lat="7.81984743"
+               lng="98.77258301"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/th-phiphiisland_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/th-phiphiIsland_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Switzerland - castle"
+                              lat="46.44069599"
+               lng="6.88808441"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/sw-castle/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/sw-castle.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Switzerland -  chateau d' Oex "
+                              lat="46.43501765"
+               lng="7.18093872"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/sw-chateau-doex/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/sw-chateau-dOex.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Switzerland -  cityView 01"
+                              lat="46.48822891"
+               lng="6.82250977"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sw-cityview_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sw-cityView_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Switzerland - harbourFare"
+                              lat="46.4307585"
+               lng="6.90971375"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/sw-harbourfare-jpg/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/sw-harbourFare.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Switzerland - lakeSunset.jpg"
+                              lat="46.417269"
+               lng="6.92790985"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/sw-lakesunset/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/sw-lakeSunset.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Switzerland - mountainsSunset"
+                              lat="46.50075556"
+               lng="6.69136047"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/sw-mountainssunset/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/sw-mountainsSunset.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Switzerland - boutique"
+                              lat="46.37393805"
+               lng="6.47644043"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sw-boutique/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sw-boutique.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Switzerland - chateau-dOexSeat"
+                              lat="46.45465275"
+               lng="7.15896606"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sw-chateau-doexseat/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sw-chateau-dOexSeat.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Switzerland - laussaneBoat"
+                              lat="46.40140866"
+               lng="6.59591675"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sw-laussaneboat/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sw-laussaneBoat.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Switzerland - officeDuTourisme"
+                              lat="46.46245751"
+               lng="6.84345245"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sw-officedutourisme/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sw-officeDuTourisme.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Switzerland - store"
+                              lat="46.44418552"
+               lng="6.89662457"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sw-store/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sw-store.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Indonesia-  woodenBridge"
+                              lat="1.13426428"
+               lng="104.3069458"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/in-woodenbridge/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/in-woodenBridge.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Switzerland - LilFella"
+                              lat="46.3768397"
+               lng="6.47892952"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/sw-lilfella/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/sw-LilFella.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Switzerland - streetMarket"
+                              lat="46.45953085"
+               lng="6.85409546"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/sw-streetmarket/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/sw-streetMarket.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Switzerland - swissNap"
+                              lat="46.44755654"
+               lng="6.87538147"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/people-switzerland-2/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/sw-swissNap.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Switzerland - teleferic"
+                              lat="46.48190541"
+               lng="6.83160782"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/sw-teleferic/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/sw-teleferic.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Thailand - phuket 01"
+                              lat="7.81168422"
+               lng="98.33930969"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/th-phuket_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/th-phuket_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Thailand - phiphi 07"
+                              lat="7.71847639"
+               lng="98.77120972"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/th-phiphi_07/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/th-phiphi_07.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Thailand - phiphi 06"
+                              lat="7.73276506"
+               lng="98.76708984"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/th-phiphi_06/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/th-phiphi_06.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Thailand - phiphi 05"
+                              lat="7.76542307"
+               lng="98.47938538"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/th-phiphi_05/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/th-phiphi_05.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Thailand - phiphi 04"
+                              lat="7.74229058"
+               lng="98.76708984"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/th-phiphi_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/th-phiphi_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Thailand - phiphi 01"
+                              lat="7.74841401"
+               lng="98.76571655"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/th-phiphi_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/th-phiphi_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Thailand - phiphi 11 "
+                              lat="7.73004345"
+               lng="98.75747681"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/th-phiphi_11/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/th-phiphi_11.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - indepence Day 02"
+                              lat="1.29421671"
+               lng="103.86577606"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-indepenceday_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-indepenceDay_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Indonesia - turi Beach batam 02"
+                              lat="1.18506564"
+               lng="104.07485962"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/in-turibeach-batam_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/in-turiBeach-batam_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Indonesia - turi Beach batam 01"
+                              lat="1.18369264"
+               lng="104.12086487"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/in-turibeach-batam_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/in-turiBeach-batam_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Indonesia - bintan Ferry 02"
+                              lat="0.87337926"
+               lng="104.3371582"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/in-bintanferry_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/in-bintanFerry_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Indonesia - bintan Ferry 01"
+                              lat="0.90770739"
+               lng="104.44152832"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/in-bintanferry_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/in-bintanFerry_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Indonesia - batam City Bus Stop"
+                              lat="1.05188182"
+               lng="104.008255"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/in-batamcitybusstop/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/in-batamCityBusStop.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - little India Food Court Bags"
+                              lat="1.307231"
+               lng="103.849823"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-littleindiafoodcourtbags/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-littleIndiaFoodCourtBags.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - marina Bay 05"
+                              lat="1.28615067"
+               lng="103.85423183"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-marinabay_05/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-marinaBay_05.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - marina Bay 03"
+                              lat="1.27997241"
+               lng="103.8549614"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-marinabay_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-marinaBay_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - indepence Day 01"
+                              lat="1.29558965"
+               lng="103.86388779"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-indepenceday_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-indepenceDay_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - gardens By The Bay"
+                              lat="1.28271831"
+               lng="103.86766434"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-gardensbythebay_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-gardensByTheBay_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - gardens By TheBay"
+                              lat="1.28237507"
+               lng="103.86440277"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-gardensbythebay_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-gardensByTheBay_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Indonesia - odessa"
+                              lat="1.12259357"
+               lng="104.10232544"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/in-odessa/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/in-odessa.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Indonesia - demi Salon"
+                              lat="1.04501652"
+               lng="104.00482178"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/in-demisalon/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/in-demiSalon.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Indonesia - bintan Island 03"
+                              lat="1.07934289"
+               lng="104.63859558"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/in-bintanisland_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/in-bintanIsland_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Thailand - kata"
+                              lat="7.8210654"
+               lng="98.2993432"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/th-kata-jpg/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/th-kata.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - riverSide 01 "
+                              lat="1.31755659"
+               lng="103.8725996"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-riverside_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-riverSide_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - marina Bay Fighters "
+                              lat="1.27980079"
+               lng="103.86371613"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/places-singapore-2/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-marinaBayFighters.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Singapore - marinaBay 08"
+                              lat="1.28374802"
+               lng="103.85822296"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-marinabay_08/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/sg-marinaBay_08.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Arab Emirates- burj Dubai _01"
+                              lat="25.19002976"
+               lng="55.2753067"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uae-burjdubai_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uae-burjDubai_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - United Arab Emirates- burj Dubai _02"
+                              lat="25.18397148"
+               lng="55.25899887"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/uae-burjdubai_0/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/uae-burjDubai_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Singapore - coffee corner"
+                              lat="1.28941141"
+               lng="103.85822296"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/sg-coffeecorner/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/sg-coffeeCorner.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Indonesia - dark river boat"
+                              lat="1.13701033"
+               lng="104.31793213"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/in-darkriverboat/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/in-darkRiverBoat.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Singapore - jeansReductions"
+                              lat="1.31017709"
+               lng="103.85307312"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/sg-jeansreductions/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/sg-jeansReductions.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Spain - passaje"
+                              lat="41.37993216"
+               lng="2.17512131"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/people-spain-passaje/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/es-passaje.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Indonesia - capucinno Place"
+                              lat="1.07522375"
+               lng="104.52323914"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/in-capucinnoplace-jpg/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/in-capucinnoPlace.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Indonesia - crowdedCasinoTransport"
+                              lat="1.13048847"
+               lng="104.05632019"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/in-crowdedcasinotransport/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/in-crowdedCasinoTransport.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Indonesia - foggie Store"
+                              lat="1.1044009"
+               lng="104.09648895"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/in-foggiestore/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/in-foggieStore.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Indonesia - pier Lady"
+                              lat="1.19707934"
+               lng="104.10369873"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/in-pierlady/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/in-pierLady.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Indonesia- scooter"
+                              lat="1.11710146"
+               lng="104.09820557"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/in-scooter/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/in-scooter.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Singapore - indianTemple 02"
+                              lat="1.30863255"
+               lng="103.85410309"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/sg-indiantemple_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/sg-indianTemple_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Singapore - indianTemple 01"
+                              lat="1.30966224"
+               lng="103.85238647"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/sg-indiantemple_01-2/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/sg-indianTemple_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="panorama -sg-sgeye"
+                              lat="1.28460611"
+               lng="103.86457443"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-sgeye/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/sg-sgeye.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Singapore - night Cityscape"
+                              lat="1.30176787"
+               lng="103.86749268"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-nightcityscape/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/sg-nightCityscape.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Singapore - indepence Day"
+                              lat="1.29490318"
+               lng="103.86388779"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-indepenceday/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/sg-indepenceDay.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Singapore - citiscape 03"
+                              lat="1.29649064"
+               lng="103.85002613"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-citiscape_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/sg-citiscape_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Singapore - citiscape 04"
+                              lat="1.29747744"
+               lng="103.85066986"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/sg-citiscape_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/sg-citiscape_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - northern Ireland - belfast market 02"
+                              lat="54.59543943"
+               lng="-5.92210293"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ni-belfastmarket_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ni-belfastMarket_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - northern Ireland - belfast Titanic"
+                              lat="54.6081175"
+               lng="-5.90995789"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/places-northern-ireland-belfast-titanic/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ni-belfastTitanic.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - northern Ireland - belfast queens University"
+                              lat="54.58116566"
+               lng="-5.93201637"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/places-northern-ireland-belfast-queens-university/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ni-belfastQueensU.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Spain - barcelona diagonal 01"
+                              lat="41.40396592"
+               lng="2.19109654"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonadiagonal_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaDiagonal_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Spain - barcelona  bridge"
+                              lat="41.37226782"
+               lng="2.15151787"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/es-barcelonabridge/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/es-bridgeBarcelona.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Spain - plaza Espanya 02"
+                              lat="41.37088299"
+               lng="2.15196848"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/places-spain-plaza-espanya-02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaPlazaEspanya_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Spain - barcelona  Beach 04"
+                              lat="41.3613494"
+               lng="2.19863892"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonabeach_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaBeach_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Spain - barcelona  Beach 03"
+                              lat="41.34202029"
+               lng="2.24636078"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonabeach_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaBeach_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Spain - Barcelona from the Sea, Catalunya"
+                              lat="41.30669762"
+               lng="2.37304688"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/panorama-spain-barcelona-sea-catalunya/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/es-barcelonaFromTheSea.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Spain - plaza Espanya"
+                              lat="41.37107622"
+               lng="2.15061665"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonaplazaespanya/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaPlazaEspanya.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - Monserrat 02"
+                              lat="41.59111782"
+               lng="1.83085442"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-monserrat_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-monserrat_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Spain - barcelona Harbour 04"
+                              lat="41.37883731"
+               lng="2.18151569"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonaharbour_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaHarbour_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Spain - Barcelona 02"
+                              lat="41.42831257"
+               lng="2.13272095"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/panorama-spain-barcelona-02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/es-barcelona_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Spain - barcelona Passeig Del Born"
+                              lat="41.38445627"
+               lng="2.18270659"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonapasseigdelborn/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaPasseigDelBorn.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Spain - barcelona Pizza Del Born"
+                              lat="41.3847279"
+               lng="2.1828598"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonapizzadelborn/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaPizzaDelBorn.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Spain - Barcelona from the Cathedral, Catalunya"
+                              lat="41.384198"
+               lng="2.176296"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/panorama-spain-barcelona-cathedral-catalunya/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/es-barcelonaFromTheCathedral.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Spain - Barcelona Harbour, Catalunya"
+                              lat="41.321783"
+               lng="2.0565033"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonaharbour/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/es-barcelonaHarbour.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Spain - barcelona  Beach 02"
+                              lat="41.38382839"
+               lng="2.19988346"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/es-barcelonabeach_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/es-barcelonaBeach_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Spain - Barcelona, Catalunya"
+                              lat="41.4225"
+               lng="2.1186111"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelona/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/es-barcelona.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Andorra - la Massana"
+                              lat="42.55459773"
+               lng="1.50512695"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/an-lamassana/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/an-laMassana.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - from Montseny 02"
+                              lat="41.80868459"
+               lng="2.41493225"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-frommontseny_01-jpg/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-fromMontseny_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - monserrat"
+                              lat="41.59092524"
+               lng="1.83849335"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-monserrat/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-monserrat.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Spain - barcelona Museum"
+                              lat="41.34111812"
+               lng="2.08345413"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonamuseum/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaMuseum.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Spain - barcelona Harbour 01"
+                              lat="41.37803226"
+               lng="2.1807003"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/es-barcelonaharbour_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/es-barcelonaHarbour_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - es-monserrat Stone Monk"
+                              lat="41.59047588"
+               lng="1.83257103"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-monserratstonemonk/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-monserratStoneMonk.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - monserrat Silouhette 01"
+                              lat="41.59323615"
+               lng="1.83609009"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-monserratsilouhette_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-monserratSilouhette_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - monserrat Silouhette 02"
+                              lat="41.58643157"
+               lng="1.82819366"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-monserratsilouhette_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-monserratSilouhette_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - monserrat Silouhette 03"
+                              lat="41.58765131"
+               lng="1.83514595"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-monserratsilouhette_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-monserratSilouhette_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - monserrat Road"
+                              lat="41.57885582"
+               lng="1.84355736"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/landscapes-spain-monserrat-road/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-monserratRoad.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - monserrat From Tibidabo"
+                              lat="41.43243113"
+               lng="2.10748672"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-monserratfromtibidabo/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-monserratFromTibidabo.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Andorra - pas De La Casa 02"
+                              lat="42.55813827"
+               lng="1.75163269"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/an-pasdelacasa_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/an-pasDeLaCasa_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Andorra - pas De La Casa 01"
+                              lat="42.55257447"
+               lng="1.69395447"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/an-pasdelacasa_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/an-pasDeLaCasa_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Andorra - sunset"
+                              lat="42.55459773"
+               lng="1.56761169"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/an-andorrasunset/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/an-andorraSunset.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Spain - the Virgin Cave 02"
+                              lat="41.59464833"
+               lng="1.82973862"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/es-thevirgincave_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/es-theVirginCave_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - dog Bay 02, Co Galway"
+                              lat="53.59148594"
+               lng="-10.04219055"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-galway_dogbay_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-galway_dogBay_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - dog Bay 01, Co Galway"
+                              lat="53.60513668"
+               lng="-10.02502441"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-galway_dogbay_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-galway_dogBay_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - donegal Sunset, Co Donegal"
+                              lat="55.21975431"
+               lng="-7.98431396"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-donegal_sunset/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-donegal_sunset.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - marley Park Winter, Co Dublin South"
+                              lat="53.2714413"
+               lng="-6.26907349"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-wicklow_marleyparkwinter/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-wicklow_marleyParkWinter.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Wicklow Mountain Sunset, Co. Wicklow"
+                              lat="52.97841583"
+               lng="-6.17088318"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/panorama-ireland-wicklow-mountain-sunset-wicklow/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-wicklowSunset.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - whitest Christmas Ever "
+                              lat="53.34876183"
+               lng="-6.2595495"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ir-whitestchristmasever-2/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-whitestChristmasEver.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - saint Stephens Green"
+                              lat="53.33865273"
+               lng="-6.25934458"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/people-ireland-saint-stephens-gray-day/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-saintStephensGreen.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - saint Stephens Gray Day"
+                              lat="53.33850433"
+               lng="-6.25734258"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ir-saintstephensgrayday/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-saintStephensGrayDay.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - night Ride"
+                              lat="53.34554505"
+               lng="-6.26767015"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ir-nightride/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-nightRide.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - galway Street"
+                              lat="53.27034091"
+               lng="-9.05267644"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ir-galwaystreet/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-galwayStreet.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - followed"
+                              lat="53.34387305"
+               lng="-6.26483184"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ir-followed/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-followed.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - dublin Castle Late Cafe"
+                              lat="53.34386851"
+               lng="-6.26610482"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ir-dublincastlelatecafe/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-dublinCastleLateCafe.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Ireland - dame St"
+                              lat="53.34424375"
+               lng="-6.26444507"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ir-damest/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ir-dameSt.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Germany- wuppertal"
+                              lat="51.11300638"
+               lng="7.20153809"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/gr-wuppertal-2/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/gr-wuppertal.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Germany- onTheEdge"
+                              lat="51.2162122"
+               lng="6.76118374"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/gr-ontheedge-2/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/gr-onTheEdge.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Germany- cheesie Germany"
+                              lat="51.22994658"
+               lng="6.77907944"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/gr-cheesiegermany/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/gr-cheesieGermany.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - waiting"
+                              lat="48.86958444"
+               lng="2.34496951"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/people-france-waiting/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-waiting.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - table Check"
+                              lat="48.87239311"
+               lng="2.33811378"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-tablecheck/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-tableCheck.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - slalom At The Palais Royal 02"
+                              lat="48.86241385"
+               lng="2.33682632"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-slalomatthepalaisroyal_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-slalomAtThePalaisRoyal_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - slalom At The Palais Royal 04"
+                              lat="48.86256913"
+               lng="2.33691216"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-slalomatthepalaisroyal_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-slalomAtThePalaisRoyal_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - slalom At The Palais Royal 01"
+                              lat="48.86263265"
+               lng="2.33686924"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-slalomatthepalaisroyal_01-2/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-slalomAtThePalaisRoyal_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - silhouette"
+                              lat="48.88300536"
+               lng="2.34189034"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-silhouette/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-silhouette.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - seine Lunch"
+                              lat="48.85680935"
+               lng="2.34691143"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-seinelunch-2/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-seineLunch.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - seine Jump"
+                              lat="48.85887052"
+               lng="2.33184814"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-seinejump/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-seineJump.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - sacre Display 01"
+                              lat="48.88585561"
+               lng="2.34319925"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-sacredisplay_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-sacreDisplay_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - crowded Summer"
+                              lat="48.86604162"
+               lng="2.34710455"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-crowdedsummer/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-crowdedSummer.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - crowdedRiver"
+                              lat="48.86372665"
+               lng="2.31579781"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-crowdedriver/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-crowdedRiver.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - corner Music"
+                              lat="48.85202667"
+               lng="2.34655201"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-cornermusic/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-cornerMusic.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - cooling Down"
+                              lat="48.86098102"
+               lng="2.33637571"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/people-france-cooling/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-coolingDown.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - France - classical enjoyment"
+                              lat="48.86307731"
+               lng="2.34373569"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/fr-classicalenjoyment/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/fr-classicalEnjoyment.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="People - Argentina - fun in a Protest 01"
+                              lat="-34.57329876"
+               lng="-58.41362"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/people/ar-funinaprotest_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/people/thumbs_fb/ar-funInAProtest_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Northern Ireland - port rush, Antrim Co."
+                              lat="55.1995"
+               lng="-6.64988"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ni-portrush/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ni-portRush.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Northern Ireland - coraline Dumpster, Co. Antrim "
+                              lat="55.13036657"
+               lng="-6.67376518"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ni-coralinedumpster/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ni-coralineDumpster.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Kylemore Valley 01, Co Galway"
+                              lat="53.5639027"
+               lng="-9.872277"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-galway_kylemore-valley_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-galway_Kylemore-Valley_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - holy Head Cliff Caves, Co Donegal"
+                              lat="55.1607835"
+               lng="-8.13714409"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-donegal_holyheadbeachcliffs/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-donegal_holyHeadBeachCliffs.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - errigal Church, Co. Donegal"
+                              lat="54.9444987"
+               lng="-7.85247803"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-donegal_errigalchurch/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-donegal_errigalChurch.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Northern Ireland - giants Causeway from across the bay, Co. Antrim"
+                              lat="55.2483043"
+               lng="-6.49068832"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ni-giantcauseway/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ni-giantCauseway.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Northern Ireland - giants Causeway from the top, Co. Antrim "
+                              lat="55.2488531"
+               lng="-6.4889981"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ni-giantscausewayfromtop/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ni-giantsCausewayFromTop.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Northern Ireland - glenariff waterfalls, Co. Antrim"
+                              lat="55.01227628"
+               lng="-6.1289978"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ni-glenariffforestwaterfalls/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ni-glenariffForestWaterfalls.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - errigal View 2, Co. Donegal"
+                              lat="55.0336599"
+               lng="-8.1133528"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-errigalview_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-errigalView_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - errigal, Co. Donegal"
+                              lat="55.04140121"
+               lng="-8.06533813"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-errigal/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-errigal.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - HolyHead beach, Co. Donegal"
+                              lat="55.15219691"
+               lng="-8.27545166"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-donegal_holyhead_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-donegal_holyHead_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - HolyHead Sunset, Co. Donegal"
+                              lat="55.12550831"
+               lng="-8.31115723"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-donegal_holyhead_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-donegal_holyHead_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Dublin Night, Co. Dublin"
+                              lat="53.25148681"
+               lng="-6.25417328"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ir-dublinnight/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-dublinNight.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Connemara Sunrise, Co. Galway"
+                              lat="53.56152036"
+               lng="-9.64874268"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-galway_connemarasunrise/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-galway_connemaraSunrise.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - kylemore, Connemara, Co Galway"
+                              lat="53.56284582"
+               lng="-9.88409042"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-galway_kylemoreabbey/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-galway_KylemoreAbbey.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - maam Turks, Connemara, Co. Galway"
+                              lat="53.4798738"
+               lng="-9.60617065"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-connemara_maamturks/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-connemara_maamTurks.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - dog Bay, Connemara Co. Galway"
+                              lat="53.56355951"
+               lng="-10.01472473"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-connemara_dogbay/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-connemara_dogBay.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - lake harbour, Connemara, Co. Galway"
+                              lat="53.52459478"
+               lng="-9.9659729"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-connemara_lakeharbour/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-connemara_lakeHarbour.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Kylemore Valley, Connemara, Co. Galway"
+                              lat="53.5615966"
+               lng="-9.8893304"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-connemara_kylemore/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-connemara_kylemore.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Dun Laghoire Light House, Co Dublin South"
+                              lat="53.30113328"
+               lng="-6.12504959"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-donlaghoire_lighthouse/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-donLaghoire_lightHouse.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Mweelrea, Co Galway"
+                              lat="53.6371469"
+               lng="-9.8316012"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-galway_mweelrea/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-galway_mweelrea.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Germany - Wuppertal"
+                              lat="51.25826246"
+               lng="7.16248512"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/gr-wuppertal/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/gr-Wuppertal.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Germany - Dusseldorf Tree"
+                              lat="51.22935536"
+               lng="6.78427219"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/gr-dusseldorftree/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/gr-dusseldorfTree.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Ireland -  o'connell Bridge, Dublin"
+                              lat="53.34785078"
+               lng="-6.25501013"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ir-oconnellbridge/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ir-oconnellBridge.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Wicklow Mountain, Co. Wicklow"
+                              lat="53.11051422"
+               lng="-6.28417969"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-wicklow/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-wicklow.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Sky Road 2, Clifden, Co. Galway"
+                              lat="53.50703874"
+               lng="-10.11119843"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-skyroute_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-skyRoute_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Sky Road, Clifden, Co. Galway"
+                              lat="53.50106599"
+               lng="-10.09666443"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-skyroute_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-skyRoute_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - France - Pompidou Centre, Paris"
+                              lat="48.8606418"
+               lng="2.3522451"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-pompidou/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/fr-pompidou.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - France - Paris from Sacre Coeur, Paris"
+                              lat="48.88612369"
+               lng="2.34493732"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-paris/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/fr-paris.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Larragh, Co Wicklow"
+                              lat="53.00052922"
+               lng="-6.3703537"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-larragh/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-larragh.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - France - Eiffel Tower, Paris"
+                              lat="48.86177861"
+               lng="2.31227875"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-eiffel/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/fr-eiffel.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Dublin Sunset, Co. Dublin"
+                              lat="53.22854307"
+               lng="-6.2352562"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ir-dublinsunset/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-dublinsunset.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Dublin, Co. Dublin"
+                              lat="53.25136699"
+               lng="-6.2890892"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ir-dublin/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-dublin.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Croagh Patrick, Westport, Co. Mayo"
+                              lat="53.76368058"
+               lng="-9.6647644"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-croaghpatricksunrise/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-croaghPatrickSunrise.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - Wesport Morning, Co Mayo"
+                              lat="53.76281806"
+               lng="-9.6566391"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-croaghpatrickpano/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-croaghPatrickpano.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - Ireland - 3 Rock Mountains, Co. Dublin South"
+                              lat="53.24754958"
+               lng="-6.24160767"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/panoramas/ir-clouds/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-clouds.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Panorama - France - Cinema en plein Air, Paris"
+                              lat="48.89203529"
+               lng="2.39261627"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-cinemaenpleinair/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/fr-cinemaEnPleinAir.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - foggy eiffel, Paris"
+                              lat="48.86900575"
+               lng="2.29863167"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-foggyeiffel/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-foggyEiffel.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - night Sky line, Paris"
+                              lat="48.86313378"
+               lng="2.31502533"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-nightskyline/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-nightSkyLine.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - lac inferieur 02, Paris"
+                              lat="48.85714818"
+               lng="2.2564888"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-lacinferieur_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-lacInferieur_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - sacre coeur, Paris"
+                              lat="48.88594027"
+               lng="2.34343529"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-sacrecoeur/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-sacreCoeur.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - seine 01, Paris"
+                              lat="48.86256913"
+               lng="2.30249405"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-seine_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-seine_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - Arc de Triomphe, Paris"
+                              lat="48.87359275"
+               lng="2.29494095"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-arcdetriomphe/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-arcDeTriomphe.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - champ de mars, Paris"
+                              lat="48.857487"
+               lng="2.29494095"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-champdemars/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-champDeMars.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - Mount Saint Michael 01, Normandy"
+                              lat="48.6357942"
+               lng="-1.5112049"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-mountsaintmichael_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-mountSaintMichael_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - lac inferieur 01, Paris"
+                              lat="48.86437598"
+               lng="2.26078033"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-lacinferieur_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-lacInferieur_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - rue Reaumur, Paris"
+                              lat="48.86786246"
+               lng="2.3451519"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-ruereaumur/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-rueReaumur.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - seine lunch, Paris"
+                              lat="48.85817877"
+               lng="2.34242678"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-seinelunch/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-seineLunch.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Ireland - grafton st, Dublin"
+                              lat="53.34342388"
+               lng="-6.25923085"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/ir-graftonst/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/ir-graftonSt.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - Pont Neuf 01, Paris"
+                              lat="48.85613168"
+               lng="2.34047413"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-pointneuf_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-pointNeuf_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Germany - Dusseldorf 02"
+                              lat="51.23698688"
+               lng="6.76998138"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/gr-dusseldorf_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/gr-Dusseldorf_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Germany - Dusseldorf 03"
+                              lat="51.23956626"
+               lng="6.76929474"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/gr-dusseldorf_03/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/gr-Dusseldorf_03.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Germany - Dusseldorf 04"
+                              lat="51.21924971"
+               lng="6.79487228"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/gr-dusseldorf_04/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/gr-Dusseldorf_04.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - Germany - Dusseldorf 05"
+                              lat="51.23951253"
+               lng="6.7694664"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/gr-dusseldorf_05/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/gr-Dusseldorf_05.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - Seine Night 01, Paris"
+                              lat="48.86036694"
+               lng="2.33021736"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-seinenight_01/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-seineNight_01.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - Pont neuf 02, Paris"
+                              lat="48.85782583"
+               lng="2.34184742"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-pointneuf_02/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-pointNeuf_02.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Places - France - Jardins du Trocadero, Paris"
+                              lat="48.86204682"
+               lng="2.28841782"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/places/fr-jardinsdutrocadero/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/places/thumbs_fb/fr-JardinsDuTrocadero.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - westport Coastal Route, Co Galway"
+                              lat="53.90433816"
+               lng="-9.63775635"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-westport_westportcoastalroute/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-westport_westportCoastalRoute.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - Wicklow starry Night, Co Wicklow"
+                              lat="53.14441942"
+               lng="-6.2285614"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-wicklow_wicklowstarrynight/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-wicklow_wicklowStarryNight.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - Ireland - GlendaLough Waterfall, Co. Wicklow"
+                              lat="52.99893654"
+               lng="-6.36177063"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/ir-wicklow_glendaloughwaterfal/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ir-wicklow_GlendaLoughWaterFall.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                              <marker label="Landscapes - France - Normandie - windie Normandie"
+                              lat="48.98021699"
+               lng="-0.01098633"
+               html="&lt;div style=&quot;text-align: center&quot;&gt; 
+               &lt;a href=&quot;http://photos.ezequielm.com/landscapes/fr-normandie-windienormandie/&quot; &gt; 
+               &lt;img src=&quot;http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/fr-normandie_windieNormandie.jpg&quot; &gt; &lt;br&gt;
+               see image&lt;/a&gt; " />
+
+                         
+
+
+
+</markers>
+

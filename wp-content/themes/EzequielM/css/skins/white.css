@@ -1,0 +1,205 @@
+body
+{
+	background: #fff;
+}
+
+h1, h2, h3, h4, h5
+{
+	color: #000;
+}
+
+a
+{
+	color: #000;
+	text-decoration: none;
+}
+
+#respond
+{
+	border-bottom: 1px solid #ccc;
+}
+
+#logo
+{
+	width: 86px;
+	height: 42px;
+	background: transparent url('../../images/logo_black.png') no-repeat;
+	display: block;
+}
+
+#content_slider_wrapper
+{
+	width: 100%;
+	height: 1px;
+	background: #999;
+}
+
+#content_slider
+{
+	width: 90%;
+	height: 1px;
+	background: #999;
+	margin: 8px 0 0 0;
+	cursor: pointer;
+	position: relative;
+}
+
+.nav li ul
+{
+	border-left: 1px solid #ccc;
+}
+
+.nav li.current_page_item a, .nav li.current-menu-item a, .nav li.current_page_item a.hover, .nav li.current_page_item ul li a.hover , .nav li ul li a.hover
+{
+	font-family: QuicksandBold;
+	color: #000;
+}
+
+.nav li ul li a, .nav li.current-menu-item li a
+{
+	font-family: Quicksand;
+	color: #959595;
+}
+
+#content_slider .ui-slider-handle
+{
+	width: 11%;
+	background: #000;
+	height: 8px;
+	margin: -4px 0 0 0;
+	position: absolute;
+	display: block;
+}
+
+input[type=text]
+{
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	color: #999;
+	padding: 5px;
+}
+
+input[type=text]:focus
+{
+	background: #ebebeb;
+}
+
+textarea
+{
+	background: transparent;
+	border: 0;
+	border: 1px solid #ccc;
+	color: #999;
+	padding: 5px;
+}
+
+input[type=text]:focus, textarea:focus
+{
+	background: #ebebeb;
+}
+
+a.button, input[type=submit]
+{
+	display: block;
+	border: 0;
+	text-transform: uppercase;
+	color: #999;
+	width: 140px;
+	padding: 5px 0 5px 0;
+	background: #ebebeb;
+	border: 1px solid #ccc;
+}
+
+a.button:active, input[type=submit]:active
+{
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+
+a.button span
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+img.frame
+{
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.frame_left
+{
+	padding: 5px;
+	border: 1px solid #ccc;
+ 	float: left;
+ 	margin: 0 20px 10px 0;
+ 	text-align: center;
+}
+
+.frame_left .caption, .frame_right .caption, .frame_center .caption
+{
+	margin: 7px 0 2px 0;
+	display: block;
+	color: #000;
+}
+
+.frame_right
+{
+	padding: 5px;
+	border: 1px solid #ccc;
+ 	float: right;
+ 	margin: 0 0 10px 20px;
+ 	text-align: center;
+}
+
+.frame_center
+{
+	padding: 5px;
+	border: 1px solid #ccc;
+ 	margin: auto;
+ 	margin-top: 20px;
+	margin-bottom: 20px;
+ 	text-align: center;
+ 	clear: both;
+ 	display: table;
+}
+
+.post_header h2 a
+{
+	color: #000;
+}
+
+#about_the_author
+{
+	width: 100%;
+	float: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+#about_the_author .header
+{
+	color: #000;
+	border-bottom: 1px solid #ccc;
+}
+
+#about_the_author .thumb img
+{
+	border: 1px solid #ccc;
+}
+
+.comment .left img.avatar
+{
+	border: 1px solid #ccc;
+}
+
+ul.children .comment, ul.children ul.children .comment 
+{
+	border-left: 1px solid #ccc;
+}

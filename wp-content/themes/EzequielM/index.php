@@ -71,6 +71,7 @@ if(!empty($all_photo_arr)) { ?>
 			<?php
                             $eze_gallery_width = get_option('eze_gallery_width');
                             $eze_gallery_height = get_option('eze_gallery_height');
+                            $siteurl=  get_site_url();
                         ?>
 			<div class="inner" style="height:190px;width:82px">
 				<input type="hidden" id="gallery_width" name="gallery_width" value="<?php echo ($eze_gallery_width/3)?>px"/>
@@ -80,7 +81,7 @@ if(!empty($all_photo_arr)) { ?>
                                         $small_image_url = get_post_meta($photo->ID, 'gallery_preview_image_url', true);
                                         $image_url_permalink = get_permalink( $photo->ID );
                                         $gallery_buyPrint_url= get_post_meta($photo->ID, 'gallery_buyPrint_url', true);
-                                        $small_image_url= 'http://localhost/' . $eze_gallery__mediaRoot . '/'. $eze_gallery_thumbs . '/' . $small_image_url ;
+                                        $small_image_url= $siteurl . '/' . $eze_gallery__mediaRoot . '/'. $eze_gallery_thumbs . '/' . $small_image_url ;
 				?>
 				<div class="card" style="width:<?php echo intval($eze_gallery_width); ?>px;height:190px;">
 				<a href="<?php echo $image_url_permalink ?>" >
@@ -111,7 +112,7 @@ if(!empty($all_photo_arr)) { ?>
 						$small_image_url = get_post_meta($photo->ID, 'gallery_preview_image_url', true);
 						$image_url_permalink = get_permalink( $photo->ID );
 						$gallery_buyPrint_url= get_post_meta($photo->ID, 'gallery_buyPrint_url', true);
-                                                $small_image_url= 'http://localhost/' . $eze_gallery__mediaRoot . '/'. $eze_gallery_thumbs . '/' . $small_image_url ;
+                                                $small_image_url= $siteurl . '/' . $eze_gallery__mediaRoot . '/'. $eze_gallery_thumbs . '/' . $small_image_url ;
 				?>
 				<div class="card" style="width:<?php echo intval($eze_gallery_width); ?>px;height:190px;">
 							<a href="<?php echo $image_url_permalink ?>" >

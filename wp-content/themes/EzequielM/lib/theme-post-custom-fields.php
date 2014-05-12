@@ -22,7 +22,6 @@ $postmetas =
 		array("section" => "Gallery", "id" => "gallery_image_url", "title" => "image URL:"),
 		array("section" => "Gallery", "id" => "gallery_preview_fb_image_url", "title" => "facebook thumb URL:"),
 		array("section" => "Gallery", "id" => "gallery_imageHighRes_url", "title" => "High Resolution image URL:"),
-		array("section" => "Gallery", "id" => "gallery_xml_url", "title" => "pano XML:"),
 		array("section" => "Gallery", "id" => "gallery_buyPrint_url", "title" => "butPrint URL:"),
 		array("section" => "Gallery", "id" => "gallery_alternative_url", "title" => "pano Alternative URL:"),
 		array("section" => "Gallery", "id" => "gallery_coordLatitude", "title" => "gallery_coordLatitude:"),

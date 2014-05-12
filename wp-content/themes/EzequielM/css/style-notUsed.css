@@ -1,9 +1,9 @@
 /*
-Theme Name: Eze
-Description: image driven blog template
-Version: 0.2
-Author: Ezequiel Mastrasso
-Author URI: http://photos.ezequielm.com
+Theme Name: KIN
+Description: The Minimalist style photography template
+Version: 1.2
+Author: Peerapong Pulpipatnan
+Author URI: http://themeforest.net/user/peerapong
 */
 
 /* 
@@ -196,7 +196,7 @@ blockquote h3
 
 #wrapper
 {
-	width: 100%;
+	width: 90%;
 	position:relative; z-index:1;
 	top:0px; bottom:0; left:0;
 
@@ -316,7 +316,6 @@ blockquote h3
 	width: 100%;
 	float: left;
 	margin-bottom: 0px;
-        margin-top: 20px;
 }
 
 .post_header a

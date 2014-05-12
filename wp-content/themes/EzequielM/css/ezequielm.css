@@ -140,7 +140,7 @@
 }
 
 .infoColumn {
-    width: 80%; 
+    width: 600px; 
     margin-left:20px; 
     margin-bottom:15px
 }
@@ -249,18 +249,18 @@ body, html {
 }
 
 .show-left-menu #outer-wrapper {
-    /*left: 80%;*/
+    /*left: 600px;*/
 
-    -webkit-transform: translate3d(80%,0,0);
-    -moz-transform: translate3d(80%,0,0);
-    -ms-transform: translate3d(80%,0,0);
-    -o-transform: translate3d(80%,0,0);
-    transform: translate3d(80%,0,0);
+    -webkit-transform: translate3d(600px,0,0);
+    -moz-transform: translate3d(600px,0,0);
+    -ms-transform: translate3d(600px,0,0);
+    -o-transform: translate3d(600px,0,0);
+    transform: translate3d(600px,0,0);
 }
 
 
 .off-canvas-menu {
-    width: 78%;
+    width: 598px;
     height:100%;
     background: #000000;
     position: absolute;
@@ -277,7 +277,7 @@ body, html {
 }
 
 nav#left-menu {
-    left: -80%;
+    left: -600px;
 }
 
 

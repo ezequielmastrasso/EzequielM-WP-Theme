@@ -1,0 +1,12 @@
+<?php
+/*
+Template Name: pageAllPhotos
+*/
+?>
+
+
+<?php
+  phpinfo();
+  ?>
+
+<?php echo(exec("whoami")); ?>

@@ -1,7 +1,5 @@
 <?php
 
-update_option('siteurl','http://localhost');
-update_option('home','http://localhost');
 
 
 /**
@@ -82,7 +80,7 @@ array(
 array( "type" => "open"),
 
 array( "name" => "Skins",
-	"desc" => "Select the skin for the theme",
+	"desc" => "Select the css file for the theme, to customize it just duplicate the css file, rename it and tweak inside. The file also contains the google maps style colors and the countries to highlight list",
 	"id" => $shortname."_skin",
 	"type" => "select",
 	"options" => $eze_seze_arr,
@@ -138,7 +136,21 @@ array( "type" => "close"),
 array( "name" => "Gallery",
 	"type" => "section"),
 array( "type" => "open"),
+    
+array( "name" => "gallery orient",
+	"desc" => "horizontal or vertical",
+	"id" => $shortname."_galleryOrient",
+	"type" => "text",
+	"std" => "horizontal"
 
+),
+array( "name" => "show left categories off-Canvas",
+	"desc" => "yes or no",
+	"id" => $shortname."_showLeftCatList",
+	"type" => "text",
+	"std" => "yes"
+
+),
 array( "name" => "Gallery image width (in pixels)",
 	"desc" => "Enter number of width for Gallery image",
 	"id" => $shortname."_gallery_width",
@@ -232,19 +244,53 @@ array( "name" => "Your email address",
 ),
 //End fourth tab "Contact"
 
-//Begin fifth tab "Footer"
+//Begin fifth tab "top bar, Posts options, Footer & Maps"
 array( "type" => "close"),
-array( "name" => "Footer",
+array( "name" => "TopBar, Posts options, Footer & Maps",
 	"type" => "section"),
 array( "type" => "open"),
-	
+
 array( "name" => "Footer text",
 	"desc" => "Enter footer text ex. copyright description",
 	"id" => $shortname."_footer_text",
 	"type" => "textarea",
-	"std" => ""
+	"std" => ""),
+array( "name" => "topBar Text",
+	"desc" => "Enter the top bar text or html to insert",
+	"id" => $shortname."_topBar_text",
+	"type" => "textarea",
+	"std" => ""),    
+array( "name" => "show Credits",
+	"desc" => "show or hide credits fieldfrom post",
+	"id" => $shortname."_showCredits",
+	"type" => "text",
+	"std" => "yes"
 
 ),
+array( "name" => "show exif Info",
+	"desc" => "show or hide exif info taken from the image file",
+	"id" => $shortname."_showExif",
+	"type" => "text",
+	"std" => "yes"
+
+),
+array( "name" => "show post content",
+	"desc" => "show or hide the post content",
+	"id" => $shortname."_showContent",
+	"type" => "text",
+	"std" => "yes"
+
+),
+array( "name" => "google Maps Skins",
+	"desc" => "Select the skin for the world-map page",
+	"id" => $shortname."_skin",
+	"type" => "select",
+	"options" => $eze_seze_arr,
+	"std" => "white"
+),
+
+
+    
 //End fifth tab "Footer"
 
  

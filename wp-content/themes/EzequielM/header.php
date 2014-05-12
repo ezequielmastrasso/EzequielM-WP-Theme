@@ -29,7 +29,7 @@
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/offCanvasNews.js"></script>
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/bootstrap.min.css" rel="stylesheet">
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ezequielm.css" rel="stylesheet">
-
+<?php //TODO replace with site option ?>
 <link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ch-chengdu_01.jpg" />
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -52,21 +52,21 @@
             position: 'left'
         });
     });
-  </script>
+ </script>
 
 <?php
-	/* Always have wp_head() just before the closing </head>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to add elements to <head> such
-	 * as styles, scripts, and meta tags.*/
-	wp_head();
+    /* Always have wp_head() just before the closing </head>
+    * tag of your theme, or you will break many plugins, which
+    * generally use this hook to add elements to <head> such
+    * as styles, scripts, and meta tags.*/
+    wp_head();
 ?>
 
 <?php
-	/*Get favicon URL*/
-	$eze_favicon = get_option('eze_favicon');
-	if(!empty($eze_favicon)) { ?>
-	<link rel="shortcut icon" href="<?php echo $eze_favicon; ?>" />
+    /*Get favicon URL*/
+    $eze_favicon = get_option('eze_favicon');
+    if(!empty($eze_favicon)) { ?>
+    <link rel="shortcut icon" href="<?php echo $eze_favicon; ?>" />
 <?php
 	}
 ?>
@@ -98,20 +98,12 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
 document.addEventListener('DOMContentLoaded', loaded, false);
 </script>
 
-
-
-
-
 <!-- Jquery and plugins from WORDPRESS-->
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.ui.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/fancybox/jquery.fancybox-1.3.0.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.validate.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/custom.js"></script>
-
-
-
-
 
 <script>
 var open = false;
@@ -141,82 +133,67 @@ $(window).resize(function() {
 <style type="text/css">
 <!--
 body {
-	background-color: #000000;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
+    background-color: #000000;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 .NewsTop {
-	border-top-style: 0;
-	border-right-style: 0;
-	border-bottom-style: solid;
-	border-left-style: 0;
-	border-color: #69BDE9;
-	border-width: 1px;
-	width: 292px;
+    border-top-style: 0;
+    border-right-style: 0;
+    border-bottom-style: solid;
+    border-left-style: 0;
+    border-color: #69BDE9;
+    border-width: 1px;
+    width: 292px;
 }
 .NewsTableFirst {
-	border-top-style: 0;
-  border-right-style: 0;
-  border-bottom-style: 0;
-  border-left-style: solid;
-  border-color: #2f5569;
-  border-width: 1px;
-  width: 282x;
+    border-top-style: 0;
+    border-right-style: 0;
+    border-bottom-style: 0;
+    border-left-style: solid;
+    border-color: #2f5569;
+    border-width: 1px;
+    width: 282x;
 }
 .NewsTable {
-	border-top-style: 0;
-	border-right-style: 0;
-	border-bottom-style: dotted;
-	border-left-style: solid;
-	border-color: #2f5569;
-	border-width: 1px;
-	width: 282x;
+    border-top-style: 0;
+    border-right-style: 0;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: #2f5569;
+    border-width: 1px;
+    width: 282x;
 }
-	
 -->
 </style>
 
 
 
-
-
-
-
 <?php
-/**
 
-*	Get Current page object
-
-**/
+//Get Current page object
 $page = get_page($post->ID);
-/**
-
-*	Get current page id
-
-**/
-
+//Get current page id
 $current_page_id = '';
+
 if(isset($page->ID))
 {
     $current_page_id = $page->ID;
-}
-?>
+}?>
 
 <?php
-	/*	Get background */
-	$eze_bg = get_option('eze_bg');
-	if(!empty($eze_bg))
-	{
-?>
-
-<?php } ?>
+    //TODO: What Background???
+    /*	Get background */
+    $eze_bg = get_option('eze_bg');
+    if(!empty($eze_bg))
+    { } ?>
 
 <body <?php body_class(); ?>>
-	<?php 
-		$eze_gallery_auto_scroll = get_option('eze_gallery_auto_scroll');
-	?>
+<?php 
+    $eze_gallery_auto_scroll = get_option('eze_gallery_auto_scroll');
+?>
     <div id="outer-wrapper" style="height:80%">
         <div id="inner-wrapper">
         	<nav id="left-menu" class="off-canvas-menu">
@@ -276,6 +253,11 @@ if(isset($page->ID))
 							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/profoto/" <?php if (is_category( 'profoto' )){ ?> style="color:#FFFFFF"  <?php } ?> >  profoto</a>
 
 						</div>
+                                                <div class="NewsTable" style="padding:5px" >_Tags by other Credits_ :</span>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mariadiez/" <?php if (is_category( 'mariadiez' )){ ?> style="color:#FFFFFF"  <?php } ?> >  maria Diez</a>
+                                                        <a class="topbar-cta-link" href="http://photos.ezequielm.com/category/philmcdarby/" <?php if (is_category( 'philmcdarby' )){ ?> style="color:#FFFFFF"  <?php } ?> >  phil McDarby</a>
+
+						</div>
 
 						<div class="NewsTable" style="padding:5px" >_Tags by Size_ :</span>
 							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/gigapan/" <?php if (is_category( 'gigapan' )){ ?> style="color:#FFFFFF"  <?php } ?> >  gigapan</a>
@@ -321,18 +303,11 @@ if(isset($page->ID))
               </div>
             </div>
             </div>
-			<input type="hidden" id="eze_gallery_auto_scroll" name="eze_gallery_auto_scroll" value="<?php echo $eze_gallery_auto_scroll; ?>"/>
-			<?php
-				$eze_gallery_slider_speed = get_option('eze_gallery_slider_speed'); 
-				if(empty($eze_gallery_slider_speed))
-				{
-					$eze_gallery_slider_speed = 5;
-				}
-			?>
+
 			<div id="menu-bar">
 			  <div id="inner">
 			    <div class="accent"></div>
-			    <a href= "http://photos.ezequielm.com" class="logo"><img src="http://www.ezequielm.com/iFrameContent/photoGallery/photoGallery.png"></a>
+			    <a href= "http://photos.ezequielm.com" class="logo"><img src="/_media/panoBlogLogo.png"></a>
 			    <!--Start Facebook-->
 				<div style="float: right; margin-left: 0px;margin-top: 4px">
 					<iframe style="align: right" width="95" height="25" src="http://www.facebook.com/plugins/like.php?href=http://photos.ezequielm.com&amp;layout=button_count&amp;show_faces=false&amp;width=95&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:95px; height:25px"></iframe>
@@ -340,6 +315,7 @@ if(isset($page->ID))
 				<!--End Facebook-->
 			    <div class="menu-top-container">
 			      <ul id="menu-top" class="menu">
+                                <?php //TODO Replace with site_url, and cat list under MainCaterogies from site options ?>
 			        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://photos.ezequielm.com/category/panoramas/" 
 			        	<?php if (is_category( 'panoramas' )){ ?> 
 			        		style="color:#FFFFFF" 

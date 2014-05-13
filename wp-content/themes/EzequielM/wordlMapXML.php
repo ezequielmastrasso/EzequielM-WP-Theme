@@ -48,7 +48,7 @@ Begin content -->
 			lng="<?php echo $coordLongitude?>"
 			html="&lt;div style=&quot;text-align: center&quot;&gt; 
 			&lt;a href=&quot;<?php echo $image_url_permalink?>&quot; &gt; 
-			&lt;img src=&quot;<?php echo $image_thumb_fb?>&quot; &gt; &lt;br&gt;
+			&lt;img src=&quot;&#47_media&#47thumbs_fb&#47<?php echo $image_thumb_fb?>&quot; &gt; &lt;br&gt;
 			see image&lt;/a&gt; " />
 			<?php
 		} 

@@ -9,8 +9,8 @@ Template Name: world-map
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclusterer/1.0/src/markerclusterer.js"></script>
-<script type="text/javascript" src="http://www.ezequielm.com/iFrameContent/photoGallery/wp-content/themes/Kin/mapUtils/infobox.js"></script>
-<script type="text/javascript" src="http://www.ezequielm.com/iFrameContent/photoGallery/wp-content/themes/Kin/mapUtils/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="http://photos.ezequielm.com/wp-content/themes/EzequielM/mapUtils/infobox.js"></script>
+<script type="text/javascript" src="http://photos.ezequielm.com/wp-content/themes/EzequielM/mapUtils/jquery-1.3.2.min.js"></script>
 
 
 
@@ -134,7 +134,7 @@ overviewMapControlOptions: {
   suppressInfoWindows: true
 });
 
-jQuery.get("../worldMapXml", {}, function(data) {
+jQuery.get("../worldmapxml", {}, function(data) {
 
       jQuery(data).find("marker").each(function() {
 

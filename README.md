@@ -46,6 +46,7 @@ Looking forward to hear from you!
 To do:
 ------
 * general House Keeping
+* color theme files for site and map
 * make gigapan category to use a free flash highRes viewer similar to krPano
 * automatically generate left column from categories parents as in
   parentCat1Link: linkToCat,  linkToCat2, linkToCat3

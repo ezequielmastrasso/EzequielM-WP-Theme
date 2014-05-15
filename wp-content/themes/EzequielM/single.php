@@ -26,6 +26,12 @@ img {
     max-width: 100%;
     max-height: 90%;
 }
+.btn{
+    padding: 40px 40px;
+    
+}
+
+
  </style>
 
  
@@ -181,6 +187,15 @@ body {
     border-width: 1px;
     width: 282x;
 }
+.btn:first-child{
+    padding:0px 0px;
+background-image:linear-gradient(to bottom,#0C0C0C,#000000);
+border-bottom-color:#000000;
+}
+.btn:hover{
+    background-color:#000000;
+}
+
 -->
 </style>
 
@@ -386,6 +401,12 @@ $siteurl=  get_site_url();
                                         <div class="NewsTable" style="padding:7px;" >Tags And Cats:</span>
                                         <?php echo $post_categories = get_the_category_list() ; ?>
                                     </div>
+                                      <div class="NewsTable" style="padding:7px;" >
+                                        <?php echo get_option('eze_copyright_text'); ?>
+                                    </div>
+                                
+                                
+                                    
                                 </tr>
                             </table>
                         </div>
@@ -394,43 +415,19 @@ $siteurl=  get_site_url();
             <div class="navbar navbar-inverse navbar-fixed-top" >
                 <div class="navbar-inner" style="height:20px;min-height:20px;">
                     <div class="pull-left" >
-                      <button type="button;" style="text-align=left" id="left-menu-toggle" class="btn btn-navbar off-canvas-menu-toggle" ><div class="blancoBold">
-                        <img src=http://www.ezequielm.com/iFrameContent/webImages/leftArrow.png> info </div>
-                      </button>
+                      
                     </div>
                     <div align="center">
-                        <span class="blancoBold">Ezequiel Mastrasso Photographie</span>
+                        <?php echo get_option('eze_topBar_text'); ?>
                     </div>
                 </div>
             </div>
             <div id="wrapper" style="overflow: hidden;bottom: 0px;">
                 <div class="post_wrapper">
-                    <div class="post_header">
-                        <div class="left">
-                        
-                        <?php
-                        //IF included in cat gigapan, make the flash viewer, else use the midRes Url
-                        //if ( in_category( 'gigapan' )) {
-                        //
-                        if ( in_category( 'Blah' )) {?>
-                                adadadad
-                                <?php $xml_url=get_post_meta($post->ID, 'gallery_xml_url', true);  ?>
-                                <div id="krpanoDIV"> 
-                                    <noscript><table width="100%" height="100%"><tr valign="top"><td><center>ERROR:<br><br>Javascript not activated<br><br></center></td></tr></table></noscript> 
-                                </div>
-                                <?php //TODO: replace with site url + krpanoJS and krpano.swf from site options ?>
-                                <script type="text/javascript" src="/_media/gigapanKrPano/swfkrpano.js">
-                                </script> 
-                                <script>
-                                    var viewer = createPanoViewer({swf:"/_media/gigapanKrPano/krPano.swf",height:"90%"});
-                                    viewer.addVariable("xml", "<?php echo "" ?>";
-                                    viewer.embed("krpanoDIV");
-                                </script>
-                        <?php } else {
-                        //not in gigapan, use midResUrl
-                        ?>
+                    <div class="post_header" align="center">
+                        <button type="button;" id="left-menu-toggle" class="btn btn-navbar off-canvas-menu-toggle" style=".btn:first-child">
                                 <img src="<?php echo $midResUrl ?>"/><br>
-                        <?php }?>
+                        </button>
                         </div>
                     <?php endwhile; endif; ?>
 

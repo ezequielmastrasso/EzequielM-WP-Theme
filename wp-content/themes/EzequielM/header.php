@@ -299,7 +299,7 @@ if(isset($page->ID))
                   </button>
                 </div>
                                 <div align="center">
-                <span class="blancoBold">3d Lighting & Visual effects</span> <a class="blancoBold" href="http://www.ezequielm.com/">-> ezequielm.com</a>
+                                <?php echo get_option('eze_topBar_text'); ?>
               </div>
             </div>
             </div>
@@ -307,7 +307,14 @@ if(isset($page->ID))
 			<div id="menu-bar">
 			  <div id="inner">
 			    <div class="accent"></div>
-			    <a href= "http://photos.ezequielm.com" class="logo"><img src="/_media/panoBlogLogo.png"></a>
+                            
+                            <?php
+                            $eze_logo = get_option('eze_logo');
+                            $eze_mediaRoot = get_option('eze_mediaRoot');
+                            $logo_url="/" . $eze_mediaRoot . "/" . $eze_logo ;
+                            ?>
+
+			    <a href= "http://photos.ezequielm.com" class="logo"><img src="<?php echo $logo_url?>"></a>
 			    <!--Start Facebook-->
 				<div style="float: right; margin-left: 0px;margin-top: 4px">
 					<iframe style="align: right" width="95" height="25" src="http://www.facebook.com/plugins/like.php?href=http://photos.ezequielm.com&amp;layout=button_count&amp;show_faces=false&amp;width=95&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:95px; height:25px"></iframe>

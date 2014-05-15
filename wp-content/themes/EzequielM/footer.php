@@ -9,7 +9,17 @@
 ?>	
 </div>
 	<!-- End template wrapper -->
-
+        <div align="right">
+            <?php
+        echo get_option('eze_footer_text');
+        
+        ?>
+        </div>
+        <div align="right">
+            <?php
+        echo get_option('eze_copyright_text');
+        
+        ?>
 	</div>
 <?php
 		/**

@@ -96,6 +96,7 @@ ca-dirtCart.jpg is supplied for testing purposes
 1. create a post with a test title, and add "ca-dirtCart.jpg" (without quotes) to the small img, midRes, and highRes images. Set the lat and long coords to 13.61117537 and 106.49906158
 8. create a second, a third and a forth post, with the same information.
 9. open you http://localhost to see the them working
-10. click on any of the images, and hover over the lat and long information to make the google maps thumbnail to apper on the top right part of the page.
-10. you can also open http://localhost/world-map to see the picture tagged with a marker inside the map, click on it to see the facebook thumbnail, and click on the thumbnail to go to the post.
+10. click on any of the images
+11. When inside the post, click on the mid resolution image to see the left panel sliding in with the photo info, post content, highResolution link, gps coords with google maps thumbnail, and tags/categories the photo is included in.
+12. You can also open http://localhost/world-map to see the picture tagged with a marker inside the map, click on it to see the facebook thumbnail, and click on the thumbnail to go to the post.
 

@@ -7,6 +7,7 @@ This is a php js bootstrap iscroll python googleMaps api and xml based theme for
 
 You can check the theme at work [**Here**](http://photos.ezequielm.com) 
 
+![My image](wp-content/themes/EzequielM/screenshot.png)
 
 The theme features:
 ------------------
@@ -14,6 +15,8 @@ The theme features:
 * auto size and adjustments for desktop, tablet and mobiles
 * touch/click drag the thumbnails to browse (desktop and mobile compatible)
 * top menu for main categories
+* customize amount of rows/columns (up to 5)
+* image size and padding
 * top fixed bar for important information, related links, or even adds
 * left off-canvas column for categories links and tags
 * custom fields for:
@@ -26,6 +29,7 @@ The theme features:
   7. facebook likes and shares
   8. mySql and xml for integrating krPano flash tools for gigapixelpanoramas and high Resolution images online display on wordpress posts together with on the fly google maps integrated thumbnail generation.
 *exif info taken from images
+* copyrights, license and photo info credits
 
 HELP NEEDED:
 ------------
@@ -42,9 +46,6 @@ Looking forward to hear from you!
 To do:
 ------
 * general House Keeping
-* add copyrights and license at the bottom
-* option for as many as 5 rows of images
-* have a midRes image for panoramas too, and a link under it for the gigapan
 * make gigapan category to use a free flash highRes viewer similar to krPano
 * automatically generate left column from categories parents as in
   parentCat1Link: linkToCat,  linkToCat2, linkToCat3
@@ -59,10 +60,20 @@ To do:
 * bring comments back to the theme
 * and probably a lot more
 
-
-Quick start up for coding:
+Quick setup on a existing wordpress:
 --------------------------
-This is fully working wordpress install (latest version at this moment)
+Compatible with wordpress 3 to 3.9 and php versions 3 to 5.x
+
+1. copy this entire repo to your wordpress folder
+2. desired, create a new database for your wordpress photo blog
+3. login to your wp-admin
+4. go to themes and select the Eze theme
+5. go to eze settings, and click on every save changes in the page to force the site and admin Options into the DB.
+6. read below "testing" to quickly setup 1 image and view the theme.
+
+Quick start up for coding on local environment:
+--------------------------
+Compatible with wordpress 3 to 3.9 and php versions 3 to 5.x
 
 1. Install apache, mySql, php, and phpMyAdmin
 2. activate apache's modRewrite module

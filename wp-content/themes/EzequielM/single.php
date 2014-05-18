@@ -413,19 +413,19 @@ $siteurl=  get_site_url();
                     </div>
                 </nav>
             <div class="navbar navbar-inverse navbar-fixed-top" >
-                <div class="navbar-inner" style="height:20px;min-height:20px;">
+                <div style="height:20px;min-height:20px;">
                     <div class="pull-left" >
                       
                     </div>
                     <div align="center">
-                        <?php echo get_option('eze_topBar_text'); ?>
+                        click on the image for more info | <?php echo get_option('eze_topBar_text'); ?>
                     </div>
                 </div>
             </div>
             <div id="wrapper" style="overflow: hidden;bottom: 0px;">
                 <div class="post_wrapper">
                     <div class="post_header" align="center">
-                        <button type="button;" id="left-menu-toggle" class="btn btn-navbar off-canvas-menu-toggle" style=".btn:first-child">
+                        <button type="button;" id="left-menu-toggle" style="padding:0px;background-color:#000000;border:0px;">
                                 <img src="<?php echo $midResUrl ?>"/><br>
                         </button>
                         </div>

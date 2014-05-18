@@ -204,82 +204,83 @@ if(isset($page->ID))
 				<table width="80%" border="0">
 				      <tr>
 				        <div class="NewsTable" style="padding:5px;" >_Tags by Country_ :</span>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/Argentina/" <?php if (is_category( 'Argentina' )){ ?> style="color:#FFFFFF"  <?php } ?> >    Argentina </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/Andorra/" <?php if (is_category( 'Andorra' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Andorra </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/cambodia/" <?php if (is_category( 'cambodia' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Cambodia </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/china/" <?php if (is_category( 'china' )){ ?> style="color:#FFFFFF"  <?php } ?> >  China </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/france/" <?php if (is_category( 'france' )){ ?> style="color:#FFFFFF"  <?php } ?> >  France </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/germany/" <?php if (is_category( 'germany' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Germany </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/indonesia/" <?php if (is_category( 'indonesia' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Indonesia </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/ireland/" <?php if (is_category( 'ireland' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Ireland </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/italy/" <?php if (is_category( 'italy' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Italy </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/netherlands/" <?php if (is_category( 'netherlands' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Netherlands </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/northernireland/" <?php if (is_category( 'northernireland' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Northern ireland </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/laos/" <?php if (is_category( 'laos' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Laos </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/singapore/" <?php if (is_category( 'singapore' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Singapore </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/slovenia/" <?php if (is_category( 'slovenia' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Slovenia </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/spain/" <?php if (is_category( 'spain' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Spain </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/Switzerland/" <?php if (is_category( 'Switzerland' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Switzerland </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/thailand/" <?php if (is_category( 'thailand' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Thailand </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/united-arab-emirates/" <?php if (is_category( 'united-arab-emirates' )){ ?> style="color:#FFFFFF"  <?php } ?> >  United Arab Emirates </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/unitedkingdom/" <?php if (is_category( 'unitedkingdom' )){ ?> style="color:#FFFFFF"  <?php } ?> >  United Kingdom </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/vietnam/" <?php if (is_category( 'vietnam' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Vietnam </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/Argentina/" <?php if (is_category( 'Argentina' )){ ?> style="color:#FFFFFF"  <?php } ?> >    Argentina | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/Andorra/" <?php if (is_category( 'Andorra' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Andorra | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/cambodia/" <?php if (is_category( 'cambodia' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Cambodia | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/china/" <?php if (is_category( 'china' )){ ?> style="color:#FFFFFF"  <?php } ?> >  China | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/france/" <?php if (is_category( 'france' )){ ?> style="color:#FFFFFF"  <?php } ?> >  France | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/germany/" <?php if (is_category( 'germany' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Germany | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/indonesia/" <?php if (is_category( 'indonesia' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Indonesia | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/ireland/" <?php if (is_category( 'ireland' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Ireland | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/italy/" <?php if (is_category( 'italy' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Italy | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/netherlands/" <?php if (is_category( 'netherlands' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Netherlands | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/northernireland/" <?php if (is_category( 'northernireland' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Northern ireland | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/laos/" <?php if (is_category( 'laos' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Laos | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/singapore/" <?php if (is_category( 'singapore' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Singapore | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/slovenia/" <?php if (is_category( 'slovenia' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Slovenia | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/spain/" <?php if (is_category( 'spain' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Spain | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/Switzerland/" <?php if (is_category( 'Switzerland' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Switzerland | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/thailand/" <?php if (is_category( 'thailand' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Thailand | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/united-arab-emirates/" <?php if (is_category( 'united-arab-emirates' )){ ?> style="color:#FFFFFF"  <?php } ?> >  United Arab Emirates | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/unitedkingdom/" <?php if (is_category( 'unitedkingdom' )){ ?> style="color:#FFFFFF"  <?php } ?> >  United Kingdom | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/vietnam/" <?php if (is_category( 'vietnam' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Vietnam | </a>
 						</div>
 
 						<div class="NewsTable" style="padding:5px" >_Tags by Continent_ :</span>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/asia/" <?php if (is_category( 'asia' )){ ?> style="color:#FFFFFF"  <?php } ?> >  asia</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/europe/" <?php if (is_category( 'europe' )){ ?> style="color:#FFFFFF"  <?php } ?> >  europe</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/middleEast/" <?php if (is_category( 'middleEast' )){ ?> style="color:#FFFFFF"  <?php } ?> >  middleEast</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/southAmerica/" <?php if (is_category( 'southAmerica' )){ ?> style="color:#FFFFFF"  <?php } ?> > southAmerica </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/asia/" <?php if (is_category( 'asia' )){ ?> style="color:#FFFFFF"  <?php } ?> >  asia | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/europe/" <?php if (is_category( 'europe' )){ ?> style="color:#FFFFFF"  <?php } ?> >  europe | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/middleEast/" <?php if (is_category( 'middleEast' )){ ?> style="color:#FFFFFF"  <?php } ?> >  middleEast | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/southAmerica/" <?php if (is_category( 'southAmerica' )){ ?> style="color:#FFFFFF"  <?php } ?> > southAmerica | </a>
 						</div>
 
 						<div class="NewsTable" style="padding:5px" >_Tags Miscelaneous_ :</span>
-						<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/aerial/" <?php if (is_category( 'aerial' )){ ?> style="color:#FFFFFF"  <?php } ?> >  aerial</a>
-						<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/macro/" <?php if (is_category( 'macro' )){ ?> style="color:#FFFFFF"  <?php } ?> >  macro</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/templesAndReligion/" <?php if (is_category( 'templesAndReligion' )){ ?> style="color:#FFFFFF"  <?php } ?> >  templesAndReligion</a>
-						<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/weather/" <?php if (is_category( 'weather' )){ ?> style="color:#FFFFFF"  <?php } ?> >  weather</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/water/" <?php if (is_category( 'water' )){ ?> style="color:#FFFFFF"  <?php } ?> >  water</a>
+						<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/aerial/" <?php if (is_category( 'aerial' )){ ?> style="color:#FFFFFF"  <?php } ?> >  aerial </a>
+						<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/macro/" <?php if (is_category( 'macro' )){ ?> style="color:#FFFFFF"  <?php } ?> >  macro | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/templesAndReligion/" <?php if (is_category( 'templesAndReligion' )){ ?> style="color:#FFFFFF"  <?php } ?> >  templesAndReligion | </a>
+						<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/weather/" <?php if (is_category( 'weather' )){ ?> style="color:#FFFFFF"  <?php } ?> >  weather | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/water/" <?php if (is_category( 'water' )){ ?> style="color:#FFFFFF"  <?php } ?> >  water | </a>
 						</div>
 
 						<div class="NewsTable" style="padding:5px" >_Tags by Camera_ :</span>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/phaseonep25plus/" <?php if (is_category( 'phaseonep25plus' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Phase One P25+</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/phaseonedf/" <?php if (is_category( 'phaseonedf' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Phase One DF</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mamiyaafdiii/" <?php if (is_category( 'mamiyaafdiii' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Mamiya AFDIII</a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/phaseonep25plus/" <?php if (is_category( 'phaseonep25plus' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Phase One P25+ | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/phaseonedf/" <?php if (is_category( 'phaseonedf' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Phase One DF | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mamiyaafdiii/" <?php if (is_category( 'mamiyaafdiii' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Mamiya AFDIII | </a>
 							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canon5dmarkii/" <?php if (is_category( 'canon5dmarkii' )){ ?> style="color:#FFFFFF"  <?php } ?> > Canon 5d Mark II </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canon7d/" <?php if (is_category( 'canon7d' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon 7d </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canon400d/" <?php if (is_category( 'canon400d' )){ ?> style="color:#FFFFFF"  <?php } ?> > Canon 400d </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canon7d/" <?php if (is_category( 'canon7d' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon 7d | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canon400d/" <?php if (is_category( 'canon400d' )){ ?> style="color:#FFFFFF"  <?php } ?> > Canon 400d | </a>
 						</div>
 						<div class="NewsTable" style="padding:5px" >_Tags by flash_ :</span>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/profoto/" <?php if (is_category( 'profoto' )){ ?> style="color:#FFFFFF"  <?php } ?> >  profoto</a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/profoto/" <?php if (is_category( 'profoto' )){ ?> style="color:#FFFFFF"  <?php } ?> >  profoto | </a>
 
 						</div>
                                                 <div class="NewsTable" style="padding:5px" >_Tags by other Credits_ :</span>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mariadiez/" <?php if (is_category( 'mariadiez' )){ ?> style="color:#FFFFFF"  <?php } ?> >  maria Diez</a>
-                                                        <a class="topbar-cta-link" href="http://photos.ezequielm.com/category/philmcdarby/" <?php if (is_category( 'philmcdarby' )){ ?> style="color:#FFFFFF"  <?php } ?> >  phil McDarby</a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mariadiez/" <?php if (is_category( 'mariadiez' )){ ?> style="color:#FFFFFF"  <?php } ?> >  maria Diez | </a>
+                                                        <a class="topbar-cta-link" href="http://photos.ezequielm.com/category/philmcdarby/" <?php if (is_category( 'philmcdarby' )){ ?> style="color:#FFFFFF"  <?php } ?> >  phil McDarby | </a>
 
 						</div>
 
 						<div class="NewsTable" style="padding:5px" >_Tags by Size_ :</span>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/gigapan/" <?php if (is_category( 'gigapan' )){ ?> style="color:#FFFFFF"  <?php } ?> >  gigapan</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/highres/" <?php if (is_category( 'highres' )){ ?> style="color:#FFFFFF"  <?php } ?> >  high resolution</a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/gigapan/" <?php if (is_category( 'gigapan' )){ ?> style="color:#FFFFFF"  <?php } ?> >  gigapan | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/highres/" <?php if (is_category( 'highres' )){ ?> style="color:#FFFFFF"  <?php } ?> >  high resolution | </a>
 						</div>
 
 
 						<div class="NewsTable" style="padding:5px" >_Tags by Format_ :</span>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mediumformat/" <?php if (is_category( 'mediumformat' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Medium Format</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/fullframe/" <?php if (is_category( 'fullframe' )){ ?> style="color:#FFFFFF"  <?php } ?> >  35mm full frame</a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/aps/" <?php if (is_category( 'aps' )){ ?> style="color:#FFFFFF"  <?php } ?> >  35mm 1.6x crop</a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mediumformat/" <?php if (is_category( 'mediumformat' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Medium Format | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/fullframe/" <?php if (is_category( 'fullframe' )){ ?> style="color:#FFFFFF"  <?php } ?> >  35mm full frame | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/aps/" <?php if (is_category( 'aps' )){ ?> style="color:#FFFFFF"  <?php } ?> >  35mm 1.6x crop | </a>
 						</div>
 
 						<div class="NewsTable" style="padding:5px" >_Tags by Lens_ :</span>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mamiya80mm28afd/" <?php if (is_category( 'mamiya80mm28afd' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Phase One 80mm f2.8 AF _ </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mamiya150mm35af/" <?php if (is_category( 'mamiya150mm35af' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Mamiya 150mm f3.5 AF _ </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mamiya210mm40af/" <?php if (is_category( 'mamiya210mm40af' )){ ?> style="color:#FFFFFF"  <?php } ?> >  M</span>amiya 210mm f4.0 MF _ </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canonl24-70mm28/" <?php if (is_category( 'canonl24-70mm28' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon L 24-70mm f2.8 _ </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canonl70-200mm28/" <?php if (is_category( 'canonl70-200mm28' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon L 70-200mm f2.8 _ </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canonl17-40mm40/" <?php if (is_category( 'canonl17-40mm40' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon L 17-40mm f4.0 _ </a>
-							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canon50mm14/" <?php if (is_category( 'canon50mm14' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon L 50mm f1.4 _ </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mamiya80mm28afd/" <?php if (is_category( 'mamiya80mm28afd' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Phase One 80mm f2.8 AF | </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mamiya150mm35af/" <?php if (is_category( 'mamiya150mm35af' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Mamiya 150mm f3.5 AF |  </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/mamiya210mm40af/" <?php if (is_category( 'mamiya210mm40af' )){ ?> style="color:#FFFFFF"  <?php } ?> >  M</span>amiya 210mm f4.0 MF |  </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canonl24-70mm28/" <?php if (is_category( 'canonl24-70mm28' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon L 24-70mm f2.8 |  </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canonl70-200mm28/" <?php if (is_category( 'canonl70-200mm28' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon L 70-200mm f2.8 |  </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canonl17-40mm40/" <?php if (is_category( 'canonl17-40mm40' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon L 17-40mm f4.0 |  </a>
+							<a class="topbar-cta-link" href="http://photos.ezequielm.com/category/canon50mm14/" <?php if (is_category( 'canon50mm14' )){ ?> style="color:#FFFFFF"  <?php } ?> >  Canon L 50mm f1.4 |  </a>
 						</div>
+                                                
 				      </tr>
 				    </table>
 				</div>
@@ -292,7 +293,7 @@ if(isset($page->ID))
 
           	</nav>
             <div class="navbar navbar-inverse navbar-fixed-top" >
-              <div class="navbar-inner" style="height:20px;min-height:20px;">
+              <div  style="height:20px;min-height:20px;">
                 <div class="pull-left" >
                   <button type="button;" style="text-align=left" id="left-menu-toggle" class="btn btn-navbar off-canvas-menu-toggle" ><div class="blancoBold">
                     <img src=http://www.ezequielm.com/iFrameContent/webImages/leftArrow.png> tags </div>
@@ -323,34 +324,18 @@ if(isset($page->ID))
 			    <div class="menu-top-container">
 			      <ul id="menu-top" class="menu">
                                 <?php //TODO Replace with site_url, and cat list under MainCaterogies from site options ?>
-			        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://photos.ezequielm.com/category/panoramas/" 
-			        	<?php if (is_category( 'panoramas' )){ ?> 
-			        		style="color:#FFFFFF" 
-			        		<?php } ?> >Panoramas</a></li>
-			        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://photos.ezequielm.com/category/landscapes/" 
-			        	<?php if (is_category( 'landscapes' )){ ?> 
-			        		style="color:#FFFFFF" 
-			        		<?php } ?> >Landscapes</a></li>
-			        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://photos.ezequielm.com/category/places/ "
-			        	<?php if (is_category( 'places' )){ ?> 
-			        		style="color:#FFFFFF" 
-			        		<?php } ?> >Places</a></li>
-			        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://photos.ezequielm.com/category/people/" 
-			        	<?php if (is_category( 'people' )){ ?> 
-			        		style="color:#FFFFFF" 
-			        		<?php } ?> >people</a></li>
-			        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://photos.ezequielm.com/category/flash/" 
-			        	<?php if (is_category( 'flash' )){ ?> 
-			        		style="color:#FFFFFF" 
-			        		<?php } ?> >strobes</a></li>
-			        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://photos.ezequielm.com/world-map/" 
-			        	<?php if (is_page( 'world-map' )){ ?> 
-			        		style="color:#FFFFFF" 
-			        		<?php } ?> >worldMap</a></li>
-			        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://photos.ezequielm.com/about/" 
-			        	<?php if (is_page( 'about' )){ ?> 
-			        		style="color:#FFFFFF" 
-			        		<?php } ?> >about</a></li>
+                                <?php 
+                                $items = wp_get_nav_menu_items( "main", $args );
+                                    foreach($items as $item)
+                                        {
+                                        echo '<li class="menu-item menu-item-type-post_type menu-item-object-page" ';
+                                        
+                                        echo '> <a href="' . $item->url . '" ';
+                                        if (is_category( $item->title )){           echo 'style="color:#FFFFFF"';
+                                        }
+                                        echo ' >' . $item->title . "</a></li>";
+                                        }
+                                        ?>  
 			      </ul>
 			    </div>
 			  </div>

@@ -36,7 +36,7 @@ HELP NEEDED:
 After failing to find a nice image driven theme for wordpress to show my photos that would not look like every other theme. I started doing my own. Quickly it grew up into quite big enough project, with lots of features added over a period of one year and a half.
 Now, I'm planning to extend it and making it more flexible for people to use it and customize, keeping it openSource, while retaining the original idea of the image driven blogging.
 
-Write to ezequielm at gmail dot com if you feel like contributing
+Feel like contributing? fork away!
 
 
 Looking forward to hear from you!
@@ -46,7 +46,8 @@ Looking forward to hear from you!
 To do:
 ------
 * general House Keeping
-* color theme files for site and map
+* wordpress 100% compatible code needed
+* merge site css files to customize colors and look in a better way
 * make gigapan category to use a free flash highRes viewer similar to krPano
 * automatically generate left column from categories parents as in
   parentCat1Link: linkToCat,  linkToCat2, linkToCat3

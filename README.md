@@ -16,6 +16,8 @@ The theme features:
 * touch/click drag the thumbnails to scroll (desktop and mobile compatible)
 * top menu plugin for main categories and pages
 * select website styles, and google maps styles!
+	wanna add more map styles? easy! duplicate any map style .js file, rename it
+	and add your own colors! or simply paste styles from http://snazzymaps.com/
 * customize layout with up to up to 5 columns or rows, image size and padding
 * top fixed bar for important information, related links, or even adds
 * left off-canvas column for categories links and tags built from a menu

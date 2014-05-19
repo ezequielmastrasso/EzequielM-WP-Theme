@@ -13,21 +13,19 @@ The theme features:
 ------------------
 * mobile and touch compatible
 * auto size and adjustments for desktop, tablet and mobiles
-* touch/click drag the thumbnails to browse (desktop and mobile compatible)
-* top menu for main categories
-* customize amount of rows/columns (up to 5)
-* image size and padding
+* touch/click drag the thumbnails to scroll (desktop and mobile compatible)
+* top menu plugin for main categories and pages
+* select website styles, and google maps styles!
+* customize layout with up to up to 5 columns or rows, image size and padding
 * top fixed bar for important information, related links, or even adds
-* left off-canvas column for categories links and tags
+* left off-canvas column for categories links and tags built from a menu
 * custom fields for:
   1. gps Coords
   2. thumbnails
   3. midRes
-  4. HighRes (using a custom krPano)
-  5. xml for gigapans
+  4. HighRes (using krPano, 1 file or pano tiled multires, etc)
   6. facebook thumbnails
   7. facebook likes and shares
-  8. mySql and xml for integrating krPano flash tools for gigapixelpanoramas and high Resolution images online display on wordpress posts together with on the fly google maps integrated thumbnail generation.
 *exif info taken from images
 * copyrights, license and photo info credits
 
@@ -52,12 +50,7 @@ To do:
   parentCat1Link: linkToCat,  linkToCat2, linkToCat3
   parentCat2Link: linkToCat4, linkToCat5, linkToCat6
 * get css controls from inside wp-admin panel theme editor for:
-  1. site in general
-  2. siteLogo from admin area
-  3. scroll iframe size (currently fixed size)
-  4. thumbs size
-  5. top menu items
-  6. google API themed map
+  1. scroll iframe size (currently fixed size)
 * bring comments back to the theme
 * and probably a lot more
 

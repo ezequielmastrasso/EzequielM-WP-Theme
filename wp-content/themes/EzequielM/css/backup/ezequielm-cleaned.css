@@ -1,0 +1,169 @@
+<style type="text/css">
+<!--
+
+.Gris {
+	font-family: ColaborateThin;
+	font-size: 17px;
+	font-style: normal;
+	color: #5C5C5C;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.blancoBold {
+	font-family: Colaborate;
+	font-size: 18px;
+	font-style: normal;
+	color: #AAAAAA;
+	letter-spacing: 0px;
+	padding-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {text-decoration:none;color:#38a3d9;}
+a:visited {text-decoration:none;color:#38a3d9;}
+a:hover {text-decoration:underline;color:#38a3d9;}
+a:active {text-decoration:underline;color:#38a3d9;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body, html {
+    height: 100%;
+    overflow-x:hidden;
+}
+
+#outer-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+
+
+
+.off-canvas-menu {
+    width: 80%;
+    height:100%;
+    background: #000000;
+    position: absolute;
+    top:0;
+
+    -webkit-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+    box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+
+    padding-top: 0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav#left-menu {
+    left: -80%;
+}
+
+
+#inner-wrapper {
+    overflow: hidden;
+    min-height: 100%;
+
+    padding-top: 0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#outer-wrapper .navbar.navbar-fixed-top {
+    position: absolute;
+}
+
+.navbar.navbar-fixed-top .btn.btn-navbar.off-canvas-menu-toggle {
+    display: block;
+    min-height: 10px;
+    height: 20px;
+    text-align: left;
+    vertical-align: center;
+    width: 100px;
+    padding: 0px;
+    background: #000000;
+    margin: 0;
+    border-radius: 0;
+    border-right: 1px solid #000;
+}
+
+@media (max-width: 767px) {
+    body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	#inner-wrapper {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.navbar-fixed-top {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+-->
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

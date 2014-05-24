@@ -21,6 +21,7 @@ The theme features:
 * customize layout with up to up to 5 columns or rows, image size and padding
 * top fixed bar for important information, related links, or even adds
 * left off-canvas column for categories links and tags built from a menu
+* search by color page!
 * custom fields for:
   1. gps Coords
   2. thumbnails
@@ -47,6 +48,8 @@ To do:
 ------
 * general House Keeping
 * wordpress 100% compatible code needed
+* search by color need better color picker, jquerys one?
+* when pressing back on the browser, the rgb fields are correct, but picker gets resetted
 * merge site css files to customize colors and look in a better way
 * make gigapan category to use a free flash highRes viewer similar to krPano
 * automatically generate left column from categories parents as in

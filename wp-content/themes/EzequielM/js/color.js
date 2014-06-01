@@ -705,7 +705,11 @@ function createAreaBasedPalette(sourceImage, colorCount) {
      
 
 
-$(document).ready(function () {
+$(window).load(function () {
+   
+   
+   try{
+   
    var image = $("img");
         var imageSection = image.closest('.imageSection');
         var appendColors = function (colors, root) {
@@ -726,4 +730,9 @@ $(document).ready(function () {
         var medianPalette = createPalette(image, colorCount);
         var medianCutPalette = imageSection.find('.medianCutPalette .swatches');
         appendColors(medianPalette, medianCutPalette);
+    }
+    catch (e){
+        
+    }
+     
 });

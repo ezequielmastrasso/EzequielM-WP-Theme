@@ -6,15 +6,11 @@
 
  * @package WordPress
 
- * @subpackage Kin
+ * @subpackage EzequielM
 
  */
 
-/**
-
-*	Get all photos
- * 
- * 
+/** 
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 **/
@@ -105,10 +101,12 @@ if(!empty($all_photos)) { ?>
 		<div id="scroller">
 		<!-- Begin content -->
 		<div id="content_wrapper">
+                    <!-- Begin loop through each row as in option eze_gallery_rows -->
                     <?php foreach ($all_rows as $column){?>
                         
                         <div class="inner" style="height:<?php echo $eze_gallery_height?>px;width:82px">
 				<input type="hidden" id="gallery_width" name="gallery_width" value="<?php echo ($eze_gallery_width/3)?>px"/>
+                                <!-- Begin loop through each post, create a div to contain the thumb and the show on hover title -->
 				<?php
                                     foreach($column as $key => $photo){	
                                         $image_url = get_post_meta($photo->ID, 'gallery_image_url', true);
@@ -120,31 +118,23 @@ if(!empty($all_photos)) { ?>
 				<div class="card" style="width:<?php echo intval($eze_gallery_width); ?>px;height:<?php echo intval($eze_gallery_height)?>;margin: <?php echo $padding ?>;">
 				<a href="<?php echo $image_url_permalink ?>" >
 				<img src="<?php echo $small_image_url?>" alt="" style="width:<?php echo intval($eze_gallery_width); ?>px;;height:<?php echo intval($eze_gallery_height); ?>px;"/> 
-				</a>
-                                <div style="text-align:left"><code> </code></div>
+				
+                                <div style="text-align:left;text-decoration: none;"><code> </code></div>
 					<?php
 						if(!empty($photo->post_title) OR !empty($photo->post_content)){
 					?>
-					<div class="title">
+					<div class="title" style="text-align:left;text-decoration: none;">
 						<?php if(!empty($photo->post_title)){	?>
-							<h2><?php echo $photo->post_title ?></h2>
+							<?php echo $photo->post_title ?>
 						<?php } ?>
 					</div>
 					<?php }	?>
+                                </a>
 				</div>
                                 <?php	} ?>
 			</div>
 		<?php	} ?>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+                                  
 			<div>
 		<img src="<?php bloginfo( 'stylesheet_directory' ); ?>/webImages/clickAndDrag.png" alt="">
 		</div>
@@ -152,7 +142,7 @@ if(!empty($all_photos)) { ?>
 		</div>
 		</div>
 		<div class=" topbar-right topbar-dark-images topbar-button-default topbar-button" id="topbar-wrapper" style="display: block; position: fixed; width: 100%;left: 0px; z-index: 5000;background:#0f0f0f;">
-	</div>
+                </div>
 		
 </div>
 	

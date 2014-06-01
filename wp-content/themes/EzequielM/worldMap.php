@@ -7,93 +7,17 @@ Template Name: world-map
 
 <?php get_header();?>
 
+<!-- js needed for map-->
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclusterer/1.0/src/markerclusterer.js"></script>
-<script type="text/javascript" src="http://photos.ezequielm.com/wp-content/themes/EzequielM/mapUtils/infobox.js"></script>
-<script type="text/javascript" src="http://photos.ezequielm.com/wp-content/themes/EzequielM/mapUtils/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/mapUtils/infobox.js"></script>
 
-
+<!-- map style js array-->
+<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' ) . '/css/skins/' . get_option('eze_googleMapsSkin');?>"></script>
 
 <script type="text/javascript">
   function initialize() {
-    var styles = [
-  {
-    "featureType": "water",
-    "stylers": [
-      { "invert_lightness": true },
-      { "gamma": 0.6 }
-    ]
-  },{
-    "featureType": "landscape.natural",
-    "stylers": [
-      { "color": "#232323" }
-    ]
-  },{
-    "featureType": "administrative.country",
-    "stylers": [
-      { "visibility": "on" },
-      { "invert_lightness": true }
-    ]
-  },{
-    "featureType": "administrative.country",
-    "elementType": "geometry",
-    "stylers": [
-      { "visibility": "on" }
-    ]
-  },{
-    "featureType": "administrative.country",
-    "stylers": [
-      { "visibility": "off" }
-    ]
-  },{
-    "featureType": "transit",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      { "visibility": "off" }
-    ]
-  },{
-    "featureType": "road",
-    "stylers": [
-      { "color": "#808080" }
-    ]
-  },{
-    "featureType": "administrative.locality",
-    "stylers": [
-      { "visibility": "on" },
-      { "invert_lightness": true }
-    ]
-  },{
-    "featureType": "administrative.province",
-    "stylers": [
-      { "visibility": "off" }
-    ]
-  },{
-    "featureType": "administrative.country",
-    "stylers": [
-      { "visibility": "on" }
-    ]
-  },{
-    "featureType": "landscape.man_made",
-    "stylers": [
-      { "color": "#414141" }
-    ]
-  },{
-    "featureType": "poi.park",
-    "stylers": [
-      { "visibility": "on" },
-      { "invert_lightness": true }
-    ]
-  },{
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      { "visibility": "on" },
-      { "color": "#c8c8c8" },
-      { "invert_lightness": true }
-    ]
-  }
-];
-
+      
 
     var myMapOptions = {
         mapTypeControlOptions: {

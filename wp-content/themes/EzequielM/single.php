@@ -35,32 +35,49 @@ img {
  </style>
 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-1.10.0.min.js"></script>
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/offCanvasNews.js"></script>
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/bootstrap.min.css" rel="stylesheet">
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ezequielm.css" rel="stylesheet">
+<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/colorThief.css" rel="stylesheet">
 <?php //TODO replace with site option ?>
 <link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ch-chengdu_01.jpg" />
 
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<!-- Jquery and plugins from Bootstrap-->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery_004.js"></script>
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-ui.js"></script>
 
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/menu-cleaned.css">
+
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/style-cleaned.css" type="text/css" media="all"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/fonts/fonts.css"> 
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery_004.js"></script>
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/color.js"></script>
+
+
+<!--[if IE]>
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie.css" type="text/css" media="all"/>
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie7.css" type="text/css" media="all"/>
+<![endif]-->
+
+
+<!-- OK TO REMOVE 
+
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-ui.js"></script>
 <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/black-cleaned.css" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/fancybox/jquery.fancybox-1.3.0.css" media="screen"/>
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/skins/black.css" type="text/css" media="all"/>
+-->
+
+
+
+
+
+
+
+
+
 
 <script>
     "use strict";
@@ -91,18 +108,7 @@ img {
 	}
 ?>
 
-<!-- Template stylesheet From WORDPRESS-->
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/style-cleaned.css" type="text/css" media="all"/>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/fonts/fonts.css"> 
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/skins/black.css" type="text/css" media="all"/>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/fancybox/jquery.fancybox-1.3.0.css" media="screen"/>
 
-<!--[if IE]>
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie.css" type="text/css" media="all"/>
-<![endif]-->
-<!--[if IE 7]>
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie7.css" type="text/css" media="all"/>
-<![endif]-->
 
 
 
@@ -118,13 +124,13 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
 document.addEventListener('DOMContentLoaded', loaded, false);
 </script>
 
-<!-- Jquery and plugins from WORDPRESS-->
+<!-- Jquery and plugins from WORDPRESS
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.ui.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/fancybox/jquery.fancybox-1.3.0.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.validate.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/custom.js"></script>
-
+-->
 <script>
 var open = false;
 var big = ($(window).width() >= 720 ? true : false);
@@ -203,152 +209,40 @@ border-bottom-color:#000000;
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 <?php
 $eze_blog_page = get_option('eze_blog_page');
 //Make blog menu active
 if(!empty($eze_blog_page))
 {}
+$siteurl=  get_site_url();
 
 $image_url =get_post_meta($post->ID, 'gallery_image_url', true);
 $eze_gallery__mediaRoot = get_option('eze_mediaRoot');
 $eze_gallery_highResFolder = get_option('eze_highRes');
-$imageHighRes_url = get_post_meta($post->ID, 'gallery_imageHighRes_url', true);
+$eze_gallery_fbThumb = get_option('eze_fbThumbs');
 
+$imageHighRes_url = get_post_meta($post->ID, 'gallery_imageHighRes_url', true);
+$imageThumb_fb_url = get_post_meta($post->ID, 'gallery_preview_fb_image_url', true);
+
+//midRes filename
 $eze_gallery_midRes = get_option('eze_midRes');
+//mid res to show on post
 $midResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_midRes . '/' . $image_url;
-$siteurl=  get_site_url();
+//facebook thumbnail
+$thumb_fbUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_fbThumb . '/' . $imageThumb_fb_url ;
 
 
 ?>
+
+
                 <!-- Begin content -->
+                
 <div id="page_content_wrapper">
     <div class="inner">
         <?php
         if (have_posts()) : while (have_posts()) : the_post();
         ?>
-        <!-- Begin each blog post -->
+        <!-- post info!-->
 
         <div id="outer-wrapper" style="height:80%">
             <div id="inner-wrapper">
@@ -359,7 +253,20 @@ $siteurl=  get_site_url();
                                 <tr>
                                     <div class="NewsTable" style="padding:7px;" >post Content:</span><br>
                                         <?php echo the_content()?>
+	                                    <?php echo get_post_meta($post->ID, 'credits', true); ?> <br>	
                                     </div>
+	                            <div class="NewsTable" style="padding:7px;" >extracted Color Palette :<br>
+                                            <div class="imageSection  ">
+                                                <div style="height: 60px; float: left">
+                                                    <img class="targetImage" src="<?php echo $thumb_fbUrl?>" >--->
+                                                </div>
+                                            <span class="colors">
+                                              <span class="function medianCutPalette clearfix"><span class="swatches"></span>
+                                              </span>
+                                            </span>
+                                          </div>
+                                    </div>						
+
                                     <div class="NewsTable" style="padding:7px;" >Other links:<br>
                                         <?php if ( get_post_meta($post->ID, 'gallery_imageHighRes_url', true)) {?>
                                         <?php 
@@ -378,9 +285,10 @@ $siteurl=  get_site_url();
                                             | <a href="<?php echo get_post_meta($post->ID, 'gallery_alternative_url', true);?>"target="_blank">alternativeLink</a> |
                                         <?php } ?>
                                     </div>
+                                    
                                     <?php if ( get_post_meta($post->ID, 'credits', true)){ ?>
                                     <div class="NewsTable" style="padding:7px;" >credits:<br></span>
-                                        <?php echo get_post_meta($post->ID, 'credits', true); ?> <br>
+                                        
                                     </div>
                                     <?php }?>
                                     <div class="NewsTable" style="padding:7px;" >
@@ -428,11 +336,12 @@ $siteurl=  get_site_url();
                         <button type="button;" id="left-menu-toggle" style="padding:0px;background-color:#000000;border:0px;">
                                 <img src="<?php echo $midResUrl ?>"/><br>
                         </button>
+                        
+                        
+                        
                         </div>
                     <?php endwhile; endif; ?>
 
-                    </div>
-                </div>
             </div>
             </div>
         </div>

@@ -16,8 +16,12 @@ menu, footer, header, nav, section, summary, time, mark, audio, video {
 	line-height: 11px;
 	-webkit-font-smoothing: antialiased;
 	text-decoration: none;
+        
 }
-
+a { text-decoration: none; }
+a:hover { 
+    text-decoration: none;
+}
 article, aside, canvas, figure, figcaption, hgroup,
 footer, header, nav, section, audio, video {
 	display: block;

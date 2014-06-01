@@ -8,7 +8,7 @@
 
  * @package WordPress
 
- * @subpackage Kin
+ * @subpackage Eze
 
  */
 
@@ -17,6 +17,21 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+<script type="text/javascript">
+function myfunction()
+{
+url='http://photos.ezequielm.com/bycolor/'
+url=url+"?r="+document.getElementById('red').value;
+url=url+"&g="+document.getElementById('green').value;
+url=url+"&b="+document.getElementById('blue').value;
+url=url+"&range="+document.getElementById('range').value;
+window.open(url,"_self")
+}
+</script>
+
+
+<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jscolor/jscolor.js"></script>
+
 <title><?php bloginfo('name'); ?></title>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -24,23 +39,47 @@
 <meta name="description" content="Ezequiel Mastrasso Medium Format Phase one Photographie Site- Lighting Supervisor">
 <meta name="keywords" content="Ezequiel Mastrasso, ezequiel, mastrasso, photos, photographie, photography, lighting, TD, technical director, lighter, fur, hair, renderman, 3delight, maya, 3d studio max, xsi, houdini, nuke, linux, shaders, shader writing, mental ray, c, c++, plugins, maya nodes, maya plugins, brown bag films, hugglemonters, henry hugglemonster, doc mcstuffins, peter rabbit, pringles, feu vert, de la post, paris, germany, dusseldorf, italy, indonesia, singapore, asia, europe, united kingdom, ireland, northern ireland, scotland, whales, photography, phase one, P25+, mamiya, afd, afdII, afdIII, canon, high resolution, leaf, leaf aptus, spain, france, rome, south america, america, argentina, laos, china, cambodia, thailand, united araba emirates, geneva, zurich, barcelona, siem reap, bangkok, phiphi, james bond island, cat ba, amsterdam, paris, mount saint mitchell, sligo, galway, connemara, london, cambridge, sion, bled, lake bled, monaco, berlin, hamburg, venice">
 
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-1.10.0.min.js"></script>
+<!-- Jquery and plugins from Bootstrap-->
 <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/bootstrap.min.js"></script>
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/offCanvasNews.js"></script>
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/bootstrap.min.css" rel="stylesheet">
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery_004.js"></script>
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/offCanvasNews.js"></script>
+
+<!-- EzequielM Css for colors, fonts, and off canvas frame-->
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ezequielm.css" rel="stylesheet">
-<?php //TODO replace with site option ?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/menu-cleaned.css">
+<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/fonts/fonts.css"> 
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/style-cleaned.css" type="text/css" media="all"/>
+
+<!--[if IE]>
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie.css" type="text/css" media="all"/>
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie7.css" type="text/css" media="all"/>
+<![endif]-->
+
+
+<!-- Template stylesheet From WORDPRESS-->
+
+
+
+
+
+
+<!-- img for when liked in facebook-->
 <link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ch-chengdu_01.jpg" />
 
+<!-- OK TO REMOVE
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-ui.js"></script>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<!-- Jquery and plugins from Bootstrap-->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery_004.js"></script>
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-ui.js"></script>
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-1.10.0.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/skins/black.css" type="text/css" media="all"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/fancybox/jquery.fancybox-1.3.0.css" media="screen"/>
+-->
 
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/menu-cleaned.css">
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/black-cleaned.css" type="text/css" media="all">
+
 
 <script>
     "use strict";
@@ -71,18 +110,7 @@
 	}
 ?>
 
-<!-- Template stylesheet From WORDPRESS-->
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/style-cleaned.css" type="text/css" media="all"/>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/fonts/fonts.css"> 
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/skins/black.css" type="text/css" media="all"/>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/fancybox/jquery.fancybox-1.3.0.css" media="screen"/>
 
-<!--[if IE]>
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie.css" type="text/css" media="all"/>
-<![endif]-->
-<!--[if IE 7]>
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie7.css" type="text/css" media="all"/>
-<![endif]-->
 
 
 
@@ -106,12 +134,12 @@ document.addEventListener('DOMContentLoaded', loaded, false);
 <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/custom.js"></script>
 
 <script>
-var open = false;
+var _open = false;
 var big = ($(window).width() >= 720 ? true : false);
 $(document).ready(function() {
   $('#navbutton').click(function(){
     $('#menu-bar #inner ul').toggle('blind',{},1000);
-    open = (open == true ? false : true);
+    _open = (_open == true ? false : true);
   });
 
 });
@@ -166,6 +194,9 @@ body {
     border-width: 1px;
     width: 282x;
 }
+.hexColor {
+    background-color: #222222;
+width:30px; }
 -->
 </style>
 

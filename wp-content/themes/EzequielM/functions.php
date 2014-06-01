@@ -302,7 +302,7 @@ array( "name" => "show post content",
 ),
 array( "name" => "google Maps Skins",
 	"desc" => "Select the skin for the world-map page",
-	"id" => $shortname."_skin",
+	"id" => $shortname."_googleMapsSkin",
 	"type" => "select",
 	"options" => $eze_seze_arr,
 	"std" => "white"

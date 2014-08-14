@@ -35,22 +35,23 @@ $eze_blog_page = get_option('eze_blog_page');
 get_header();
 
 ?>
-		<div id="scroller">
-		<!-- Begin content -->
-		<!-- Begin content -->
-		<div id="page_content_wrapper">
-			<div class="inner">
-				<!-- Begin main content -->
-				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>		
-					<?php do_shortcode(the_content()); ?><br/><br/>
-				<?php endwhile; ?>
-				<!-- End main content -->
-				<br class="clear"/>
-			</div>
-			
-		</div>
-		<!-- End content -->
 
+
+		<!-- End content -->
+<div  class="iFrameSection">
+        <!-- Begin content -->
+        
+		<!-- Begin content -->
+                
+        
+            <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>		
+            <?php do_shortcode(the_content()); ?><br/><br/>
+            <?php endwhile; ?>
+                
+                
+        
+        
+</div>
 
 <?php get_footer(); ?>
 

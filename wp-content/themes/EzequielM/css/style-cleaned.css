@@ -10,137 +10,6 @@ Author URI: http://themeforest.net/user/peerapong
 	CSS Reset 
 */
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
-{
-	margin:0;
-	padding:0;
-	border:0;
-	font-weight:inherit;
-	font-style:inherit;
-	font-size:101%;
-	font-family:inherit;
-        line-height: 14px;
-	vertical-align:top;
-}
-body 
-{
-	-webkit-user-select:none;
-    -webkit-text-size-adjust:none;
-	line-height:1.5;
-
-}
-blockquote:before, blockquote:after, q:before, q:after 
-{
-	content:"";
-}
-blockquote, q 
-{
-	quotes:"" "";
-}
-a img 
-{
-	border:none;
-}
-
-/*
-	Global Layout
-*/
-
-
-
-html
-{
-	overflow-x: visible;
-}
-
-body
-{
-	background: #000000;
-	font-size: 13px;
-	font-family: Arial,"helvetica neue",Helvetica,Verdana,sans-serif;
-	padding: 1px 1px 1px 1px;
-	margin: 0;
-	color: #959595;
-}
-
-
-h1
-{
-	font-size: 36px;
-	color: #fff;
-	font-family: ColaborateThin;
-	text-transform: uppercase;
-	letter-spacing: 0px;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);zoom:1;
-}
-
-h2
-{
-	font-size: 24px;
-	font-weight: normal;
-	color: #fff;
-}
-
-h3
-{
-	font-size: 20px;
-	font-weight: normal;
-	color: #fff;
-}
-
-h4
-{
-	font-size: 18px;
-	font-weight: normal;
-	color: #fff;
-}
-
-h5
-{
-	font-size: 16px;
-	font-weight: normal;
-	color: #fff;
-}
-
-.clear
-{
-	clear: both;
-}
-
-
-
-
-
-blockquote
-{
-	padding-left: 60px;
-	width: 90%;
-	background: transparent url("../images/quote_bg.png") no-repeat top left;
-	min-height: 50px;
-	margin: 0 0 10px 0;
-}
-a
-{
-	color: #525252;
-	text-decoration: none;
-}
-
-
-code {
-	display: block;
-	font: mono;
-        font-size:14px;
-	overflow: auto;
-	-moz-opacity: 0.8;
-	-khtml-opacity: 0.8;
-	opacity: 0.8;
-}
-
-
-
-
-
-
 
 #wrapper
 {
@@ -150,22 +19,13 @@ code {
 
 	overflow:auto;
 }
-#scroller {
-	width:5500px;
-	height:100%;
-	float:left;
-	padding:0;
-}
-
 
 #content_wrapper
 {
-	width: 2679px;
-	float: left;
+	width: 80%;
 	vertical-align: top;
 	margin: 0px 0px 0px 0px;
 	padding:  0px 0px 0px 0px;
-	overflow: visible;
 
 }
 

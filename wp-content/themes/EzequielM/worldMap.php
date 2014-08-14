@@ -30,7 +30,7 @@ overviewMapControlOptions: {
 },
   center: new google.maps.LatLng(25, 20),
 
-  zoom: 2,
+  zoom: 3,
   disableDefaultUI: false, 
 
   mapTypeId: 'Styled'
@@ -102,7 +102,7 @@ jQuery.get("../worldmapxml", {}, function(data) {
 <title>WorldMap</title>
 </head>
 <body onload="initialize()">
-  <div id="map_canvas" style="width: 100%; height: 500px"></div>
+  <div id="map_canvas" style="width: 100%; height: 100%"></div>
 </body>
 
 </html>

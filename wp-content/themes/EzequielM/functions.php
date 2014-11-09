@@ -208,10 +208,15 @@ array( "name" => "media Folder",
 	"id" => $shortname."_fbThumbs",
 	"type" => "text",
 	"std" => "fbThumbs",
-),
-
-
-array( "type" => "close"),
+)
+,array( "name" => "404 image",
+	"desc" => "404 image",
+	"id" => $shortname."_404",
+	"type" => "text",
+	"std" => "404.jpg",
+)
+    
+,array( "type" => "close"),
 //End second tab "Gallery"
 
 

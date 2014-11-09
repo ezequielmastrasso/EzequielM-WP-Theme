@@ -55,7 +55,7 @@ font-family: ColaborateLight;
 }
 
 .section{
-	text-align:center;
+	//text-align: left;
 }
 #menu li {
 	display:inline-block;

@@ -11,11 +11,6 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
  */
 
-
-
-
-
-
 if (is_home()) {
     //Redirect to category set in settings if page is Home
     $eze_home_cat = get_option('eze_home_cat');
@@ -51,40 +46,79 @@ if (($cnt % $photosPerPage)!=0 ){
 }
 
 $pages= array_chunk($all_photos, $photosPerPage);
-
-
-
 get_header();
 do_shortcode(the_content());
-if(!empty($all_photos)) { ?>
 
-<div class="section " id="section0">
-                <?php foreach($pages as $page){ ?>
+if ( isset( $_GET['mode'] ) && $_GET['mode']==slideshow ){
+    //do slide of category photos!
+?>
+    <div class="section " id="section0">
+            <?php foreach($all_photos as $post){ ?>
+            <div class="slide">
+                <?php 
+                $image_url_permalink = get_permalink( $photo->ID );?> 
+                <iframe style="margin-top: 80px;margin-left: 5%;margin-right: 5%;height: 90%; width: 90%"src="<?php echo $image_url_permalink; ?>"></iframe> 
+            </div>
+            <?php } ?>
+    </div>
+<?php
+} else {
+    //no slideshow, thumbnails view
+    if(!empty($all_photos)) { ?>
+        <div class="section " id="section0">
+            <?php foreach($pages as $page){ ?>
                 <div class="slide">
-		<!-- Begin content -->
-                <div style="width: 90%;height:85%;margin: 0 auto;margin-top: 80px;vertical-align: middle;padding-left: 2%">
-				<?php
-                                    foreach($page as $photo){
-                                        $image_url = get_post_meta($photo->ID, 'gallery_image_url', true);
-                                        $small_image_url = get_post_meta($photo->ID, 'gallery_preview_image_url', true);
-                                        $image_url_permalink = get_permalink( $photo->ID );
-                                        $gallery_buyPrint_url= get_post_meta($photo->ID, 'gallery_buyPrint_url', true);
-                                        $small_image_url= $siteurl . '/' . $eze_gallery__mediaRoot . '/'. $eze_gallery_thumbs . '/' . $small_image_url ;
-				?>
-				
-				<a href="<?php echo $image_url_permalink ?>" >
-                                    <img src="<?php echo $small_image_url?>" class="border" alt="" style="max-width: 7%;min-width: 7%;max-height: 55%"/> 
-				
-                                </a>
-				
-                                <?php	} ?>
+                <!-- Begin content -->
+                    <div style="width: 90%;height:85%;margin: 0 auto;margin-top: 80px;vertical-align: middle;padding-left: 2%">
+                        <?php
+                        //DUPLICATED functionality so we can do this table arragement NEEDS RECODING
+                        //1357...
+                        //2468...
+                        $i = 0;
+                            foreach($page as $photo){
+                                if ($i++ % 2 != 0) continue;
+                                $image_url = get_post_meta($photo->ID, 'gallery_image_url', true);
+                                $small_image_url = get_post_meta($photo->ID, 'gallery_preview_image_url', true);
+                                $image_url_permalink = get_permalink( $photo->ID );
+                                $gallery_buyPrint_url= get_post_meta($photo->ID, 'gallery_buyPrint_url', true);
+                                $small_image_url= $siteurl . '/' . $eze_gallery__mediaRoot . '/'. $eze_gallery_thumbs . '/' . $small_image_url ;
+                        ?>
+                        <a href="<?php echo $image_url_permalink ?>" >
+                            <img src="<?php echo $small_image_url?>" class="border" alt="" style="max-width: 7%;min-width: 7%;max-height: 55%"/> 
+                        </a>
+                        <?php	} ?>
+
+                        <?php //duplicate begin
+                        $i = 0;
+                            foreach($page as $photo){
+                                if ($i++ % 2 == 0) continue;
+                                $image_url = get_post_meta($photo->ID, 'gallery_image_url', true);
+                                $small_image_url = get_post_meta($photo->ID, 'gallery_preview_image_url', true);
+                                $image_url_permalink = get_permalink( $photo->ID );
+                                $gallery_buyPrint_url= get_post_meta($photo->ID, 'gallery_buyPrint_url', true);
+                                $small_image_url= $siteurl . '/' . $eze_gallery__mediaRoot . '/'. $eze_gallery_thumbs . '/' . $small_image_url ;
+                        ?>
+
+                        <a href="<?php echo $image_url_permalink ?>" >
+                            <img src="<?php echo $small_image_url?>" class="border" alt="" style="max-width: 7%;min-width: 7%;max-height: 55%"/> 
+                        </a>
+                        <?php	} ?>
+                    </div>
                 </div>
-                </div>
-                
-		<?php	} ?>
-    <div class="slide" ></div>
-</div>
+            <?php	} ?>
+            <div class="slide" style="margin-top:80px;">
+                 <div style="margin-left:5%;">
+                    <?php 
+                    $page_id = get_page_by_title( 'tags' );
+                    $page_data = get_page( $page_id );  
+                    echo $page_data->post_content;
+                    ?>
+                 </div>
+            </div>
+        </div>
     
-		<?php	} ?>
+<?php } ?>
                 
 <?php get_footer(); ?>
+
+<?php	} ?>

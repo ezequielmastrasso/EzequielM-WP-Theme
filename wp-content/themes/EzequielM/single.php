@@ -10,48 +10,17 @@
     <link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-donegal_holyHead_01.jpg" />		
 <?php }
 ?>	
-
-    <title> <?php echo get_the_title() ?> </title>
+<title> <?php echo get_the_title() ?> </title>
 </head>
 
-<style type="text/css">
-  body {
-    padding: 5px 0px 0px 5px; }
-</style>
-<style type="text/css">
 
-img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 90%;
-}
-.btn{
-    padding: 40px 40px;
-    
-}
-
-
- </style>
-
- 
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-1.10.0.min.js"></script>
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/bootstrap.min.js"></script>
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/offCanvasNews.js"></script>
-<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/bootstrap.min.css" rel="stylesheet">
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ezequielm.css" rel="stylesheet">
-<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/colorThief.css" rel="stylesheet">
 <?php //TODO replace with site option ?>
 <link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ch-chengdu_01.jpg" />
-
-
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/menu-cleaned.css">
-
 <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/style-cleaned.css" type="text/css" media="all"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/fonts/fonts.css"> 
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery_004.js"></script>
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/color.js"></script>
 
 
 <!--[if IE]>
@@ -61,35 +30,6 @@ img {
 <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/ie7.css" type="text/css" media="all"/>
 <![endif]-->
 
-
-<!-- OK TO REMOVE 
-
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery-ui.js"></script>
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/black-cleaned.css" type="text/css" media="all">
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/fancybox/jquery.fancybox-1.3.0.css" media="screen"/>
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/skins/black.css" type="text/css" media="all"/>
--->
-
-
-
-
-
-
-
-
-
-
-<script>
-    "use strict";
-        $(document).ready(function(){
-        new OffCanvasMenuController({
-            $menu: $('#left-menu'),
-            $menuToggle: $('#left-menu-toggle'),
-            menuExpandedClass: 'show-left-menu',
-            position: 'left'
-        });
-    });
- </script>
 
 <?php
     /* Always have wp_head() just before the closing </head>
@@ -108,54 +48,6 @@ img {
 	}
 ?>
 
-
-
-
-
-<!-- iScroll -->
-<script type="application/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/iscroll/iscroll.js"></script>
-<script type="text/javascript">
-
-var myScroll;
-function loaded() {
-	myScroll = new iScroll('wrapper', { zoom: true });
-}
-document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-document.addEventListener('DOMContentLoaded', loaded, false);
-</script>
-
-<!-- Jquery and plugins from WORDPRESS
-<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.ui.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/fancybox/jquery.fancybox-1.3.0.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.validate.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/custom.js"></script>
--->
-<script>
-var open = false;
-var big = ($(window).width() >= 720 ? true : false);
-$(document).ready(function() {
-  $('#navbutton').click(function(){
-    $('#menu-bar #inner ul').toggle('blind',{},1000);
-    open = (open == true ? false : true);
-  });
-
-});
-
-$(window).resize(function() {
-  var width = $(window).width();
-  if (width <= 720 && big && !open) {
-    $('#menu-bar #inner ul').hide();
-    if (big)
-      big = false;
-  }
-  if (width > 720) {
-    if (!big)
-      big = true;
-    $('#menu-bar #inner ul').show();
-  }
-});
-</script>
 <style type="text/css">
 <!--
 body {
@@ -165,109 +57,61 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
 }
-.NewsTop {
-    border-top-style: 0;
-    border-right-style: 0;
-    border-bottom-style: solid;
-    border-left-style: 0;
-    border-color: #69BDE9;
-    border-width: 1px;
-    width: 292px;
-}
-.NewsTableFirst {
-    border-top-style: 0;
-    border-right-style: 0;
-    border-bottom-style: 0;
-    border-left-style: solid;
-    border-color: #2f5569;
-    border-width: 1px;
-    width: 282x;
-}
 .NewsTable {
-    border-top-style: 0;
-    border-right-style: 0;
+    border-top-style: none;
+    border-right-style: none;
     border-bottom-style: dotted;
-    border-left-style: solid;
-    border-right-style: 0;
+    border-left-style: none;
+    border-right-style: none;
     border-color: #2f5569;
     border-width: 1px;
-    width: 282x;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: left;
+   //#width: 282px;
 }
-.btn:first-child{
-    padding:0px 0px;
-background-image:linear-gradient(to bottom,#0C0C0C,#000000);
-border-bottom-color:#000000;
-}
-.btn:hover{
-    background-color:#000000;
-}
-
 -->
 </style>
 
-
- 
- 
- 
 <?php
 $eze_blog_page = get_option('eze_blog_page');
 //Make blog menu active
-if(!empty($eze_blog_page))
-{}
+
 $siteurl=  get_site_url();
-
-$image_url =get_post_meta($post->ID, 'gallery_image_url', true);
-$eze_gallery__mediaRoot = get_option('eze_mediaRoot');
-$eze_gallery_highResFolder = get_option('eze_highRes');
-$eze_gallery_fbThumb = get_option('eze_fbThumbs');
-
-$imageHighRes_url = get_post_meta($post->ID, 'gallery_imageHighRes_url', true);
-$imageThumb_fb_url = get_post_meta($post->ID, 'gallery_preview_fb_image_url', true);
-
-//midRes filename
-$eze_gallery_midRes = get_option('eze_midRes');
-//mid res to show on post
-$midResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_midRes . '/' . $image_url;
-//facebook thumbnail
-$thumb_fbUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_fbThumb . '/' . $imageThumb_fb_url ;
-
+            $image_url =get_post_meta($post->ID, 'gallery_image_url', true);
+            $eze_gallery__mediaRoot = get_option('eze_mediaRoot');
+            $eze_gallery_highResFolder = get_option('eze_highRes');
+            $eze_gallery_fbThumb = get_option('eze_fbThumbs');
+            $imageHighRes_url = get_post_meta($post->ID, 'gallery_imageHighRes_url', true);
+            $imageThumb_fb_url = get_post_meta($post->ID, 'gallery_preview_fb_image_url', true);
+            //midRes filename
+            $eze_gallery_midRes = get_option('eze_midRes');
+            //mid res to show on post
+            $midResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_midRes . '/' . $image_url;
+            //facebook thumbnail
+            $thumb_fbUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_fbThumb . '/' . $imageThumb_fb_url;
 
 ?>
-
-
-                <!-- Begin content -->
+<div style="overflow-y:hidden;width: 100%;height:100%;vertical-align: middle;text-align: center;padding-left: 0%">
+                <div style="width: 15%; height:100%;
+                            border: 0px;
+                            float: left;
+                            position: relative;
+                            margin-top: 3%;"
+                            >
                 
-<div id="page_content_wrapper">
-    <div class="inner">
-        <?php
-        if (have_posts()) : while (have_posts()) : the_post();
-        ?>
-        <!-- post info!-->
-
-        <div id="outer-wrapper" style="height:80%">
-            <div id="inner-wrapper">
-                <nav id="left-menu" class="off-canvas-menu">
-                    <div id="newsLayer">
-                        <div class="NewsTable">
+                <div class="NewsTable">
                             <table width="80%" border="0">
                                 <tr>
-                                    <div class="NewsTable" style="padding:7px;" >post Content:</span><br>
-                                        <?php echo the_content()?>
-	                                    <?php echo get_post_meta($post->ID, 'credits', true); ?> <br>	
-                                    </div>
-	                            <div class="NewsTable" style="padding:7px;" >extracted Color Palette :<br>
-                                            <div class="imageSection  ">
-                                                <div style="height: 60px; float: left">
-                                                    <img class="targetImage" src="<?php echo $thumb_fbUrl?>" >--->
-                                                </div>
-                                            <span class="colors">
-                                              <span class="function medianCutPalette clearfix"><span class="swatches"></span>
-                                              </span>
-                                            </span>
-                                          </div>
-                                    </div>						
+                                    <?php if (the_content()){ ?>
+                                        <div class="NewsTable" >post Content:<br></span>
+                                            <?php echo the_content()?>
+                                        </div>
+                                    <?php }?>
 
-                                    <div class="NewsTable" style="padding:7px;" >Other links:<br>
+                                    <div class="NewsTable" style="text-align: center">
                                         <?php if ( get_post_meta($post->ID, 'gallery_imageHighRes_url', true)) {?>
                                         <?php 
                                         if ( in_category( 'gigapan' )) {
@@ -276,74 +120,53 @@ $thumb_fbUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_fbTh
                                         else{
                                             $highResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . '/'. $eze_gallery_highResFolder . '/highRes.html?imagesHighRes=' . $imageHighRes_url; 
                                         }?>
-                                        <a href="<?php echo $highResUrl;?>" target="_blank">open High Resolution |</a> 
+                                        <a href="<?php echo $highResUrl;?>" target="_blank">see High Resolution </a> 
                                         <?php }?>
                                         <?php if ( get_post_meta($post->ID, 'gallery_buyPrint_url', true)) {?>
-                                            | <a href="<?php echo get_post_meta($post->ID, 'gallery_buyPrint_url', true);?>" target="_blank">buy print |</a>
+                                            <br><a href="<?php echo get_post_meta($post->ID, 'gallery_buyPrint_url', true);?>" target="_blank">buy print </a>
                                         <?php } ?>
                                         <?php if ( get_post_meta($post->ID, 'gallery_alternative_url', true)) {?>
-                                            | <a href="<?php echo get_post_meta($post->ID, 'gallery_alternative_url', true);?>"target="_blank">alternativeLink</a> |
+                                            <br><a href="<?php echo get_post_meta($post->ID, 'gallery_alternative_url', true);?>"target="_blank">open alternativeLink</a>
                                         <?php } ?>
                                     </div>
                                     
                                     <?php if ( get_post_meta($post->ID, 'credits', true)){ ?>
-                                    <div class="NewsTable" style="padding:7px;" >credits:<br></span>
-                                        
-                                    </div>
+                                        <div class="NewsTable" >credits:<br></span>
+                                            <?php echo get_post_meta($post->ID, 'credits', true); ?>
+                                        </div>
                                     <?php }?>
-                                    <div class="NewsTable" style="padding:7px;" >
-                                        <div id="fb-root" style="text-align:left"></div><script src="http://connect.facebook.net/en_US/all.js#appId=161605903920447&amp;xfbml=1"></script><fb:like href="<?echo get_permalink( $photo->ID );?>" send="false" width="450" show_faces="false" colorscheme="dark" font=""></fb:like>
-                                    </div>
                                     <?php if ( get_post_meta($post->ID, 'gallery_coordLatitude', true)) {?>
-                                    <div class="NewsTable" style="padding:7px;" >location:
-                                        <br>
-                                        <a target="_blank" href="https://maps.google.com/?q=<?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?>,<?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?>&amp;z=7">
-                                        <?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?> <?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?><br>
-                                         
-                                        <span>
-                                        <img src="http://maps.googleapis.com/maps/api/staticmap?zoom=8&sensor=false&size=590x140&markers=size:mid|color:red|<?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?>,<?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?>&sensor=false" /> 
-                                        </span>
-                                        </a>
-                                    </div>
-                                        <?php }?>
-                                        <div class="NewsTable" style="padding:7px;" >Tags And Cats:</span>
+                                        <div class="NewsTable" >location:
+                                            <br>
+                                            <a target="_blank" href="https://maps.google.com/?q=<?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?>,<?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?>&amp;z=7">
+                                            <p style="text-align: center;">
+                                            <?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?> <?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?><br>
+                                            <img src="http://maps.googleapis.com/maps/api/staticmap?zoom=8&sensor=false&size=230x70&markers=size:mid|color:red|<?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?>,<?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?>&sensor=false" /> 
+                                            </a>
+                                            </p>
+                                        </div>
+                                    <?php }?>
+                                    <div class="NewsTable">Tags:</span>
                                         <?php echo $post_categories = get_the_category_list() ; ?>
                                     </div>
-                                      <div class="NewsTable" style="padding:7px;" >
-                                        <?php echo get_option('eze_copyright_text'); ?>
-                                    </div>
-                                
-                                
-                                    
                                 </tr>
                             </table>
                         </div>
-                    </div>
-                </nav>
-            <div class="navbar navbar-inverse navbar-fixed-top" >
-                <div style="height:20px;min-height:20px;">
-                    <div class="pull-left" >
-                      
-                    </div>
-                    <div align="center">
-                        click on the image for more info | <?php echo get_option('eze_topBar_text'); ?>
-                    </div>
                 </div>
+                <div style="width: 85%; height:100%;
+                            position: relative;
+                            border: 0px;
+                            float: left;
+                            background: url( '<?php echo $midResUrl; ?>') center no-repeat ;
+                            -webkit-background-size: contain;
+                            -moz-background-size: contain;
+                            -o-background-size: contain;
+                            background-size: contain;">
+                    
+                </div>
+                
             </div>
-            <div id="wrapper" style="overflow: hidden;bottom: 0px;">
-                <div class="post_wrapper">
-                    <div class="post_header" align="center">
-                        <button type="button;" id="left-menu-toggle" style="padding:0px;background-color:#000000;border:0px;">
-                                <img src="<?php echo $midResUrl ?>"/><br>
-                        </button>
-                        
-                        
-                        
-                        </div>
-                    <?php endwhile; endif; ?>
 
-            </div>
-            </div>
-        </div>
-    </div>
-</div>
+                
+<?php get_footer(); ?>
+

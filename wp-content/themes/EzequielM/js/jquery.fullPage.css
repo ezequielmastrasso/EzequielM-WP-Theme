@@ -34,7 +34,7 @@ html, body {
 }
 .fp-slide, .fp-slidesContainer {
     height: 100%;
-    display: block;
+    /* display: inherit; */
 }
 .fp-slides {
     z-index:1;
@@ -45,11 +45,11 @@ html, body {
     transition: all 0.3s ease-out;
 }
 .fp-section.fp-table, .fp-slide.fp-table {
-    display: table;
+    display: list-item;
     width: 100%;
 }
 .fp-tableCell {
-    display: table-cell;
+    display:block;
     vertical-align: middle;
     width: 100%;
     height: 100%;

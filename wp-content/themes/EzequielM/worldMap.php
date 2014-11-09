@@ -102,7 +102,11 @@ jQuery.get("../worldmapxml", {}, function(data) {
 <title>WorldMap</title>
 </head>
 <body onload="initialize()">
-  <div id="map_canvas" style="width: 100%; height: 100%"></div>
+  <div id="map_canvas" style="width: 100%; height: 100%;height: -moz-calc(100% - 100px);
+                        height: -webkit-calc(100% - 100px);
+                        height: calc(100% - 100px);
+			margin-top: 80px;
+                        margin-bottom: 20px;"></div>
 </body>
 
 </html>

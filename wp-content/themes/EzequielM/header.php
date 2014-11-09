@@ -144,6 +144,17 @@ window.open(url,"_self");
 
 		});
 	</script>
+
+<link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/colorThief.css" rel="stylesheet">
+<?php //TODO replace with site option ?>
+<link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ch-chengdu_01.jpg" />
+
+
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/js/menu-cleaned.css">
+
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/color.js"></script>
+
 <?php
     /* Always have wp_head() just before the closing </head>
     * tag of your theme, or you will break many plugins, which
@@ -218,3 +229,20 @@ if(isset($page->ID))
 		       
 
 				    <!-- End main nav -->
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    

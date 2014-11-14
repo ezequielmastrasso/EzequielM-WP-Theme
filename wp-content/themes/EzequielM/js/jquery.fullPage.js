@@ -1368,7 +1368,8 @@
 			}
 
 			//centering it
-			nav.css('margin-left', '-' + (nav.width()/2) + 'px');
+                        //EZE removed, to have 5% left and right in css, this was offsetting it
+			//nav.css('margin-left', '-' + (nav.width()) + 'px');
 
 			nav.find('li').first().find('a').addClass('active');
 		}

@@ -45,7 +45,8 @@ html, body {
     transition: all 0.3s ease-out;
 }
 .fp-section.fp-table, .fp-slide.fp-table {
-    display: list-item;
+    /*EZE: removing, puting an list item dot on the left slide
+    display: list-item;*/
     width: 100%;
 }
 .fp-tableCell {
@@ -102,7 +103,8 @@ html, body {
 .fp-slidesNav{
     position: absolute;
     z-index: 4;
-    left: 50%;
+    left: 5%;
+    right: 5%;
     opacity: 1;
 }
 .fp-slidesNav.bottom {

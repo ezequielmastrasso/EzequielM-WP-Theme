@@ -126,24 +126,7 @@ window.open(url,"_self");
 		</script>
 	<![endif]-->
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-        <script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.fullPage.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				sectionsColor: [],
-				slidesNavigation: true,
-				css3: true,
-				paddingtop: '100px',
-				paddingBottom: '100px',
-				menu: '#menu',
-				resize: false
-			});
-
-		});
-	</script>
+	
 
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/colorThief.css" rel="stylesheet">
 <?php //TODO replace with site option ?>

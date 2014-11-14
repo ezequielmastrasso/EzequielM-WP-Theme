@@ -126,6 +126,8 @@ window.open(url,"_self");
 		</script>
 	<![endif]-->
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	
 
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/colorThief.css" rel="stylesheet">

@@ -150,11 +150,14 @@ if ( isset( $_GET['mode'] ) && $_GET['mode']==slideshow ){
             <?php	} ?>
             <div class="slide" style="margin-top:80px;">
                  <div style="margin-left:5%;">
-                    <?php 
-                    $page_id = get_page_by_title( 'tags' );
-                    $page_data = get_page( $page_id );  
-                    echo $page_data->post_content;
-                    ?>
+                     <style>
+                        ul.children {
+                                    padding-left: 30px;
+                                    padding-top: 4px;
+                                    padding-bottom: 8px;
+                                        } 
+                        </style>
+                    <?php wp_list_categories('orderby=name&hierarchical=1&show_count=1&title_li='); ?> 
                  </div>
             </div>
         </div>

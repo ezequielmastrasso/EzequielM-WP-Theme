@@ -1,4 +1,26 @@
 <head>
+<?php
+$eze_blog_page = get_option('eze_blog_page');
+//Make blog menu active
+
+require 'single_functions.php';
+$siteurl=  get_site_url();
+$image_url =get_post_meta($post->ID, 'gallery_image_url', true);
+$eze_gallery__mediaRoot = get_option('eze_mediaRoot');
+$eze_gallery_highResFolder = get_option('eze_highRes');
+$eze_gallery_fbThumb = get_option('eze_fbThumbs');
+$imageHighRes_url = get_post_meta($post->ID, 'gallery_imageHighRes_url', true);
+$imageThumb_fb_url = get_post_meta($post->ID, 'gallery_preview_fb_image_url', true);
+//midRes filename
+$eze_gallery_midRes = get_option('eze_midRes');
+//mid res to show on post
+$midResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_midRes . '/' . $image_url;
+//facebook thumbnail
+$thumb_fbUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_fbThumb . '/' . $imageThumb_fb_url;
+
+?>
+    
+
 <?php if ( get_post_meta($post->ID, 'gallery_preview_fb_image_url', true)) { 
     //TODO: replace with get_site_url() + post fb thumb site option
     ?>
@@ -9,7 +31,21 @@
     //TODO: replace with get_site_url() + thumb_fb site option ?>
     <link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/panoramaFlash/ir-donegal_holyHead_01.jpg" />		
 <?php }
-?>	
+//TODO: replace creator and site with fields from wp panel
+?>
+<meta name="twitter:card" content="photo">
+<meta name="twitter:site" content="@ezequielMphoto">
+<meta name="twitter:creator" content="@ezequielMphoto">
+<meta name="twitter:title" content="<?php echo get_the_title() ?>">
+<meta name="twitter:description" content="Ezequiel Mastrasso Photography ">
+<meta name="twitter:image" content="<?php echo $midResUrl ?>">
+<meta name="twitter:url" content="<?php the_permalink(); ?> " />
+
+<?php
+
+?>
+
+    
 <title> <?php echo get_the_title() ?> </title>
 </head>
 
@@ -81,26 +117,7 @@ body {
 -->
 </style>
 
-<?php
-$eze_blog_page = get_option('eze_blog_page');
-//Make blog menu active
 
-require 'single_functions.php';
-$siteurl=  get_site_url();
-$image_url =get_post_meta($post->ID, 'gallery_image_url', true);
-$eze_gallery__mediaRoot = get_option('eze_mediaRoot');
-$eze_gallery_highResFolder = get_option('eze_highRes');
-$eze_gallery_fbThumb = get_option('eze_fbThumbs');
-$imageHighRes_url = get_post_meta($post->ID, 'gallery_imageHighRes_url', true);
-$imageThumb_fb_url = get_post_meta($post->ID, 'gallery_preview_fb_image_url', true);
-//midRes filename
-$eze_gallery_midRes = get_option('eze_midRes');
-//mid res to show on post
-$midResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_midRes . '/' . $image_url;
-//facebook thumbnail
-$thumb_fbUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_fbThumb . '/' . $imageThumb_fb_url;
-
-?>
 <div style="overflow-y:hidden;width: 100%;height:100%;vertical-align: middle;text-align: center;padding-left: 0%">
                 <div style="width: 15%; height:100%;
                             border: 0px;

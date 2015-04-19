@@ -64,6 +64,22 @@ $thumb_fbUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_fbTh
                                     <div class="NewsTable">Tags:</span>
                                         <?php echo $post_categories = get_the_category_list() ; ?>
                                     </div>
+                                    <div class="NewsTable">share it!</span>
+                                        <br>
+                                        <br>
+                                        <a class="twitter-share-button"
+                                            href="https://twitter.com/share"
+                                            data-size="large"
+                                            data-count="none"
+                                            data-text="Ezequiel Mastrasso -Medium Format Photo &#64;PhaseOnePhoto <?php if ( in_category( 'flash' )) { echo "&#64;Profoto";}; ?>"
+                                            data-related="PhaseOnePhoto<?php if ( in_category( 'flash' )) { echo ",Profoto";}; ?>"
+                                            data-hashtags="phaseone,CaptureOne<?php if ( in_category( 'flash' )) { echo ",profotob1";}; ?>">
+                                            Tweet
+                                        </a>
+                                        <script>
+                                        window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+                                        </script>
+                                    </div>
                                 </tr>
                             </table>
                         </div>

@@ -1,0 +1,66 @@
+﻿
+
+/*=======================================
+STYLES FOR SIDE MENU
+=========================================*/
+
+
+#buttonMenu {
+    cursor: pointer;
+    margin: 15px;
+    padding: 15px;
+    color: #AAA;
+    font-size: 40px;
+}
+
+#side-menu-main {
+    background: #06080b;
+    position: fixed;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 240px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    left: -240px;
+}
+
+    #side-menu-main ul li {
+        padding: 5px 5px;
+        font-size: 17px;
+        border-bottom: 1px solid #343434;
+    }
+
+        #side-menu-main ul li span.glyphicon {
+            color: #c21414;
+		padding:3px;
+        }
+
+        #side-menu-main ul li a, #side-menu-main ul li a:hover {
+            text-decoration: none;
+            color: #fff;
+            margin-left: 5px;
+        }
+
+.set-menu-open {
+    left: 0px!important; /*IT SHOLUD BE !IMPORTANT ALWAYS*/
+}
+
+.set-body {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.push-right {
+    left: 240px;
+}
+
+.content-wraper {
+    padding: 5px;
+}

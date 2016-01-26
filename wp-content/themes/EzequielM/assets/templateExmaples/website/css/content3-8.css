@@ -1,0 +1,40 @@
+/*	CONTENT BLOCK 3-8
+/*----------------------------------------------------*/
+
+.content-3-8 .underlined-title {
+	padding-bottom: 0;
+    text-align: left;
+}
+
+.content-3-8 .underlined-title hr {
+    float: left;
+}
+
+.content-3-8 .underlined-title h2 {
+	clear: left;
+}
+
+
+/*	CONTENT BLOCK 3-8 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

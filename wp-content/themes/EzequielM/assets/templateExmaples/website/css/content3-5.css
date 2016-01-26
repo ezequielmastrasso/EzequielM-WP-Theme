@@ -1,0 +1,84 @@
+/*	CONTENT BLOCK 3-5
+/*----------------------------------------------------*/
+
+.content-3-5 .feature-box {
+    background: #723147;
+    margin: 20px 0;
+    padding: 35px 30px;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+}
+
+.content-3-5 .feature-box:hover {
+    background-color: #31152B;
+}
+
+.content-3-5 .feature-box .icon {
+	height: 150px;
+	width: 150px;
+	max-width: 100%;
+	background-color: #ffffff;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	margin: 0 auto 25px;
+}
+
+.content-3-5 .feature-box .icon span {
+	line-height: 150px;
+	color: #723147;
+	font-size: 55px;
+}
+
+.content-3-5 .feature-box p {
+    line-height: 25px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.content-3-5 .feature-box h3 {
+    padding: 15px 0px 0px;
+    color: #ffffff;
+}
+
+.content-3-5 .feature-box, .content-3-5 .feature-box:hover, .content-3-5 .feature-icon, .content-3-5 .feature-box:hover .feature-icon {
+    transition: all 0.4s ease-in 0s;
+    -moz-transition: all 0.4s ease-in 0s;
+    -webkit-transition: all 0.4s ease-in 0s;
+    -o-transition: all 0.4s ease-in 0s;
+    -ms-transition: all 0.4s ease-in 0s;
+}
+
+
+/*	CONTENT BLOCK 3-5 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

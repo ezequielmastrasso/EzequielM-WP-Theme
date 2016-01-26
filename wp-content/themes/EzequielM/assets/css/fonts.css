@@ -1,0 +1,157 @@
+﻿
+
+/* =============================================================
+FONTS AND TYPEHEADS STYLES
+============================================================ */
+
+@font-face {
+    font-family: 'ColaborateBold';
+    src: url('../fonts/colaborate/colabbol-webfont.eot');
+    src: url('../fonts/colaborate/colabbol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/colaborate/colabbol-webfont.woff') format('woff'),
+         url('../fonts/colaborate/colabbol-webfont.ttf') format('truetype'),
+         url('../fonts/colaborate/colabbol-webfont.svg#colaborate-boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ColaborateLight';
+    src: url('../fonts/colaborate/colablig-webfont.eot');
+    src: url('../fonts/colaborate/colablig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/colaborate/colablig-webfont.woff') format('woff'),
+         url('../fonts/colaborate/colablig-webfont.ttf') format('truetype'),
+         url('../fonts/colaborate/colablig-webfont.svg#colaboratelightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ColaborateMedium';
+    src: url('../fonts/colaborate/colabmed-webfont.eot');
+    src: url('../fonts/colaborate/colabmed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/colaborate/colabmed-webfont.woff') format('woff'),
+         url('../fonts/colaborate/colabmed-webfont.ttf') format('truetype'),
+         url('../fonts/colaborate/colabmed-webfont.svg#colaborate-mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Colaborate';
+    src: url('../fonts/colaborate/colabreg-webfont.eot');
+    src: url('../fonts/colaborate/colabreg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/colaborate/colabreg-webfont.woff') format('woff'),
+         url('../fonts/colaborate/colabreg-webfont.ttf') format('truetype'),
+         url('../fonts/colaborate/colabreg-webfont.svg#colaborate-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ColaborateThin';
+    src: url('../fonts/colaborate/colabthi-webfont.eot');
+    src: url('../fonts/colaborate/colabthi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/colaborate/colabthi-webfont.woff') format('woff'),
+         url('../fonts/colaborate/colabthi-webfont.ttf') format('truetype'),
+         url('../fonts/colaborate/colabthi-webfont.svg#colaborate-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h13 {
+    line-height: 18px;
+    font-family: Colaborate;
+    font-size:18px;
+    font-weight: bold;
+    color: #38a3d9;
+    display: block;
+}
+h12 {
+    line-height: 16px;
+    font-family: Colaborate;
+    font-size:16px;
+    font-weight: bold;
+    color: #AAA;
+    display: block;
+}
+h11{
+    line-height: 30px;
+    font-family: Colaborate;
+    font-size:25px;
+    font-weight: bold;
+    color: #FFF;
+    display: block;
+    margin-top: 30px;
+}
+
+h6 {
+    line-height: 16px;
+    font-family: Colaborate;
+    font-size:16px;
+    font-weight: bold;
+    color: #38a3d9;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+h5, .fancybox-title {
+    line-height: 16px;
+    font-family: Colaborate;
+    font-size:16px;
+    font-weight: bold;
+    color: #AAA;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+h4 {
+    font-family: ColaborateThin;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing:1px;
+    color: #797979;
+    font-size: 17px;
+    line-height: 22px;
+}
+h3 {
+    line-height: 26px;
+    font-family: Colaborate;
+    font-size:26px;
+    font-weight: bold;
+    color: #38a3d9;
+}
+h2 {
+    line-height: 26px;
+    font-family: Colaborate;
+    font-size:26px;
+    font-weight: bold;
+    color: #AAA;
+}
+h1 {
+    line-height: 50px;
+    font-family: Colaborate;
+    font-size:26px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+p {
+    margin:0px;
+    
+}

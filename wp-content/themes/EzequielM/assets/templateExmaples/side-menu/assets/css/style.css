@@ -1,0 +1,94 @@
+﻿
+/*=====================================
+GENERAL STYLES
+=====================================*/
+
+body {
+font-family: Verdana;
+}
+
+/*=====================================
+LINK TO TOGGLE MENU
+=====================================*/
+
+#menu-button {
+top: 70px; /*CHANGE POSITION FORM TOP*/
+right: 15px; /*CHANGE POSITION FORM RIGHT*/
+position: fixed;
+z-index: 999;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+}
+
+/*=================================
+NAME OR LOGO OF THE COMPANY
+===============================*/
+.main-name a {
+font-size: 25px!important;
+line-height: 90px;
+background-color: #3C3C3C;
+color: #fff!important;
+}
+
+.main-name a:hover {
+color: #fff!important;
+text-decoration: none;
+}
+
+/*=================================
+MENU WRAPPER
+===============================*/
+
+#menu-wrapper {
+margin-left: -150px;
+left: 0;
+width: 150px;
+background: #5C5C5C;
+position: fixed;
+height: 100%;
+overflow-y: auto;
+z-index: 1000;
+transition: all 0.5s ease-in 0s;
+-webkit-transition: all 0.5s ease-in 0s;
+-moz-transition: all 0.5s ease-in 0s;
+-ms-transition: all 0.5s ease-in 0s;
+-o-transition: all 0.5s ease-in 0s;
+}
+
+#menu-wrapper.active {
+left: 150px;
+width: 150px;
+transition: all 0.5s ease-out 0s;
+-webkit-transition: all 0.5s ease-out 0s;
+-moz-transition: all 0.5s ease-out 0s;
+-ms-transition: all 0.5s ease-out 0s;
+-o-transition: all 0.5s ease-out 0s;
+}
+
+/*=================================
+NAVIGATION LINKS
+===============================*/
+
+.sidebar-nav {
+position: absolute;
+top: 0;
+width: 150px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.sidebar-nav li {
+line-height: 50px;
+text-indent: 20px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.sidebar-nav li a, .sidebar-nav li a:hover, .sidebar-nav li a:focus {
+display: block;
+text-decoration: none;
+font-size: 12px;
+text-transform: uppercase;
+color: #FFF;
+}

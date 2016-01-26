@@ -1,0 +1,69 @@
+/*	CONTENT BLOCK 3-10
+/*----------------------------------------------------*/
+
+.content-3-10 {
+	padding: 0px;
+	position: relative;
+}
+
+.content-3-10 .image-container {
+	position: absolute;
+	height: 300px;
+	padding: 0px;
+	top: 0px;
+}
+
+.content-3-10 .image-container .background-image-holder {
+	background: url('../images/low-poly-1.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+.content-3-10 .content {
+	margin-top: 300px;
+	padding: 40px;
+}
+
+.content-3-10 h3 {
+	margin-bottom: 32px;
+}
+
+.content-3-10 p {
+	margin-bottom: 20px;
+}
+
+
+
+/*	CONTENT BLOCK 3-10 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	.content-3-10 .image-container {
+		height: 100%;
+	}
+	
+	.content-3-10 .content {
+		margin-top: 0px;
+		padding: 80px 15px 80px 80px;
+	}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}

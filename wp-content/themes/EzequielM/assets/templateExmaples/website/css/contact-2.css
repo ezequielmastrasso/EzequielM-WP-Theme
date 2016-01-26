@@ -1,0 +1,57 @@
+/*	CONTACT 2
+/*----------------------------------------------------*/
+
+.contact-2 h2 {
+	margin-top: 0;
+}
+
+.contact-2 .map-img {
+	margin: 40px 0;
+}
+
+#contact span.required {
+	font-size: 13px;
+	color: #ff0000;
+}
+
+#message {
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.error_message {
+	display: block;
+	background: #FBE3E4;
+	padding: 10px 0 10px 15px;
+	color: #8a1f11;
+	border: 2px solid #FBC2C4;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+
+/*	CONTACT 2 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+		
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	
+	
+}
+

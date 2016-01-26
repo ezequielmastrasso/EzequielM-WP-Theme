@@ -1,0 +1,16 @@
+/*	FOOTER Copyright Bar 2
+/*----------------------------------------------------*/
+
+.copyright-bar-2 {
+	height: 80px;
+	padding-top: 28px;
+	background-color: #233447;
+	position: relative;
+	bottom: 0;
+}
+
+.copyright-bar-2 p {
+	color: #ffffff;
+	font-weight: 700;
+	margin: 0;
+}

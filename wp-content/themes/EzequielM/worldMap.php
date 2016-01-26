@@ -7,106 +7,99 @@ Template Name: world-map
 
 <?php get_header();?>
 
-<!-- js needed for map-->
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclusterer/1.0/src/markerclusterer.js"></script>
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/mapUtils/infobox.js"></script>
-
-<!-- map style js array-->
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' ) . '/css/skins/' . get_option('eze_googleMapsSkin');?>"></script>
-
-<script type="text/javascript">
-  function initialize() {
-      
-
-    var myMapOptions = {
-        mapTypeControlOptions: {
-    mapTypeIds: ['Styled', google.maps.MapTypeId.SATELLITE]
-
-  },
-overviewMapControl: true,
-overviewMapControlOptions: {
-  opened: true
-},
-  center: new google.maps.LatLng(25, 20),
-
-  zoom: 3,
-  disableDefaultUI: false, 
-
-  mapTypeId: 'Styled'
-    };
-    var theMap = new google.maps.Map(document.getElementById("map_canvas"), myMapOptions);
-    var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
-    theMap.mapTypes.set('Styled', styledMapType);
-    theMap.setTilt(45);
-
-  var world_geometry = new google.maps.FusionTablesLayer({
-  query: {
-    select: 'geometry',
-    from: '1N2LBk4JHwWpOY4d9fobIn27lfnZ5MDy-NoqqRpk',
-    where: "Name IN ('Andorra', 'Spain', 'France', 'Ireland', 'United Kingdom', 'United Arab Emirates', 'Vietnam', 'Laos', 'Thailand', 'Indonesia', 'Singapore', 'Germany', 'Italy', 'Switzerland', 'Mexico', 'Brazil', 'Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay', 'Peru', 'Colombia', 'Singapore', 'Cambodia', 'China', 'Slovenia', 'Netherlands', 'Malaysia')",
-  },styles: [{
-  
-  polygonOptions: {
-    fillColor: "#FF0000",
-    strokeColor: "#1f0811",
-    fillOpacity: 0.09,
-    strokeWeight: 1
-  }
-}],
-  map: theMap,
-  suppressInfoWindows: true
-});
-
-jQuery.get("../worldmapxml", {}, function(data) {
-
-      jQuery(data).find("marker").each(function() {
-
-        var marker = jQuery(this);
-        var latlng = new google.maps.LatLng(parseFloat(marker.attr("lat")),
-                                    parseFloat(marker.attr("lng")));
-        var contentString = marker.attr("html");
-        var marker = new google.maps.Marker({position: latlng, map: theMap});
-      
-    var boxText = document.createElement("div");
-    boxText.style.cssText = "border: 1px solid black; margin-top: 8px; background: black; padding: 1px;";
-    boxText.innerHTML = "<div style=\"width:100%\">" + contentString + "</div>";
-    var myOptions = {
-       content: boxText
-      ,disableAutoPan: false
-      ,maxWidth: 0
-      ,pixelOffset: new google.maps.Size(-140, 0)
-      ,zIndex: null
-      ,boxStyle: {
-        opacity: 1
-       }
-      ,closeBoxMargin: "10px 2px 2px 2px"
-      ,closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif"
-      ,infoBoxClearance: new google.maps.Size(1, 1)
-      ,isHidden: false
-      ,pane: "floatPane"
-      ,enableEventPropagation: false
-    };
-    google.maps.event.addListener(marker, "click", function (e) {
-      ib.open(theMap, marker);
-    });
-    var ib = new InfoBox(myOptions);
-  });
-  });
-
-
-  }
-</script>
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>WorldMap</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+        }
+        
+.leaflet-marker-icon.leaflet-marker-photo.leaflet-zoom-animated.leaflet-clickable
+{
+    width: 60px !important;
+    height: 40px !important;
+    visibility: visible;
+}
+
+    </style>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/MarkerCluster.css" />
+    <link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/Leaflet.Photo.css" />
+    
 </head>
-<body onload="initialize()">
-  <div id="map_canvas" style="width: 100%; height: 100%;height: -moz-calc(100% - 100px);
+<body>
+    <div id="mapp" style="width: 100%; height: 100%;height: -moz-calc(100% - 100px);
                         height: -webkit-calc(100% - 100px);
                         height: calc(100% - 100px);
-			margin-top: 80px;
+            margin-top: 80px;
                         margin-bottom: 20px;"></div>
+
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/leaflet.markercluster-src.js"></script>
+    <script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/Leaflet.Photo.js"></script>
+    <script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/leaflet-providers.js"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        
+var jsonPhotos = [];
+$.getJSON( "<?php echo get_site_url()?>/worldmapjson", function( data ) {
+  
+  $.each( data, function( key, val ) {
+    $.each( val, function( key, val ) {        
+        jsonPhotos.push( {
+            lat: Number(val["lat"]),
+            lng: Number(val["lng"]),
+            url: val["url"],
+            thumbnail: val["thumbnail"]
+        }
+            
+            )
+  });
+
+
+  });
+
+console.log(jsonPhotos)
+
+var map = L.map("mapp"),
+    tiles = L.tileLayer.provider('MapBox.Terrain',
+        {id: 'ezequielm.97dd5313', accessToken: 'pk.eyJ1IjoiZXplcXVpZWxtIiwiYSI6ImNpajdoaThpZjAwNWp3Z20zOWsyNW1ubXcifQ.H0i8qLcZsbWtyZPPBVZCEg'
+        }).addTo(map);
+
+// Prepare the Photo Layer (with clustering).
+var photoLayer = L.photo.cluster().on('click', function (evt) { // Prepare the click event.
+    var photo = evt.layer.photo,
+        template = '<div class="leaflet-popup-photo-image"><a href="{url}"/><img src="{thumbnail}"/></a></div>';
+
+    // Here the normal photo opens in a popup.
+    evt.layer.bindPopup(L.Util.template(template, photo), {
+        className: 'leaflet-popup-photo',
+        minWidth: 400
+    }).openPopup();
+});
+
+
+photoLayer.add(jsonPhotos).addTo(map);
+
+map.fitBounds(photoLayer.getBounds());
+
+function onMapZoom(e) {
+
+    console.log("zoom level: " + map.getZoom())
+}
+
+map.on('zoomend', onMapZoom);
+
+});
+
+// Finally add photos into Photo Layer and add to map!
+
+    </script>
 </body>
 
 </html>

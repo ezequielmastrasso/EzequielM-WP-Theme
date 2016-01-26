@@ -64,6 +64,7 @@ $all_photo_arr = get_posts('numberposts=-1&order=ASC&orderby=date&category='.$ez
                                                 $lat = get_post_meta($photo->ID, 'gallery_coordLatitude', true);
                                                 $long = get_post_meta($photo->ID, 'gallery_coordLongitude', true);
                                                 $credits = get_post_meta($photo->ID, 'credits', true);
+                                                $slug = get_post_meta($photo->slug, 'credits', true);
                                                
 						
 				?>		
@@ -76,6 +77,43 @@ $all_photo_arr = get_posts('numberposts=-1&order=ASC&orderby=date&category='.$ez
                                                                 CREDITS:<?php echo $credits ?> <br>
                                                                 HIGHRESURL:<?php echo $imageHighRes_url ?> <br>
                                                                 FBTHUMB:<?php echo $fb_image_url ?> <br>
+                                                                CATS:<?php  foreach((get_the_category($photo->ID)) as $category) {
+                                                                        echo $category->slug .' ';
+                                                                        
+                                                                } ?><br>
+                                                                CATS HIERARCHY:<?php  foreach((get_the_category($photo->ID)) as $category) {
+                                                                        echo get_category_parents( $category, false, "-->");
+                                                                        ?><br><?php
+                                                                } ?><br>
+                                                                
+                                                                
+                                                                Main CAT:<?php  
+                                                                    $mainCat= get_category_by_slug( "mainCategories" );
+                                                                    foreach((get_the_category($photo->ID)) as $category) {
+                                                                        if (cat_is_ancestor_of( $mainCat, $category )){
+                                                                            echo $category->slug .' ';
+                                                                        }
+                                                                        
+                                                                        
+                                                                } ?><br>
+                                                                Zone CAT:<?php  
+                                                                    $mainCat= get_category_by_slug( "continents" );
+                                                                    foreach((get_the_category($photo->ID)) as $category) {
+                                                                        if (cat_is_ancestor_of( $mainCat, $category )){
+                                                                            echo get_category_parents( $category, false, "-->");
+                                                                        }?><br><?php
+                                                                } ?><br>
+                                                                Country CAT:<?php  
+                                                                    $mainCat= get_category_by_slug( "continents" );
+                                                                    foreach((get_the_category($photo->ID)) as $category) {
+                                                                        if (cat_is_ancestor_of( $mainCat, $category )){
+                                                                            $parentCat=  get_category($category->category_parent);
+                                                                            echo $parentCat->slug.' ';
+                                                                        }?><br><?php
+                                                                } ?><br>
+                                                                
+                                                                
+                                                                
                                                                 
                                                                 </p>
                                                                 

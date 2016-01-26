@@ -31,14 +31,37 @@ $miscTagsCategoryID=get_cat_ID( "miscTags" );
 
 
 ?>
-
 {"posts":
-        [
+	[
+	    {	
+	    	"title": "Landscapes - Ireland - valentiaIsland ",
+	    	"country":"Ireland",
+	    	"area":"Kerry",
+	    	"lens":"Mamiya 80mm 2.8 AFD",
+	    	"lat":"51.884597453184526",
+		"lng":"-10.419373512268066"
+	    }
+	    {	
+	    	"title": "Landscapes - Ireland - valentiaIsland ",
+	    	"country":"Ireland",
+	    	"area":"Kerry",
+	    	"lens":"Mamiya 80mm 2.8 AFD",
+	    	"lat":"51.884597453184526",
+		"lng":"-10.419373512268066"
+	    } 
+	    
+	]
+}
+
+
+
+
 <?php
-$index=0;
+
 foreach($all_photo_arr as $key => $photo)
 {
-	//if ( get_post_meta($photo->ID, 'gallery_coordLatitude', true)  ) { ?>
+	if ( get_post_meta($photo->ID, 'gallery_coordLatitude', true)  ) { ?>
+		
 		<?php
 		$siteurl=  get_site_url();
 		$eze_gallery__mediaRoot = get_option('eze_mediaRoot');
@@ -101,35 +124,26 @@ foreach($all_photo_arr as $key => $photo)
 		$lister = implode(",", $cats);
 
 		?>
-		{
+		{"<?php printf($photo->post_title)?> ":
 		
-                "title" : "<?php printf($photo->post_title) ?>",
-		"country" : "<?php printf(get_cat_name($country)) ?>",
-		"area" : "<?php print_r(get_cat_name($countryArea)) ?>",
-		"lens" :"<?php print_r(get_cat_name($lens)) ?>",
-		"lat" : "<?php echo $coordLatitude?>",
-		"lng" : "<?php echo $coordLongitude?>",
-		"imageLink" : "<?php echo $image_url_permalink?>",
-		"thumbnail" : "<?php echo $image_thumb_fb?>",
-		"permalink" : "<?php echo $image_url_permalink?>",
-		"date" : "<?php echo $postDate ?>"
+		countryy="<?php printf(get_cat_name($country)) ?>"
 		
-                <?php 
-                $index=$index+1;
-                if ($index< count($all_photo_arr)){
-                    ?>},<?php
-                }
-                else{
-                    ?>}<?php
-                }
-                
-                ?>
-                
 		
+		area="<?php print_r(get_cat_name($countryArea)) ?>"
+		
+		
+		lens="<?php print_r(get_cat_name($lens)) ?>"
+		lat="<?php echo $coordLatitude?>"
+		lng="<?php echo $coordLongitude?>"
+		imageLink="<?php echo $image_url_permalink?>"
+		thumnail="<?php echo $image_thumb_fb?>"
+		permalink="<?php echo $image_url_permalink?>"
+		postDate ="<?php echo $postDate ?>"
+		
+		}
 		<?php
-	
+	} 
 }	
 }?>
 
-]
 }

@@ -57,7 +57,7 @@ window.open(url,"_self");
 
 
 <!-- img for when liked in facebook-->
-<link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ch-chengdu_01.jpg" />
+<link rel="image_src" href="http://photos.ezequielm.com/_media/midRes/ch-chengdu_01.jpg" />
 <style>
 
 		/* Sections

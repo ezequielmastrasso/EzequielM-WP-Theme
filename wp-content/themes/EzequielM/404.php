@@ -32,7 +32,7 @@ $logo_url="/" . $eze_mediaRoot . "/" . $eze_404logo ;
             . 'try to find it yourself browsing from the home page'); ?></p>
     </div>
     <!-- End main content -->
-
+			
 </div>
 				
 

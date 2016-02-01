@@ -421,4 +421,141 @@ function theme_queue_js(){
 }
 add_action('get_header', 'theme_queue_js');
 
+
+
+
+add_filter( 'manage_post_posts_columns', 'rachel_carden_managing_my_posts_columns', 4, 9 );
+function rachel_carden_managing_my_posts_columns( $columns, $post_type ) {
+
+         $new_columns = array();
+         foreach( $columns as $key => $value ) {
+            $new_columns[ $key ] = $value;
+            if ( $key == 'title' )
+                $new_columns[ 'gallery_image_url' ] = 'gallery_image_url';
+                $new_columns[ 'gallery_coordLatitude' ] = 'gallery_coordLatitude';
+                $new_columns[ 'gallery_coordLongitude' ] = 'gallery_coordLongitude';
+                $new_columns[ 'credits' ] = 'credits';
+                $new_columns[ 'gallery_buyPrint_url' ] = 'gallery_buyPrint_url';
+                $new_columns[ 'gallery_alternative_url' ] = 'gallery_alternative_url';
+                
+         }
+         return $new_columns;
+
+}
+
+add_action( 'manage_posts_custom_column', 'rachel_carden_populating_my_posts_columns', 10, 2 );
+function rachel_carden_populating_my_posts_columns( $column_name, $post_id ) {
+   switch( $column_name ) {
+        case 'gallery_image_url':
+           echo '<div id="gallery_image_url-' . $post_id . '">' . get_post_meta( $post_id, 'gallery_image_url', true ) . '</div>';
+           break;
+        case 'gallery_coordLatitude':
+           echo '<div id="gallery_coordLatitude-' . $post_id . '">' . get_post_meta( $post_id, 'gallery_coordLatitude', true ) . '</div>';
+           break;
+        case 'gallery_coordLongitude':
+           echo '<div id="gallery_coordLongitude-' . $post_id . '">' . get_post_meta( $post_id, 'gallery_coordLongitude', true ) . '</div>';
+           break;
+        case 'credits':
+           echo '<div id="credits-' . $post_id . '">' . get_post_meta( $post_id, 'credits', true ) . '</div>';
+           break;
+        case 'gallery_buyPrint_url':
+            echo '<div id="gallery_buyPrint_url-' . $post_id . '">' . get_post_meta( $post_id, 'gallery_buyPrint_url', true ) . '</div>';
+            break;
+        case 'gallery_alternative_url':
+            echo '<div id="gallery_alternative_url-' . $post_id . '">' . get_post_meta( $post_id, 'gallery_alternative_url', true ) . '</div>';
+            break;
+   }
+}
+
+
+
+
+
+
+
+
+
+add_action( 'bulk_edit_custom_box', 'rachel_carden_add_to_bulk_quick_edit_custom_box', 10, 2 );
+add_action( 'quick_edit_custom_box', 'rachel_carden_add_to_bulk_quick_edit_custom_box', 10, 2 );
+function rachel_carden_add_to_bulk_quick_edit_custom_box( $column_name, $post_type ) {
+
+         switch( $column_name ) {
+            case 'gallery_image_url':
+               ?><fieldset class="inline-edit-col-right">
+                  <div class="inline-edit-group">
+                     <label>
+                        <span class="title">gallery_image_url</span>
+                        <input type="text" name="gallery_image_url" value="" />
+                     </label>
+                  </div>
+               </fieldset><?php
+               break;
+           case 'gallery_coordLatitude':
+               ?><fieldset class="inline-edit-col-right">
+                  <div class="inline-edit-group">
+                     <label>
+                        <span class="title">gallery_coordLatitude</span>
+                        <input type="text" name="gallery_coordLatitude" value="" />
+                     </label>
+                  </div>
+               </fieldset><?php
+               break;
+           case 'gallery_coordLongitude':
+               ?><fieldset class="inline-edit-col-right">
+                  <div class="inline-edit-group">
+                     <label>
+                        <span class="title">gallery_coordLongitude</span>
+                        <input type="text" name="gallery_coordLongitude" value="" />
+                     </label>
+                  </div>
+               </fieldset><?php
+               break;
+           case 'credits':
+               ?><fieldset class="inline-edit-col-right">
+                  <div class="inline-edit-group">
+                     <label>
+                        <span class="title">credits</span>
+                        <input type="text" name="credits" value="" />
+                     </label>
+                  </div>
+               </fieldset><?php
+               break;
+           case 'gallery_buyPrint_url':
+               ?><fieldset class="inline-edit-col-right">
+                  <div class="inline-edit-group">
+                     <label>
+                        <span class="title">gallery_buyPrint_url</span>
+                        <input type="text" name="gallery_buyPrint_url" value="" />
+                     </label>
+                  </div>
+               </fieldset><?php
+               break;
+           case 'gallery_alternative_url':
+               ?><fieldset class="inline-edit-col-right">
+                  <div class="inline-edit-group">
+                     <label>
+                        <span class="title">gallery_alternative_url</span>
+                        <input type="text" name="gallery_alternative_url" value="" />
+                     </label>
+                  </div>
+               </fieldset><?php
+               break;
+         }
+}
+
+
+
+
+
+
+
+
+
+
+
+add_action( 'admin_print_scripts-edit.php', 'rachel_carden_enqueue_edit_scripts' );
+function rachel_carden_enqueue_edit_scripts() {
+   wp_enqueue_script( 'rachel-carden-admin-edit', get_bloginfo( 'stylesheet_directory' ) . '/quick_edit.js', array( 'jquery', 'inline-edit-post' ), '', true );
+}
+
 ?>

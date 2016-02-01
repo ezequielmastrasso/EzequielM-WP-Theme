@@ -78,16 +78,6 @@
       		e.preventDefault();
       		$('body').removeClass('nav-expanded');
       	});
-        
-        
-        //HighRes image loader for single page
-        $(function() {
-        $("#highResLink").click(function(e) {
-          e.preventDefault(); // if desired...
-          loadHighRes();
-          // other methods to call...
-        });
-      });
       	
   
         	

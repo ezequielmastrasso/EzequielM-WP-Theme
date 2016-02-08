@@ -75,6 +75,12 @@ FONTS AND TYPEHEADS STYLES
     font-style: normal;
 
 }
+.h14 {
+    line-height: 18px;
+    font-family: Colaborate;
+    font-size:12px;
+    
+}
 h13 {
     line-height: 18px;
     font-family: Colaborate;

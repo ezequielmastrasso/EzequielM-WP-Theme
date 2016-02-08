@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Misc vars and funtions template file.
+ * @package WordPress
+ * @subpackage EzequielM */
+//ini_set('error_reporting', E_ALL);
+//ini_set('display_errors', 'On');  //On or Off
+
 //////////////////////////////
 ////GLOBAL GALLERY OPTIONS////
 //////////////////////////////
@@ -64,115 +71,159 @@ function wpse85202_get_taxonomy_parents( $id, $taxonomy = 'category', $link = fa
             return $chain;
     }?>
 
+
+
+
+
 <?php
-function do_post_panel($post){
-    ?>
-    <div class="NewsTable" >
-        <?php
-        //GET CATEGORIES
-        $mainCategoryParent= get_category_by_slug( "mainCategories" ); 
-        $mainLocationCategory= get_category_by_slug( "continents" );
-        $formatCategory= get_category_by_slug( "format" );
-        $lensCategory= get_category_by_slug( "lens" );
-        
-        //GETS MAIN CATEGORY AND LINK
-        $mainCategoryParent= get_category_by_slug( "mainCategories" );
-        foreach((get_the_category($post->ID)) as $category) {
-            if (cat_is_ancestor_of( $mainCategoryParent, $category )){
-                $mainCategory= $category;
-            }
-        }
-        //GETS LOCAION CATEGORY AND MAKES BREADCRUMBS
-        //CUSTOM TAXONOMY NEEDS BOOTSTRAP BREADCRUMBS
-        foreach((get_the_category($post->ID)) as $category) {
-            if (cat_is_ancestor_of( $lensCategory, $category )){
-                //$locationBreadCrumbs= get_category_parents( $category, true, " > ");
-                $lensBreadCrumbs=wpse85202_get_taxonomy_parents($category,"category", True, " > ", True);
-                $lensCategoryText=wpse85202_get_taxonomy_parents($category,"category", False, " ", True);
-                break;
-        }}
-        
-        foreach((get_the_category($post->ID)) as $category) {
-            if (cat_is_ancestor_of( $formatCategory, $category )){
-                //$locationBreadCrumbs= get_category_parents( $category, true, " > ");
-                $formatBreadCrumbs=wpse85202_get_taxonomy_parents($category,"category", True, " > ", True);
-                $formatCategoryText=wpse85202_get_taxonomy_parents($category,"category", False, " ", True);
-                break;
-        }}?>
-        
-        <?php //echo $mainCategory->slug ?><br>
-        Lens:<br> <?php echo $lensBreadCrumbs?><br>
-        format:<br> <?php echo $formatBreadCrumbs?><br>
-        <?php $post_categories = get_the_category();
-               
-               echo "<br>other Tags:<br>";
-               foreach ($post_categories as $category){
-                   if (!cat_is_ancestor_of( $mainCategoryParent, $category )
-                           && (!cat_is_ancestor_of( $mainLocationCategory, $category ))
-                           && (!cat_is_ancestor_of( $formatCategory, $category ))
-                           && (!cat_is_ancestor_of( $lensCategory, $category ))){
-                           echo $category->slug;?><br><?php }
-               }       
-        ?>
-    </div>
-    <?php
-}?>
+function do_post_panel($post){ ?>
+    <div class="NewsTable">
+            <table width="80%" border="0">
+                <tr>
+                    <!-- --------------------------------------------------DO CONTENT -->
+                    <?php if (the_content()){ ?>
+                        <div class="NewsTable" >post Content:<br>
+                            <?php echo the_content()?>
+                        </div>
+                    <?php }?>
+                
+                    <!-- --------------------------------------------------DO HIGH RES -->
+                    <div class="NewsTable" style="text-align: center">
+                        <?php if ( in_category( 'highRes' )) {
+                            if ( in_category( 'gigapan' )) {
+                                $highResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . '/'. $eze_gallery_highResFolder . '/highRes.html?imagesPanorama=' . $imageHighRes_url; 
+                            ?>
+
+                            <a href="<?php echo $highResUrl;?>" target="_blank">see High Resolution </a> 
+                            <?php
+
+                            }
+                            else{?>
+                                <a id="highResLink" href="#">see High Resolution </a>
+                                <?php
+                        }}?>
+
+
+                        <?php if ( get_post_meta($post->ID, 'gallery_buyPrint_url', true)) {?>
+                            <br><a href="<?php echo get_post_meta($post->ID, 'gallery_buyPrint_url', true);?>" target="_blank">buy print </a>
+                        <?php } ?>
+                        <?php if ( get_post_meta($post->ID, 'gallery_alternative_url', true)) {?>
+                            <br><a href="<?php echo get_post_meta($post->ID, 'gallery_alternative_url', true);?>"target="_blank">open alternativeLink</a>
+                        <?php } ?>
+                    </div>
+
+                    <!-- --------------------------------------------------DO CREDITS -->
+                    <?php if ( get_post_meta($post->ID, 'credits', true)){ ?>
+                        <div class="NewsTable" >credits:<br></span>
+                            <?php echo get_post_meta($post->ID, 'credits', true); ?>
+                        </div>
+                    <?php }?>
+                    <br>
+                    
+                    <!-- --------------------------------------------------DO CONTENT -->
+                    <div class="NewsTable">Location:<br>
+                        <?php 
+                            $mainLocationCategory= get_category_by_slug( "continents" );
+                            foreach((get_the_category($post->ID)) as $category) {
+                                if (cat_is_ancestor_of( $mainLocationCategory, $category )){
+                                    $locationBreadCrumbs=wpse85202_get_taxonomy_parents($category,"category", True, " > ", True);
+                                    $locationCategoryText=wpse85202_get_taxonomy_parents($category,"category", False, " ", True);
+                                    break;    
+                                }
+                            }
+                        ?>
+                        <?php echo $locationBreadCrumbs?>
+                        <br>
+                        <?php if ( get_post_meta($post->ID, 'gallery_coordLatitude', true)) {?>
+                            <br>
+                            <a target="_blank" href="https://maps.google.com/?q=<?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?>,<?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?>&amp;z=7">
+                            <p style="text-align: center;">
+                            <img style="width: 100%" src="http://maps.googleapis.com/maps/api/staticmap?zoom=8&sensor=false&size=230x70&markers=size:mid|color:red|<?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?>,<?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?>&sensor=false" /> 
+                            <?php echo get_post_meta($post->ID, 'gallery_coordLatitude', true);?> <?php echo get_post_meta($post->ID, 'gallery_coordLongitude', true);?><br>
+                            </a>
+                            </p>
+                        <?php }?>
+                    </div>
+                    
+                    <!-- --------------------------------------------------DO TAGS -->
+                    <div class="NewsTable">Tags:</span>
+                        <?php echo $post_categories = get_the_category_list() ; ?>
+                    </div>
+                    
+                    <!-- --------------------------------------------------DO SHARE TOOLS -->
+                    <div class="NewsTable">share it!</span>
+                        <br>
+                        <br>
+                        <a class="twitter-share-button"
+                            href="https://twitter.com/share"
+                            data-size="large"
+                            data-count="none"
+                            data-text="Ezequiel Mastrasso -Medium Format Photo &#64;PhaseOnePhoto <?php if ( in_category( 'flash' )) { echo "&#64;Profoto";}; ?>"
+                            data-related="PhaseOnePhoto<?php if ( in_category( 'flash' )) { echo ",Profoto";}; ?>"
+                            data-hashtags="phaseone,CaptureOne<?php if ( in_category( 'flash' )) { echo ",profotob1";}; ?>">
+                            Tweet
+                        </a>
+                        <script>
+                        window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+                        </script>
+                    </div>
+                </tr>
+            </table>
+        </div>
+<?php } ?>
 
 <?php function do_nav_bar(){?>
-
-
-<!--MENU SECTION START-->
     <?php if (!is_single() ) {?>
-    
-    <div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section" >
+        <!-- IF NOT SINGLE -->
+        <!-- MENU SECTION START -->
+        <div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section" >
             <div class="container">
-                    <!--LOGO-->
-                    <div class="navbar-header">
-                        <button type="button"
-                            class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"> <img src="/_media/logo.png"> </a>
-                    </div>
-                    <!--COLLAPSABLE MENU OPTIONS-->
-                    <!--TODO: IF CAT, MENU, IF SINGLE DO BREADCRUMBS-->
-                    <div class="navbar-collapse collapse">
-                        
-                        <?php
-                            if (!is_single()) { ?>
-                                <ul class="nav navbar-nav navbar-right">
+                <!-- LOGO -->
+                <div class="navbar-header">
+                    <button type="button"
+                        class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"> <img src="/_media/logo.png"> </a>
+                </div>
+                <!-- COLLAPSABLE MENU ITEMS-->
+                <div class="navbar-collapse collapse">
+                    <?php
+                        if (!is_single()) { ?>
+                            <!-- IF NOT SINGLE, DO MAIN MENU-->
+                            <ul class="nav navbar-nav navbar-right">
                                 <?php 
-                                $items = wp_get_nav_menu_items( "main" );
-                                foreach($items as $item){
-                                    echo '<li> <a href=' . $item->url;
-                                    if (is_category( $item->title )){
-                                        echo ' style="color:#FFFFFF"';
+                                    $items = wp_get_nav_menu_items( "main" );
+                                    foreach($items as $item){
+                                        echo '<li> <a href=' . $item->url;
+                                        if (is_category( $item->title )){
+                                            echo ' style="color:#FFFFFF"';
+                                        }
+                                        echo ' >' . $item->title . "</a></li>";
                                     }
-                                    echo ' >' . $item->title . "</a></li>";
-                                }
                                 ?>
-                                </ul>
-                            <?php }
-                            else{
-                                $mainLocationCategory= get_category_by_slug( "continents" );
-                                foreach((get_the_category($post->ID)) as $category) {
-                                    if (cat_is_ancestor_of( $mainLocationCategory, $category )){
-                                        $locationBreadCrumbs=wpse85202_get_taxonomy_parents($category,"category", True, " > ", True);
-                                        $locationCategoryText=wpse85202_get_taxonomy_parents($category,"category", False, " ", True);
-                                        break;
-                                }}?>
-                                <ul class="nav navbar-nav navbar-right">
-                                    <h2><?php echo $locationBreadCrumbs?></h2>
-                                </ul>    
+                            </ul>
+                        <?php }
+                        else{
+                            $mainLocationCategory= get_category_by_slug( "continents" );
+                            foreach((get_the_category($post->ID)) as $category) {
+                                if (cat_is_ancestor_of( $mainLocationCategory, $category )){
+                                    $locationBreadCrumbs=wpse85202_get_taxonomy_parents($category,"category", True, " > ", True);
+                                    $locationCategoryText=wpse85202_get_taxonomy_parents($category,"category", False, " ", True);
+                                    break;
+                            }}?>
+                            <ul class="nav navbar-nav navbar-right">
+                                <h2><?php echo $locationBreadCrumbs?></h2>
+                            </ul>    
 
-                            <?php }?>
-                        
-                    </div>
+                        <?php }?>
+                </div>
             </div>
-    </div>
-<?php }}?>
+        </div>
+    <?php }
+}?>
 <!--MENU SECTION END-->             
                                     
                                     

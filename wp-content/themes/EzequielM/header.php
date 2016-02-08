@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The Header for the template.
  *
@@ -10,12 +11,10 @@
 //Get site Options from admin panel
 $siteurl=  get_site_url();
 $eze_blog_page = get_option('eze_blog_page');
-
 //Gallery options
 $eze_gallery_logo = get_option('eze_logo');
 $eze_gallery_ga_id= get_option('eze_ga_id');
 $eze_gallery_favicon = get_option('eze_favicon');
-
 //Gallery Images
 $eze_gallery_fbThumb = get_option('eze_fbThumbs');
 $eze_gallery__mediaRoot = get_option('eze_mediaRoot');
@@ -32,31 +31,30 @@ $image_url =get_post_meta($post->ID, 'gallery_image_url', true);
 
 <!DOCTYPE html>
 
-<html <?php language_attributes(); ?>>
-<head>      
+<html <?php language_attributes(); ?>/>
+<head>
+    <!-- CORE JQUERY -->
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/js/jquery-1.11.1.min.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/js/bootstrap.min.js"></script>
     <!-- BOOTSTRAP CORE CSS -->
-    <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- ION ICONS STYLES -->
-    <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/ionicons.css" rel="stylesheet" />
-    <!-- FONT AWESOME ICONS STYLES -->
-    <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/bootstrap.min.css" rel="stylesheet" />
     <!-- EZE CUSTOM CSS -->
     <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/theme.css" rel="stylesheet" />
     <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/MarkerCluster.css" />
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/MarkerCluster.Default.css" />
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/Leaflet.Photo.css" />
-<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/leaflet.markercluster-src.js"></script>
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/Leaflet.Photo.js"></script>
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/leaflet-providers.js"></script>
+    
+   
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Ezequiel Mastrasso Medium Format Phase one Photographie Site- Lighting Supervisor">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="Ezequiel Mastrasso Lighting Supervisor - Medium Format Phase one Photographie Site"/>
+    <meta name="keywords" content="Ezequiel Mastrasso, ezequiel, mastrasso, photos, photographie, Phase One, DF, DF+, Capture One, AFD, AFDII, AF, Medium Format, 645, photography, lighting, TD, technical director, lighter, fur, hair, renderman, 3delight, maya, 3d studio max, xsi, houdini, nuke, linux, shaders, shader writing, mental ray, c, c++, plugins, maya nodes, maya plugins, brown bag films, hugglemonters, henry hugglemonster, doc mcstuffins, peter rabbit, pringles, feu vert, de la post, paris, germany, dusseldorf, italy, indonesia, singapore, asia, europe, united kingdom, ireland, northern ireland, scotland, whales, photography, phase one, P25+, mamiya, afd, afdII, afdIII, canon, high resolution, leaf, leaf aptus, spain, france, rome, south america, america, argentina, laos, china, cambodia, thailand, united araba emirates, geneva, zurich, barcelona, siem reap, bangkok, phiphi, james bond island, cat ba, amsterdam, paris, mount saint mitchell, sligo, galway, connemara, london, cambridge, sion, bled, lake bled, monaco, berlin, hamburg, venice"/>
     
-    <meta name="keywords" content="Ezequiel Mastrasso, ezequiel, mastrasso, photos, photographie, Phase One, DF, DF+, Capture One, AFD, AFDII, AF, Medium Format, 645, photography, lighting, TD, technical director, lighter, fur, hair, renderman, 3delight, maya, 3d studio max, xsi, houdini, nuke, linux, shaders, shader writing, mental ray, c, c++, plugins, maya nodes, maya plugins, brown bag films, hugglemonters, henry hugglemonster, doc mcstuffins, peter rabbit, pringles, feu vert, de la post, paris, germany, dusseldorf, italy, indonesia, singapore, asia, europe, united kingdom, ireland, northern ireland, scotland, whales, photography, phase one, P25+, mamiya, afd, afdII, afdIII, canon, high resolution, leaf, leaf aptus, spain, france, rome, south america, america, argentina, laos, china, cambodia, thailand, united araba emirates, geneva, zurich, barcelona, siem reap, bangkok, phiphi, james bond island, cat ba, amsterdam, paris, mount saint mitchell, sligo, galway, connemara, london, cambridge, sion, bled, lake bled, monaco, berlin, hamburg, venice">
+    <!-- NO posT TYPE DEPENDENT TAGS -->
+    <meta property="og:site_name" content="<?php bloginfo('name') ; ?>"/>
+    <meta property="fb:app_id" content="273537729342602"/>
+    
+
     
     <?php
     if (is_single()){
@@ -68,53 +66,63 @@ $image_url =get_post_meta($post->ID, 'gallery_image_url', true);
         break;}}
         //BuiLD MIDRES PATH
         $midResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . '/' . $eze_gallery_midRes . '/' . $image_url;?>
+        
+        <!-- SINGLE META STARTS-->
         <title><?php echo single_post_title(); ?> - <?php echo $locationCategoryText?> - <?php echo bloginfo('name') ; ?></title>
-        <meta name="twitter:card" content="photo">
-        <meta name="twitter:site" content="@ezequielMphoto">
-        <meta name="twitter:creator" content="@ezequielMphoto">
-        <meta name="twitter:title" content="<?php echo get_the_title() ?>">
-        <meta name="twitter:description" content="<?php echo single_post_title(); ?> <?php echo bloginfo('name') ; ?>">
-        <meta name="twitter:image" content="<?php echo $midResUrl ?>">
-        <meta name="twitter:url" content="<?php the_permalink(); ?> " />
-        <meta property=”og:title” content=”<?php echo single_post_title(); ?> <?php echo bloginfo('name') ; ?>”/>
-        <meta property=”og:type” content=”article”/>
-        <meta property=”og:url” content=”<?php the_permalink(); ?>/>
-        <meta property=”og:description” content=”<?php echo single_post_title(); ?> <?php echo bloginfo('name') ; ?>”/>
+        
+        <!-- TWITTER META-->
+        <meta name="twitter:card" content="photo"/>
+        <meta name="twitter:site" content="@ezequielMphoto"/>
+        <meta name="twitter:creator" content="@ezequielMphoto"/>
+        <meta name="twitter:title" content="<?php echo single_post_title(); ?> - <?php echo $locationCategoryText?> - <?php echo bloginfo('name') ; ?>"/>
+        <meta name="twitter:description" content="<?php echo single_post_title(); ?> <?php echo bloginfo('name') ; ?>"/>
+        <meta name="twitter:image" content="<?php echo $midResUrl ?>"/>
+        <meta name="twitter:url" content="<?php the_permalink(); ?> "/>
+        
+        <!-- FACEBOOK META -->
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="<?php echo single_post_title(); ?> - <?php echo bloginfo('name') ; ?>"/>
+        <meta property="og:description" content="<?php echo $locationCategoryText?>"/>
+        <meta property="og:url" content="<?php the_permalink(); ?>"/>
+        <meta property="og:image" content="<?php echo $midResUrl ?>"/>
+        
+        
         <?php 
     }
     elseif (is_category( )) {
         $cat = get_query_var('cat');
-        $yourcat = get_category ($cat);?>
-        <title><?php echo $yourcat->slug ; ?> - <?php bloginfo('name') ; ?></title>
-        <meta name="twitter:card" content="photo">
-        <meta name="twitter:site" content="@ezequielMphoto">
-        <meta name="twitter:creator" content="@ezequielMphoto">
-        <meta name="twitter:title" content="<?php echo $yourcat->slug ; ?> - <?php bloginfo('name') ; ?>">
-        <meta name="twitter:description" content="<?php echo $yourcat->slug ; ?> - <?php bloginfo('name') ; ?>">
-        <meta name="twitter:url" content="<?php the_permalink(); ?> " />
-        <meta property=”og:title” content=”<?php echo $yourcat->slug ; ?> - <?php bloginfo('name') ; ?>”/>
-        <meta property=”og:type” content=”article”/>
-        <meta property=”og:url” content=”<?php the_permalink(); ?>/>
-        <meta property=”og:description” content=”<?php echo $yourcat->slug ; ?> - <?php bloginfo('name') ; ?>”/>
+        $yourcat = get_category ($cat);
+        $current_url  = set_url_scheme( 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );?>
+
+        <!-- CATEGORY META STARTS-->
+        
+        <title>Category <?php echo $yourcat->slug ; ?> - <?php bloginfo('name') ; ?></title>
+        <!-- TWITTER META-->
+        <meta name="twitter:title" content="Photos Category <?php echo $yourcat->slug ; ?>" />
+        <meta name="twitter:description" content="Ezequiel Mastrasso Lighting Supervisor - Medium Format Phase one Photographie Site"/>
+        <meta name="twitter:url" content="<?php echo $current_url; ?> " />
+        <meta name="twitter:card" content="photo"/>
+        <meta name="twitter:site" content="@ezequielMphoto"/>
+        <meta name="twitter:creator" content="@ezequielMphoto"/>
+        
+        <!-- FACEBOOK -->
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Photos Category <?php echo $yourcat->slug ?>"/>
+        <meta property="og:description" content="Ezequiel Mastrasso Lighting Supervisor - Medium Format Phase one Photogaphie Site"/>
+        <meta property="og:url" content="<?php echo $current_url; ?>"/>
+        
+        <!-- CATEGORY META ENDS -->
+        
         <?php
     }
     else {?>
+        <!-- IF NOT SINGLE NOT CATEGORY, SET THIS META-->
         <title><?php bloginfo('name') ; ?></title>
     <?php
         
     }
 ?>
     
-    
-    
-
-    
-    
-    
-    
-    <!-- img for when liked in facebook-->
-    <link rel="image_src" href="http://photos.ezequielm.com/_media/midRes/ch-chengdu_01.jpg" />
-    <link rel="image_src" href="http://www.ezequielm.com/iFrameContent/photos/landscapes/thumbs_fb/ch-chengdu_01.jpg" />
 
     <?php
         /*Get favicon URL*/

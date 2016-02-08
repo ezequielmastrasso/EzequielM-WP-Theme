@@ -4,8 +4,9 @@
  * The main template file.
  * @package WordPress
  * @subpackage EzequielM*/
-ini_set('error_reporting', E_ALL);
-ini_set('display_errors', 'On');  //On or Off
+//ini_set('error_reporting', E_ALL);
+//ini_set('display_errors', 'On');  //On or Off
+
 
 
 $eze_home_cat = get_option('eze_home_cat');
@@ -16,9 +17,9 @@ if (is_home()) {
     }
 ?>
 
-<?php
-    get_header();
-?>
+
+<!-- DO HEADER -->
+<?php get_header();?>
 
 
 
@@ -28,10 +29,11 @@ if (is_home()) {
 
 <?php
     $eze_gallery_sort = get_option('eze_gallery_sort'); 
-if(empty($eze_gallery_sort)){
-	$eze_gallery_sort = 'DESC';
-}
-require 'eze_functions.php';
+    if(empty($eze_gallery_sort)){
+            $eze_gallery_sort = 'DESC';
+    }
+    require 'eze_functions.php';
+    
     $cat = get_category(get_query_var('cat'),false);
     $all_photos = get_posts('numberposts=-1&order='.$eze_gallery_sort.'&orderby=menu_order&category='.$cat->cat_ID);
     $wp_query->set('orderby', 'menu_order');
@@ -42,9 +44,8 @@ require 'eze_functions.php';
 ?>
 
 
-<!--NAV BAR SECTION START-->    
-<?php do_nav_bar() ?>
-<!--NAV BAR SECTION END-->   
+<!--DO NAV BAR-->    
+<?php do_nav_bar() ?>  
 
 
 
@@ -71,7 +72,8 @@ require 'eze_functions.php';
                         $long = get_post_meta($photo->ID, 'gallery_coordLongitude', true);
                         $credits = get_post_meta($photo->ID, 'credits', true);
                         $midResUrl= $siteurl . '/' . $eze_gallery__mediaRoot . "/" . $eze_gallery_thumbs . "/" . $small_image_url;
-                        ?> 
+                        ?>
+                        <!-- PHOTO START -->
                         <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 nopadding">
                             <?php 
                             //GETS MAIN CATEGORY AND LINK
@@ -104,12 +106,10 @@ require 'eze_functions.php';
                                     <a href="<?php echo get_permalink($photo->ID); ?>">View more</a>
                                 </figcaption>  
                             </figure>
-                        </div><!-- end-->
-
+                        </div><!-- PHOTO END -->
                     <?php
-                      } 
+                    } 
                     ?>  
-
             </div><!--container end-->
         </div><!--row end-->
     </div><!--Container Fluid end-->
@@ -117,4 +117,5 @@ require 'eze_functions.php';
 <!--WORK SECTION END-->
 
 
-<?php get_footer(); ?>
+<!-- DO Footer -->
+<?php get_footer();?>

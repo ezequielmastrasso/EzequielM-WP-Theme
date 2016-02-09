@@ -10,11 +10,13 @@ You can check the theme at work [**Here**](http://photos.ezequielm.com)
 ![My image](wp-content/themes/EzequielM/screenshot.png)
 
 
-Version 2.0a:
+Version 2.0b:
 ------------------
 changelog:
-* only requires bootstrap and Jquery
+* Based on Bootstrap, JQuery, Leaflet and Mapbox
 * improved performance for lower end devices
+* admin control panel, posts quick edit, and bulk edit
+* single post panel moved to the left
 * replaced googleMaps with leaflet and opensource mapbox
 * location breadcrumbs added to thumbnail mouse over
 * better structured categories
@@ -26,19 +28,17 @@ changelog:
 The theme features:
 ------------------
 * responsive website
-* bootstrap based
 * mobile and touch compatible
 * auto size and adjustments for desktop, tablet and mobiles
-* top menu plugin for main categories and pages
+* top menu for main categories and pages
 * customize layout from 1 to 12 photos per row, for each: desktop tabler and mobiles
 * top fixed bar and footer, for related links, information, copyright, or even adds
-* search by color page!
 * custom fields for:
   1. gps Coords
   2. thumbnail
   3. midRes
-  4. HighRes (using krPano, 1 file or pano tiled multires, etc)
-  7. facebook likes and shares
+  4. HighRes (using leaflet)
+  7. facebook og and twitte card tags
   8. copyrights, license and photo info credits
 
 HELP NEEDED:

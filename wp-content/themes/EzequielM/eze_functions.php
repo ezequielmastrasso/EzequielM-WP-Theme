@@ -152,7 +152,26 @@ function do_post_panel($post){ ?>
                     
                     <!-- --------------------------------------------------DO SHARE TOOLS -->
                     <div class="NewsTable">share it!</span>
+                        <?php  //BuiLD MIDRES PATH
+                        $image_url =get_post_meta($post->ID, 'gallery_image_url', true);
+                        $midResUrl= get_site_url() . '/' . get_option('eze_mediaRoot') . '/' . get_option('eze_midRes') . '/' . $image_url;
+                        ?>
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) return;
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=123903024376011";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                        <div class="fb-share-button" data-href="<?php echo get_the_permalink()?>" data-layout="button"></div>
                         <br>
+                        
+                  
+                        <a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=<?php echo get_the_permalink()?>&media=<?php echo $midResUrl?>" data-pin-height="28"></a>
+                        
+                        
+                        
                         <br>
                         <a class="twitter-share-button"
                             href="https://twitter.com/share"

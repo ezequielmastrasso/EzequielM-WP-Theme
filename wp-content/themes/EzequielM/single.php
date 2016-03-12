@@ -91,6 +91,7 @@
                               var map = L.map('map', {
                                 maxZoom: 1,
                                 minZoom: -24,
+                                zoomControl: false,
                                 crs: L.CRS.Simple
                               }).setView([imgDimensions.height/2, imgDimensions.width/2], -2);
 
@@ -99,8 +100,9 @@
                                 [imgDimensions.height , 0],
                                 [0, imgDimensions.width]
                               ];
-
+                              new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
                               L.imageOverlay(imageUrl, imageBounds).addTo(map);
+                              
                             }
                         </script>
                     <?php } ?>

@@ -97,7 +97,11 @@
         });
     });
 </script>
-
+<script
+    type="text/javascript"
+    async defer
+    src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/pinterest/pinit.js"
+></script>
 
 <!-- GOOGLE ANALYTICS SCRIPTS -->
 <script type="text/javascript">

@@ -7,7 +7,7 @@ This is a php js bootstrap iscroll python googleMaps api and xml based theme for
 
 You can check the theme at work [**Here**](http://photos.ezequielm.com)
 
-![My image](wp-content/themes/EzequielM/screenshot.png)
+![My image](wp-content/themes/EzequielM/screenshotsPages.jpeg)
 
 
 Version 2.0b:

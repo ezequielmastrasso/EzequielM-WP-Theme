@@ -6,7 +6,7 @@ Both front end theme and back end Admiin panel tools provided.
 
 [photos.ezequielm.com](http://photos.ezequielm.com) wordpress theme. Read below for all the Features and roadmap!
 
-You can check the theme at work [**Here**](http://photos.ezequielm.com)
+Demo site (my site!) -> [**Here**](http://photos.ezequielm.com)
 
 ![My image](wp-content/themes/EzequielM/screenshotsPages.jpeg)
 

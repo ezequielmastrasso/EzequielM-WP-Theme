@@ -1,7 +1,7 @@
 EzequielM-WP-Theme
 ==================
 
-This is a php bootstrap, Jquery Leaflet and Mapbox API based theme for Wordpress. Designed for any image driven blogin' experience. Optimized to show lots of images even in slow devices.
+This is a responsive, touch & mobile compatible php bootstrap, Jquery Leaflet and Mapbox API based theme for Wordpress. Designed for any image driven blogin' experience. Optimized to show lots of images even in slow devices. 
 Both front end theme and back end Admiin panel tools provided.
 
 [photos.ezequielm.com](http://photos.ezequielm.com) wordpress theme. Read below for all the Features and roadmap!

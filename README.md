@@ -10,6 +10,14 @@ Demo site (my site!) -> [**Here**](http://photos.ezequielm.com)
 
 ![My image](wp-content/themes/EzequielM/screenshotsPages.jpeg)
 
+Version 2.0:
+------------------
+changelog:
+* Updated mapbox, now using styleLayer
+* Mapbox-gl
+* Custom made old style map, using sea depths, masks, and image layers for fancy boat images
+* due to async ajax call issues, photos JSON is now a static js file taken from /worldMapJSON until i can sort it out.
+
 
 Version 2.0b:
 ------------------

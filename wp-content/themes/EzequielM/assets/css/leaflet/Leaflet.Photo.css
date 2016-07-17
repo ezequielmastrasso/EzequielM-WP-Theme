@@ -1,5 +1,5 @@
 .leaflet-marker-photo { 
-	border: 0px ; 
+	border: 2px solid #fff; 
 	box-shadow: 3px 3px 10px #888; 
 }	
 
@@ -24,14 +24,4 @@
 	text-align: center;
 	padding: 3px;
 	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
-}
-
-.leaflet-popup-content {
-    margin: 0 0 0 0;
-    background-color: #000000;
-}
-
-.leaflet-popup-content-wrapper{
-    border-radius: 0;
-    padding: 0;
 }

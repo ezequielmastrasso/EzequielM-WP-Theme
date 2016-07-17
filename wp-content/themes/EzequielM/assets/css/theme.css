@@ -401,7 +401,7 @@ text-decoration:none;
 
 
 .navbar-fixed-bottom{
-  background-color: #000;
+  background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -530,7 +530,6 @@ figure.effect-julia p {
 	display: inline-block;
 	margin: 0 0 0.25em;
 	padding: 0.1em .5em;
-	//color: #aaa;
 	text-transform: none;
 	font-weight: 500;
 	font-size: 75%;
@@ -572,7 +571,7 @@ figure.effect-julia:hover p:nth-of-type(3) {
 }
 
 figure.effect-julia:hover img {
-	opacity: .5;
+	opacity: .35;
 	-webkit-transform: scale3d(1.2,1.2,1);
 	transform: scale3d(1.2,1.2,1);
 }
@@ -817,4 +816,67 @@ body.nav-expanded {
   background-color: #000000;
 }
 
+/* photo/video popup */
+.leaflet-popup-photo a.leaflet-popup-close-button {
+	top: -20px;
+	right: -20px;
+        font-size: 35px;
+	width: 18px;
+	height: 18px;
+	box-shadow: 0 3px 14px rgba(0,0,0,0);
+	color: #FFFEFB;
+        text-indent:0px;
+        border-radius: 12px;
+        text-shadow: 2px 2px rgba(158,123,69,1);
+}
+.leaflet-popup-photo a.leaflet-popup-close-button:hover {
+	color: #333;
+	background-color: rgba(0,0,0,0);
+}
+.leaflet-popup-photo .leaflet-popup-content-wrapper { 
+	padding: 0px;
+	border-radius: 0px;
+        background-color: rgba(0,0,0,1);
+        width:275px;
+        height:137px;
+        box-shadow: 10px 20px 60px rgba(62,57,24,1);
+}
+.leaflet-container img{
+ width:275px;
+    height:137px;   
+}
+.leaflet-container .leaflet-container  .leaflet-container{
+    width:275px;
+    height:137px;
+}
+.leaflet-popup-photo .leaflet-popup-content { 
+	margin: 0px !important;
+        padding: 0px !important;
+        
+}
+.leaflet-popup-photo .leaflet-popup-tip {
+	background: white;
+}
+.leaflet-popup-photo img, 
+.leaflet-popup-photo video {
+	display: block;
+	width: 100%;
+}
+.leaflet-popup-photo p {
+	margin: 0px !important;
+}
+.leaflet-marker-icon.leaflet-marker-photo.leaflet-zoom-animated.leaflet-clickable{
+    border: 0px;
+}
+.leaflet-popup-tip-container {
+    width: 0px;
+    height: 0px;
+}
 
+.leaflet-container img.leaflet-image-layer {
+    max-width: none !important;
+    }
+    
+.leaflet-top .leaflet-control{
+    margin-top:100px;
+}

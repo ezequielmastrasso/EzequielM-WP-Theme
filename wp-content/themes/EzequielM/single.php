@@ -91,6 +91,7 @@
                               var map = L.map('map', {
                                 maxZoom: 1,
                                 minZoom: -24,
+                                attributionControl: false,
                                 zoomControl: false,
                                 crs: L.CRS.Simple
                               }).setView([imgDimensions.height/2, imgDimensions.width/2], -2);
@@ -101,8 +102,7 @@
                                 [0, imgDimensions.width]
                               ];
                               new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
-                              L.imageOverlay(imageUrl, imageBounds).addTo(map);
-                              
+                              L.imageOverlay(imageUrl, imageBounds).addTo(map);                              
                             }
                         </script>
                     <?php } ?>
@@ -121,6 +121,7 @@
         //create the map div
         $(".highResContainer").append(map);
         //close nav bar
+        $(".leaflet-bottom").css('bottom', '80px');
         $('body').removeClass('nav-expanded');
     }
 </script>

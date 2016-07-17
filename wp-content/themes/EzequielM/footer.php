@@ -9,7 +9,7 @@
 
 
 
-<?php if (!is_single()) {?> <!--IF NOT SINGLE, DO FOOTER-->
+
 
 <!--FOOTER SECTION STARTS-->
 <div id="contact" class="content-block-nopad bg-deepocean navbar-fixed-bottom">
@@ -40,6 +40,7 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 </div>
+<?php if (!is_single()) {?> <!--IF NOT SINGLE, DO FOOTER-->
 <?php } ?>
 <!--FOOTER SECTION ENDS-->
 
@@ -54,24 +55,7 @@
 <!-- FONT AWESOME ICONS STYLES -->
 <link href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/font-awesome.css" rel="stylesheet" />
 
-<!-- LEAFLET -->
-<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/js/leaflet/v0.7.7/leaflet.js"></script>
-<!-- LEAFLET CSS -->
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/v0.7.7/leaflet.css" />
 
-<!-- LEAFLET CLUSTER -->
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/leaflet.markercluster-src.js"></script>
-<!-- LEAFLET CLUSTER CSS -->
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/MarkerCluster.css" />
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/MarkerCluster.Default.css" />
-
-<!-- LEAFLET PHOTO -->
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/Leaflet.Photo.js"></script>
-<!-- LEAFLET PHOTO CSS -->
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/Leaflet.Photo.css" />
-
-<!-- LEAFLET PROVIDERS -->
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/leaflet-providers.min.js"></script>
 
 <!-- CUSTOM SCRIPTS -->
 <script>

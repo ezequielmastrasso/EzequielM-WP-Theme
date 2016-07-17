@@ -54,6 +54,7 @@ $image_url =get_post_meta($post->ID, 'gallery_image_url', true);
     <meta property="og:site_name" content="<?php bloginfo('name') ; ?>"/>
     <meta property="fb:app_id" content="273537729342602"/>
     
+    
 
     
     <?php

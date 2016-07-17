@@ -64,9 +64,8 @@ if (is_home()) {
                         }
 
                         $image_url = get_post_meta($photo->ID, 'gallery_image_url', true);
-                        $small_image_url = get_post_meta($photo->ID, 'gallery_preview_image_url', true);
+                        $small_image_url = get_post_meta($photo->ID, 'gallery_image_url', true);
 
-                        $fb_image_url = get_post_meta($photo->ID, 'gallery_preview_fb_image_url', true);
                         $imageHighRes_url = get_post_meta($photo->ID, 'gallery_imageHighRes_url', true);
                         $lat = get_post_meta($photo->ID, 'gallery_coordLatitude', true);
                         $long = get_post_meta($photo->ID, 'gallery_coordLongitude', true);

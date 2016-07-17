@@ -14,7 +14,7 @@ L.MarkerClusterGroup = L.FeatureGroup.extend({
 		iconCreateFunction: null,
 
 		spiderfyOnMaxZoom: true,
-		spiderfyMinZoom: 7,
+		spiderfyMinZoom: 9,
 		showCoverageOnHover: true,
 		zoomToBoundsOnClick: true,
 		singleMarkerMode: false,
@@ -30,7 +30,7 @@ L.MarkerClusterGroup = L.FeatureGroup.extend({
 		animateAddingMarkers: false,
 
 		//Increase to increase the distance away that spiderfied markers appear from the center
-		spiderfyDistanceMultiplier: 4,
+		spiderfyDistanceMultiplier: 2.5,
 
 		// When bulk adding layers, adds markers in chunks. Means addLayers may not add all the layers in the call, others will be loaded during setTimeouts
 		chunkedLoading: false,

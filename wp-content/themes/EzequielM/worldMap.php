@@ -26,12 +26,11 @@ get_header();
         visibility: visible;
     }
 </style>
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/MarkerCluster.css" />
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/MarkerCluster.Default.css" />
-<link rel="stylesheet" href="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/css/leaflet/Leaflet.Photo.css" />
-    
-    
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/v0.7.7/leaflet.css" />
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/MarkerCluster.css" />	
+<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/Leaflet.Photo.css" />	
+
+
 
 
 <!--NAV BAR SECTION START-->    
@@ -40,66 +39,72 @@ get_header();
 	
 
 <!--MAP SECTION START-->
-<section id="work" style="width: 100%; height: 100%;">
+<section id="work" style="width: 100%; height: 100%;padding: 0px">
    
-    <div id="mapp" style="width: 100%; height: 100%;height: -moz-calc(100% - 10 5px);
-        height: -webkit-calc(100% - 105px);
-        height: calc(100% - 105px);
-        margin-top: 50px;
-        margin-bottom: 0px;"></div>
+    <div id="mapp" style="width: 100%; height: 100%;position: absolute;padding-bottom: 100px;overflow: no-display;padding: 0px"></div>
          
 </section>
 <!--MAP SECTION END-->      
-
-<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/leaflet.markercluster-src.js"></script>
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/Leaflet.Photo.js"></script>
-<script type="text/javascript" src="<?php echo bloginfo( 'stylesheet_directory' )?>/assets/js/leaflet/leaflet-providers.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/js/reqwest.min.js"></script>
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/js/leaflet/v0.7.7/leaflet.js"></script>
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/js/leaflet/leaflet.markercluster-src.js"></script>	
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/js/leaflet/Leaflet.Photo.js"></script>	
+<script src="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/js/photos.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.standalone.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+<link rel="stylesheet" href="../wp-content/themes/EzequielM/assets/css/theme.css" />
 
 
 <script>
-    var jsonPhotos = [];
-    $.getJSON( "<?php echo get_site_url()?>/worldmapjson", function( data ) {
-        $.each( data, function( key, val ) {
-            $.each( val, function( key, val ) {        
-                jsonPhotos.push( {
-                    lat: Number(val["lat"]),
-                    lng: Number(val["lng"]),
-                    url: val["url"],
-                    thumbnail: val["thumbnail"]
-                })
-            });
-        });
 
-        console.log(jsonPhotos)
+	L.mapbox.accessToken = 'pk.eyJ1IjoiZXplcXVpZWxtIiwiYSI6ImNpajdoaThpZjAwNWp3Z20zOWsyNW1ubXcifQ.H0i8qLcZsbWtyZPPBVZCEg';
+        var map = L.map('mapp', { attributionControl:false });
+        map.setView([20, 0], 3);
+        L.mapbox.styleLayer('mapbox://styles/ezequielm/cij7hk832007dapktzdyaemih').addTo(map);
 
-        var map = L.map("mapp"),
-            tiles = L.tileLayer.provider('MapBox.Terrain',
-            {id: 'ezequielm.97dd5313', accessToken: 'pk.eyJ1IjoiZXplcXVpZWxtIiwiYSI6ImNpajdoaThpZjAwNWp3Z20zOWsyNW1ubXcifQ.H0i8qLcZsbWtyZPPBVZCEg'
-            }).addTo(map);
+	var photoLayer = L.photo.cluster().on('click', function (evt) {
+		var photo = evt.layer.photo,
+		template = '<div><a href="{url}" target="blank"/><img src="{thumbnail}"/></a></div>';
+		evt.layer.bindPopup(L.Util.template(template, photo), {
+			className: 'leaflet-popup-photo'
+		}).openPopup();
+	});
+        var imageUrlFolds = '<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/images/paperfolds_768_2.png',
+        imageBoundsFolds = [[90, -180], [-90, 180]];
+        var imageUrlNoise = '<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/images/noise_256.png',
+        imageBoundsNoise = [[90, -180], [-90, 180]];
+        var imageUrlShipChase = '<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/images/ship_chase_200.png',
+        imageBoundsShipChase = [[35, -75], [20, -55]];
+        var imageUrlShipBilander = '<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/images/ship_bilander_400.png',
+        imageBoundsShipBilander = [[0, -28], [-23, -5]];
+        var imageUrlShipJunk = '<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/images/ship_junk_300.png',
+        imageBoundsShipJunk = [[22, 129], [6, 145]];
+        var imageUrlShipketch = '<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/images/ship_ketch_400.png',
+        imageBoundsShipketch = [[6, 52], [-8, 71]];
+        var imageUrlShipsloop = '<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/images/ship_sloop_200.png',
+        imageBoundsShipsloop = [[-61, -44], [-69, -24]];
+        var imageUrlShipsgaleon = '<?php bloginfo( 'stylesheet_directory' ); ?>/assets/css/leaflet/images/ship_galleon_300.png',
+        imageBoundsShipgaleon = [[53, -25], [44, -8]];
+        
+        
+        L.imageOverlay(imageUrlFolds, imageBoundsFolds, {opacity:.6}).addTo(map);
+        L.imageOverlay(imageUrlNoise, imageBoundsNoise, {opacity:.1}).addTo(map);
+        L.imageOverlay(imageUrlShipChase, imageBoundsShipChase, {opacity:0.5}).addTo(map);
+        L.imageOverlay(imageUrlShipBilander, imageBoundsShipBilander, {opacity:0.5}).addTo(map);
+        L.imageOverlay(imageUrlShipJunk, imageBoundsShipJunk, {opacity:0.5}).addTo(map);
+        L.imageOverlay(imageUrlShipketch, imageBoundsShipketch, {opacity:0.5}).addTo(map);
+        L.imageOverlay(imageUrlShipsloop, imageBoundsShipsloop, {opacity:0.5}).addTo(map);
+        L.imageOverlay(imageUrlShipsgaleon, imageBoundsShipgaleon, {opacity:0.5}).addTo(map);
 
-        // Prepare the Photo Layer (with clustering).
-        var photoLayer = L.photo.cluster().on('click', function (evt) { // Prepare the click event.
-            var photo = evt.layer.photo,
-            template = '<div class="leaflet-popup-photo-image"><a href="{url}"/><img src="{thumbnail}"/></a></div>';
-            // Here the normal photo opens in a popup.
-            evt.layer.bindPopup(L.Util.template(template, photo), {
-                className: 'leaflet-popup-photo',
-                minWidth: "auto"
-            }).openPopup();
-        });
-        // Finally add photos into Photo Layer and add to map!
-        photoLayer.add(jsonPhotos).addTo(map);
-        map.fitBounds(photoLayer.getBounds());
-        // DEV LOG
-        function onMapZoom(e){
-            console.log("zoom level: " + map.getZoom())
-        }
-        map.on('zoomend', onMapZoom);
-    });
-    </script>
+	reqwest({
+		url: 'https://picasaweb.google.com/data/feed/api/user/118196887774002693676/albumid/6052628080819524545?alt=json-in-script',
+		type: 'jsonp',
+		success: function (data) {
+			photoLayer.add(jsonPhotos).addTo(map);
+			
+		}
+	});
 
 
-<?php get_footer(); ?>
+
+	</script>

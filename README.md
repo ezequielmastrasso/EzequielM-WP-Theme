@@ -17,7 +17,7 @@ Thumbnails Size
 <img src="wp-content/themes/EzequielM/gifs/thumbNailSize.gif" width="500">
 
 Zoomable Images  
-<img src="(wp-content/themes/EzequielM/gifs/zoomableImages.gif" width="500">
+<img src="wp-content/themes/EzequielM/gifs/zoomableImages.gif" width="500">
 
 
 Version 2.0:

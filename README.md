@@ -9,16 +9,16 @@ Both front end theme and back end Admiin panel tools provided.
 Demo site (my site!) -> [**Here**](http://photos.ezequielm.com)
 
 ![My image](wp-content/themes/EzequielM/screenshotsPages.jpeg)
-<img src="wp-content/themes/EzequielM/screenshotsPages.jpeg" width="48">
+
 Map browsing
-![My image](wp-content/themes/EzequielM/gifs/map.gif)
+<img src="wp-content/themes/EzequielM/gifs/map.gif" width="400">
 
 Thumbnails Size
-![My image](wp-content/themes/EzequielM/gifs/thumbNailSize.gif)
+<img src="wp-content/themes/EzequielM/gifs/thumbNailSize.gif" width="400">
 
 Zoomable Images
-![My image](wp-content/themes/EzequielM/gifs/zoomableImages.gif)
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)
+<img src="(wp-content/themes/EzequielM/gifs/zoomableImages.gi" width="400">
+
 
 Version 2.0:
 ------------------

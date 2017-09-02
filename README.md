@@ -10,9 +10,9 @@ Demo site (my site!) -> [**Here**](http://photos.ezequielm.com)
 
 ![My image](wp-content/themes/EzequielM/screenshotsPages.jpeg)
 
-![My image](wp-content/themes/gifs/map.gif)
-![My image](wp-content/themes/gifs/thumbNailSize.gif)
-![My image](wp-content/themes/gifs/zoomableImages.gif)
+![My image](wp-content/themes/EzequielM/gifs/map.gif)
+![My image](wp-content/themes/EzequielM/gifs/thumbNailSize.gif)
+![My image](wp-content/themes/EzequielM/gifs/zoomableImages.gif)
 
 Version 2.0:
 ------------------

@@ -18,6 +18,7 @@ Thumbnails Size
 
 Zoomable Images
 ![My image](wp-content/themes/EzequielM/gifs/zoomableImages.gif  | width=400)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
 Version 2.0:
 ------------------

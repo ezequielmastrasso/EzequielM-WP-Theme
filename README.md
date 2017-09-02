@@ -9,7 +9,7 @@ Both front end theme and back end Admiin panel tools provided.
 Demo site (my site!) -> [**Here**](http://photos.ezequielm.com)
 
 ![My image](wp-content/themes/EzequielM/screenshotsPages.jpeg)
-
+<img src="wp-content/themes/EzequielM/screenshotsPages.jpeg" width="48">
 Map browsing
 ![My image](wp-content/themes/EzequielM/gifs/map.gif)
 

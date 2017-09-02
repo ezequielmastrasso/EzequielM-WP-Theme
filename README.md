@@ -11,14 +11,14 @@ Demo site (my site!) -> [**Here**](http://photos.ezequielm.com)
 ![My image](wp-content/themes/EzequielM/screenshotsPages.jpeg)
 
 Map browsing
-![My image](wp-content/themes/EzequielM/gifs/map.gif | width=4400)
+![My image](wp-content/themes/EzequielM/gifs/map.gif)
 
 Thumbnails Size
-![My image](wp-content/themes/EzequielM/gifs/thumbNailSize.gif  | width=400)
+![My image](wp-content/themes/EzequielM/gifs/thumbNailSize.gif)
 
 Zoomable Images
-![My image](wp-content/themes/EzequielM/gifs/zoomableImages.gif  | width=400)
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+![My image](wp-content/themes/EzequielM/gifs/zoomableImages.gif)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)
 
 Version 2.0:
 ------------------
